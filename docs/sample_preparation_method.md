@@ -14,7 +14,7 @@ _Description of the process from sample collection to chemical analysis (e.g., e
 
 
 
-URI: [cenvo:sample_preparation_method](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/sample_preparation_method)
+URI: [cenvo:sample_preparation_method](https://w3id.org/chemical-exposome/terms/sample_preparation_method)
 <!-- no inheritance hierarchy -->
 
 
@@ -78,7 +78,7 @@ URI: [cenvo:sample_preparation_method](https://w3id.org/chemical-exposome/schema
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -102,7 +102,7 @@ description: Description of the process from sample collection to chemical analy
   (e.g., extraction, cleanup, fractionation).
 in_subset:
 - mandatory
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 rank: 1000
 owner: MeasurementConcentration
 domain_of:

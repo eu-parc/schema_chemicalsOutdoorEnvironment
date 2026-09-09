@@ -14,7 +14,7 @@ _Altitude in meters above sea level (MSL). Use positive values for above and neg
 
 
 
-URI: [cenvo:altitude](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/altitude)
+URI: [cenvo:altitude](https://w3id.org/chemical-exposome/terms/altitude)
 <!-- no inheritance hierarchy -->
 
 
@@ -71,7 +71,7 @@ URI: [cenvo:altitude](https://w3id.org/chemical-exposome/schema/chemicals-outdoo
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -93,7 +93,7 @@ URI: [cenvo:altitude](https://w3id.org/chemical-exposome/schema/chemicals-outdoo
 name: altitude
 description: Altitude in meters above sea level (MSL). Use positive values for above
   and negative for below sea level.
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 rank: 1000
 owner: Site
 domain_of:

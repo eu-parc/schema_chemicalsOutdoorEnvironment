@@ -14,7 +14,7 @@ _Year of establishment of the monitoring station (YYYY)_
 
 
 
-URI: [cenvo:year_established](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/year_established)
+URI: [cenvo:year_established](https://w3id.org/chemical-exposome/terms/year_established)
 <!-- no inheritance hierarchy -->
 
 
@@ -71,7 +71,7 @@ URI: [cenvo:year_established](https://w3id.org/chemical-exposome/schema/chemical
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -92,7 +92,7 @@ URI: [cenvo:year_established](https://w3id.org/chemical-exposome/schema/chemical
 ```yaml
 name: year_established
 description: Year of establishment of the monitoring station (YYYY)
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 rank: 1000
 owner: Site
 domain_of:

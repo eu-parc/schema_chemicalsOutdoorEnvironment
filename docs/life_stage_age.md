@@ -14,7 +14,7 @@ _Life stage or age of the organism_
 
 
 
-URI: [cenvo:life_stage_age](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/life_stage_age)
+URI: [cenvo:life_stage_age](https://w3id.org/chemical-exposome/terms/life_stage_age)
 <!-- no inheritance hierarchy -->
 
 
@@ -71,7 +71,7 @@ URI: [cenvo:life_stage_age](https://w3id.org/chemical-exposome/schema/chemicals-
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -92,7 +92,7 @@ URI: [cenvo:life_stage_age](https://w3id.org/chemical-exposome/schema/chemicals-
 ```yaml
 name: life_stage_age
 description: Life stage or age of the organism
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 rank: 1000
 owner: Biota
 domain_of:

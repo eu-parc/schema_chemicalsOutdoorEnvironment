@@ -14,7 +14,7 @@ _Set to true (value = true) if coordinates cannot be provided for privacy, secur
 
 
 
-URI: [cenvo:coordinate_privacy_exception](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/coordinate_privacy_exception)
+URI: [cenvo:coordinate_privacy_exception](https://w3id.org/chemical-exposome/terms/coordinate_privacy_exception)
 <!-- no inheritance hierarchy -->
 
 
@@ -72,7 +72,7 @@ URI: [cenvo:coordinate_privacy_exception](https://w3id.org/chemical-exposome/sch
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -96,7 +96,7 @@ description: Set to true (value = true) if coordinates cannot be provided for pr
   security or confidentiality reasons. If true, expert location fields (country, geographic_region,
   nuts3) are required instead.  Optional - if not provided, it is assumed coordinates
   are not withheld for privacy reasons.
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 rank: 1000
 ifabsent: 'false'
 owner: Site

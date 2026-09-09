@@ -14,7 +14,7 @@ _The geographic scale of the monitoring coverage (international, national, regio
 
 
 
-URI: [cenvo:implementation_level](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/implementation_level)
+URI: [cenvo:implementation_level](https://w3id.org/chemical-exposome/terms/implementation_level)
 <!-- no inheritance hierarchy -->
 
 
@@ -71,7 +71,7 @@ URI: [cenvo:implementation_level](https://w3id.org/chemical-exposome/schema/chem
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -93,7 +93,7 @@ URI: [cenvo:implementation_level](https://w3id.org/chemical-exposome/schema/chem
 name: implementation_level
 description: The geographic scale of the monitoring coverage (international, national,
   regional, or local).
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 rank: 1000
 owner: MonitoringActivity
 domain_of:

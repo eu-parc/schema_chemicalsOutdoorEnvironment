@@ -14,7 +14,7 @@ _Type of measurement/observation: i) Chemical concentration in the environment o
 
 
 
-URI: [cenvo:observation_type](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/observation_type)
+URI: [cenvo:observation_type](https://w3id.org/chemical-exposome/terms/observation_type)
 <!-- no inheritance hierarchy -->
 
 
@@ -81,7 +81,7 @@ URI: [cenvo:observation_type](https://w3id.org/chemical-exposome/schema/chemical
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -106,7 +106,7 @@ description: 'Type of measurement/observation: i) Chemical concentration in the 
   main measurement.'
 in_subset:
 - mandatory
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 rank: 1000
 designates_type: true
 owner: Observation

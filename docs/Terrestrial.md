@@ -14,7 +14,7 @@ _A sample from the terrestrial domain (soil)_
 
 
 
-URI: [cenvo:Terrestrial](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/Terrestrial)
+URI: [cenvo:Terrestrial](https://w3id.org/chemical-exposome/terms/Terrestrial)
 
 
 
@@ -127,7 +127,7 @@ URI: [cenvo:Terrestrial](https://w3id.org/chemical-exposome/schema/chemicals-out
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -154,7 +154,7 @@ URI: [cenvo:Terrestrial](https://w3id.org/chemical-exposome/schema/chemicals-out
 ```yaml
 name: Terrestrial
 description: A sample from the terrestrial domain (soil)
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 is_a: Sample
 attributes:
   matrix:
@@ -162,7 +162,7 @@ attributes:
     description: Sampled matrix
     in_subset:
     - mandatory
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     domain_of:
     - Atmospheric
     - Aquatic
@@ -175,7 +175,7 @@ attributes:
     description: Sampling method for terrestrial samples
     in_subset:
     - mandatory
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     domain_of:
     - Atmospheric
     - Aquatic
@@ -193,7 +193,7 @@ attributes:
 ```yaml
 name: Terrestrial
 description: A sample from the terrestrial domain (soil)
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 is_a: Sample
 attributes:
   matrix:
@@ -201,7 +201,7 @@ attributes:
     description: Sampled matrix
     in_subset:
     - mandatory
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     owner: Terrestrial
     domain_of:
     - Atmospheric
@@ -215,7 +215,7 @@ attributes:
     description: Sampling method for terrestrial samples
     in_subset:
     - mandatory
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     owner: Terrestrial
     domain_of:
     - Atmospheric
@@ -231,7 +231,7 @@ attributes:
       names in different languages are accepted.
     in_subset:
     - mandatory
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     owner: Terrestrial
     domain_of:
@@ -245,7 +245,7 @@ attributes:
       References the site_id of a Site record.
     in_subset:
     - mandatory
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     owner: Terrestrial
     domain_of:
@@ -258,7 +258,7 @@ attributes:
     description: Unique identifier for the sample
     in_subset:
     - mandatory
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     identifier: true
     owner: Terrestrial
@@ -272,7 +272,7 @@ attributes:
     description: Start date in format YYYY-MM-DD
     in_subset:
     - mandatory
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     owner: Terrestrial
     domain_of:
@@ -284,7 +284,7 @@ attributes:
   end_date:
     name: end_date
     description: End date in format YYYY-MM-DD
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     owner: Terrestrial
     domain_of:
@@ -296,7 +296,7 @@ attributes:
     name: sampling_time_start
     description: Sampling start time according to ISO 8601, 24-hour clock. Format
       T[hh][mm][ss].
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     owner: Terrestrial
     domain_of:
@@ -305,7 +305,7 @@ attributes:
   sampling_time_end:
     name: sampling_time_end
     description: Sampling end time according to ISO 8601.
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     owner: Terrestrial
     domain_of:
@@ -318,7 +318,7 @@ attributes:
       for plants and animals'
     in_subset:
     - mandatory
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     designates_type: true
     owner: Terrestrial
@@ -330,7 +330,7 @@ attributes:
     name: observations
     description: Observations (concentration measurements and parameters) associated
       with this sample.
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     owner: Terrestrial
     domain_of:

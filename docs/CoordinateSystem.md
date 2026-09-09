@@ -15,7 +15,7 @@ _Coordinate reference system used for geographic coordinates_
 
 <div data-search-exclude markdown="1">
 
-URI: [cenvo:CoordinateSystem](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/CoordinateSystem)
+URI: [cenvo:CoordinateSystem](https://w3id.org/chemical-exposome/terms/CoordinateSystem)
 
 ## Permissible Values
 | Value | Meaning | Description |
@@ -49,7 +49,7 @@ URI: [cenvo:CoordinateSystem](https://w3id.org/chemical-exposome/schema/chemical
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -62,7 +62,7 @@ URI: [cenvo:CoordinateSystem](https://w3id.org/chemical-exposome/schema/chemical
 ```yaml
 name: CoordinateSystem
 description: Coordinate reference system used for geographic coordinates
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 rank: 1000
 permissible_values:
   WGS84:

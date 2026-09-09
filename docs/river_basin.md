@@ -14,7 +14,7 @@ _River basin associated with the site, based on the EEA river basin districts da
 
 
 
-URI: [cenvo:river_basin](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/river_basin)
+URI: [cenvo:river_basin](https://w3id.org/chemical-exposome/terms/river_basin)
 <!-- no inheritance hierarchy -->
 
 
@@ -75,7 +75,7 @@ URI: [cenvo:river_basin](https://w3id.org/chemical-exposome/schema/chemicals-out
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -97,7 +97,7 @@ URI: [cenvo:river_basin](https://w3id.org/chemical-exposome/schema/chemicals-out
 name: river_basin
 description: River basin associated with the site, based on the EEA river basin districts
   dataset. Only relevant for water and sediment sampling.
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 see_also:
 - https://www.eea.europa.eu/en/datahub/datahubitem-view/dc1b1cdf-5fa0-4535-8c89-10cc051e00db
 rank: 1000

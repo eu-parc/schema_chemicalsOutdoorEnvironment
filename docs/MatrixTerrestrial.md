@@ -15,7 +15,7 @@ _Matrix values valid for terrestrial samples (SampleTerrestrial). All terms are 
 
 <div data-search-exclude markdown="1">
 
-URI: [cenvo:MatrixTerrestrial](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/MatrixTerrestrial)
+URI: [cenvo:MatrixTerrestrial](https://w3id.org/chemical-exposome/terms/MatrixTerrestrial)
 
 ## Permissible Values
 | Value | Meaning | Description |
@@ -55,7 +55,7 @@ URI: [cenvo:MatrixTerrestrial](https://w3id.org/chemical-exposome/schema/chemica
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -69,7 +69,7 @@ URI: [cenvo:MatrixTerrestrial](https://w3id.org/chemical-exposome/schema/chemica
 name: MatrixTerrestrial
 description: Matrix values valid for terrestrial samples (SampleTerrestrial). All
   terms are narrower than TerrestrialMatrix in the PARC environmental matrix vocabulary.
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 see_also:
 - https://w3id.org/peh/terms/TerrestrialMatrix
 rank: 1000

@@ -15,7 +15,7 @@ _CORINE Land Cover (CLC) land use classification. Coordination of Information on
 
 <div data-search-exclude markdown="1">
 
-URI: [cenvo:LandUse](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/LandUse)
+URI: [cenvo:LandUse](https://w3id.org/chemical-exposome/terms/LandUse)
 
 ## Permissible Values
 | Value | Meaning | Description |
@@ -98,7 +98,7 @@ URI: [cenvo:LandUse](https://w3id.org/chemical-exposome/schema/chemicals-outdoor
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -113,7 +113,7 @@ name: LandUse
 description: CORINE Land Cover (CLC) land use classification. Coordination of Information
   on the Environment Land Cover inventory, coordinated by the European Environment
   Agency (EEA).
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 see_also:
 - https://www.w3.org/2015/03/corine
 - https://land.copernicus.eu/pan-european/corine-land-cover

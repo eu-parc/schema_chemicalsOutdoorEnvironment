@@ -14,7 +14,7 @@ _Contact person(s) for the monitoring activity._
 
 
 
-URI: [cenvo:contacts](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/contacts)
+URI: [cenvo:contacts](https://w3id.org/chemical-exposome/terms/contacts)
 <!-- no inheritance hierarchy -->
 
 
@@ -80,7 +80,7 @@ URI: [cenvo:contacts](https://w3id.org/chemical-exposome/schema/chemicals-outdoo
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -103,7 +103,7 @@ name: contacts
 description: Contact person(s) for the monitoring activity.
 in_subset:
 - mandatory
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 rank: 1000
 owner: MonitoringActivity
 domain_of:

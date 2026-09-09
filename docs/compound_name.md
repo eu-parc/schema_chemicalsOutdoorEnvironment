@@ -14,7 +14,7 @@ _Common or abbreviated name of the compound as used in the PARC community (e.g. 
 
 
 
-URI: [cenvo:compound_name](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/compound_name)
+URI: [cenvo:compound_name](https://w3id.org/chemical-exposome/terms/compound_name)
 <!-- no inheritance hierarchy -->
 
 
@@ -78,7 +78,7 @@ URI: [cenvo:compound_name](https://w3id.org/chemical-exposome/schema/chemicals-o
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -102,7 +102,7 @@ description: Common or abbreviated name of the compound as used in the PARC comm
   (e.g. PFOS, triclosan).
 in_subset:
 - mandatory
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 rank: 1000
 owner: ChemicalCompound
 domain_of:

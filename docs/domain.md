@@ -15,7 +15,7 @@ _Environmental domain - sample type according to sampled matrix/ environmental c
 
 <div data-search-exclude markdown="1">
 
-URI: [cenvo:Domain](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/Domain)
+URI: [cenvo:Domain](https://w3id.org/chemical-exposome/terms/Domain)
 
 ## Permissible Values
 | Value | Meaning | Description |
@@ -52,7 +52,7 @@ URI: [cenvo:Domain](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -66,7 +66,7 @@ URI: [cenvo:Domain](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/
 name: Domain
 description: 'Environmental domain - sample type according to sampled matrix/ environmental
   compartment. '
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 rank: 1000
 permissible_values:
   Atmospheric:

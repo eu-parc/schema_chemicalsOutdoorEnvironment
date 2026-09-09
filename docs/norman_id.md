@@ -14,7 +14,7 @@ _NORMAN substance identifier. Source: NORMAN EMPODAT / SusDat database._
 
 
 
-URI: [cenvo:norman_id](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/norman_id)
+URI: [cenvo:norman_id](https://w3id.org/chemical-exposome/terms/norman_id)
 <!-- no inheritance hierarchy -->
 
 
@@ -71,7 +71,7 @@ URI: [cenvo:norman_id](https://w3id.org/chemical-exposome/schema/chemicals-outdo
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -92,7 +92,7 @@ URI: [cenvo:norman_id](https://w3id.org/chemical-exposome/schema/chemicals-outdo
 ```yaml
 name: norman_id
 description: 'NORMAN substance identifier. Source: NORMAN EMPODAT / SusDat database.'
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 rank: 1000
 owner: ChemicalCompound
 domain_of:

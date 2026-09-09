@@ -14,7 +14,7 @@ _Taxonomic rank of the identified taxon._
 
 
 
-URI: [cenvo:taxon_rank](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/taxon_rank)
+URI: [cenvo:taxon_rank](https://w3id.org/chemical-exposome/terms/taxon_rank)
 <!-- no inheritance hierarchy -->
 
 
@@ -75,7 +75,7 @@ URI: [cenvo:taxon_rank](https://w3id.org/chemical-exposome/schema/chemicals-outd
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -96,7 +96,7 @@ URI: [cenvo:taxon_rank](https://w3id.org/chemical-exposome/schema/chemicals-outd
 ```yaml
 name: taxon_rank
 description: Taxonomic rank of the identified taxon.
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 see_also:
 - https://www.gbif.org/developer/species#rank
 rank: 1000

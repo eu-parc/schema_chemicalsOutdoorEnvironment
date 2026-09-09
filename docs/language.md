@@ -15,7 +15,7 @@ _Language codes according to ISO 639-1 (two-letter lowercase codes)._
 
 <div data-search-exclude markdown="1">
 
-URI: [cenvo:Language](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/Language)
+URI: [cenvo:Language](https://w3id.org/chemical-exposome/terms/Language)
 
 ## Permissible Values
 | Value | Meaning | Description |
@@ -234,7 +234,7 @@ URI: [cenvo:Language](https://w3id.org/chemical-exposome/schema/chemicals-outdoo
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -247,7 +247,7 @@ URI: [cenvo:Language](https://w3id.org/chemical-exposome/schema/chemicals-outdoo
 ```yaml
 name: Language
 description: Language codes according to ISO 639-1 (two-letter lowercase codes).
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 see_also:
 - http://id.loc.gov/vocabulary/iso639-1
 rank: 1000

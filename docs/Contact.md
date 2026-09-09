@@ -14,7 +14,7 @@ _A contact person associated with the monitoring activity._
 
 
 
-URI: [cenvo:Contact](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/Contact)
+URI: [cenvo:Contact](https://w3id.org/chemical-exposome/terms/Contact)
 
 
 
@@ -100,7 +100,7 @@ URI: [cenvo:Contact](https://w3id.org/chemical-exposome/schema/chemicals-outdoor
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -127,7 +127,7 @@ URI: [cenvo:Contact](https://w3id.org/chemical-exposome/schema/chemicals-outdoor
 ```yaml
 name: Contact
 description: A contact person associated with the monitoring activity.
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 slots:
 - email
 - orcid
@@ -135,7 +135,7 @@ attributes:
   contact_id:
     name: contact_id
     description: Unique contact ID
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     identifier: true
     domain_of:
@@ -146,7 +146,7 @@ attributes:
     name: role
     description: 'Role/function performed by the contact person. Source: ISO 19115:2003/19139
       and EC Regulation No 1205/2008 (INSPIRE).'
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     domain_of:
     - Contact
@@ -155,7 +155,7 @@ attributes:
   institution:
     name: institution
     description: Contact's institution
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     domain_of:
     - Contact
@@ -171,12 +171,12 @@ attributes:
 ```yaml
 name: Contact
 description: A contact person associated with the monitoring activity.
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 attributes:
   contact_id:
     name: contact_id
     description: Unique contact ID
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     identifier: true
     owner: Contact
@@ -188,7 +188,7 @@ attributes:
     name: role
     description: 'Role/function performed by the contact person. Source: ISO 19115:2003/19139
       and EC Regulation No 1205/2008 (INSPIRE).'
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     owner: Contact
     domain_of:
@@ -198,7 +198,7 @@ attributes:
   institution:
     name: institution
     description: Contact's institution
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     owner: Contact
     domain_of:
@@ -211,7 +211,7 @@ attributes:
       recommended.
     in_subset:
     - mandatory
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     owner: Contact
     domain_of:
@@ -221,7 +221,7 @@ attributes:
   orcid:
     name: orcid
     description: ORCID identifier of the contact person
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     owner: Contact
     domain_of:

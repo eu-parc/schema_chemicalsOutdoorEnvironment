@@ -14,7 +14,7 @@ _A taxonomic entity identified in a biological sample, referenced against the GB
 
 
 
-URI: [cenvo:Taxon](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/Taxon)
+URI: [cenvo:Taxon](https://w3id.org/chemical-exposome/terms/Taxon)
 
 
 
@@ -89,7 +89,7 @@ URI: [cenvo:Taxon](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/T
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -117,7 +117,7 @@ URI: [cenvo:Taxon](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/T
 name: Taxon
 description: A taxonomic entity identified in a biological sample, referenced against
   the GBIF Backbone Taxonomy.
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 see_also:
 - https://www.gbif.org/species/search
 attributes:
@@ -126,7 +126,7 @@ attributes:
     description: GBIF species key (integer). Resolves to https://www.gbif.org/species/{taxon_id}
     in_subset:
     - mandatory
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     see_also:
     - https://www.gbif.org/species/search
     rank: 1000
@@ -141,7 +141,7 @@ attributes:
       in the GBIF Backbone Taxonomy.
     in_subset:
     - mandatory
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     see_also:
     - https://www.gbif.org/species/search
     rank: 1000
@@ -152,7 +152,7 @@ attributes:
   taxon_rank:
     name: taxon_rank
     description: Taxonomic rank of the identified taxon.
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     see_also:
     - https://www.gbif.org/developer/species#rank
     rank: 1000
@@ -171,7 +171,7 @@ attributes:
 name: Taxon
 description: A taxonomic entity identified in a biological sample, referenced against
   the GBIF Backbone Taxonomy.
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 see_also:
 - https://www.gbif.org/species/search
 attributes:
@@ -180,7 +180,7 @@ attributes:
     description: GBIF species key (integer). Resolves to https://www.gbif.org/species/{taxon_id}
     in_subset:
     - mandatory
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     see_also:
     - https://www.gbif.org/species/search
     rank: 1000
@@ -196,7 +196,7 @@ attributes:
       in the GBIF Backbone Taxonomy.
     in_subset:
     - mandatory
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     see_also:
     - https://www.gbif.org/species/search
     rank: 1000
@@ -208,7 +208,7 @@ attributes:
   taxon_rank:
     name: taxon_rank
     description: Taxonomic rank of the identified taxon.
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     see_also:
     - https://www.gbif.org/developer/species#rank
     rank: 1000

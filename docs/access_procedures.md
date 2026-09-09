@@ -14,7 +14,7 @@ _Information on procedure to obtain access to the dataset._
 
 
 
-URI: [cenvo:access_procedures](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/access_procedures)
+URI: [cenvo:access_procedures](https://w3id.org/chemical-exposome/terms/access_procedures)
 <!-- no inheritance hierarchy -->
 
 
@@ -78,7 +78,7 @@ URI: [cenvo:access_procedures](https://w3id.org/chemical-exposome/schema/chemica
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -101,7 +101,7 @@ name: access_procedures
 description: Information on procedure to obtain access to the dataset.
 in_subset:
 - mandatory
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 rank: 1000
 owner: MonitoringActivity
 domain_of:

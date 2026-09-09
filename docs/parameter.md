@@ -15,7 +15,7 @@ _Parameters measured alongside chemical concentrations in environmental samples 
 
 <div data-search-exclude markdown="1">
 
-URI: [cenvo:Parameter](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/Parameter)
+URI: [cenvo:Parameter](https://w3id.org/chemical-exposome/terms/Parameter)
 
 ## Permissible Values
 | Value | Meaning | Description |
@@ -150,7 +150,7 @@ URI: [cenvo:Parameter](https://w3id.org/chemical-exposome/schema/chemicals-outdo
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -165,7 +165,7 @@ name: Parameter
 description: Parameters measured alongside chemical concentrations in environmental
   samples or at site. Covers air, water, sediment, soil and biota matrices. The applicable
   environment is indicated in each parameter description.
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 rank: 1000
 permissible_values:
   volume:

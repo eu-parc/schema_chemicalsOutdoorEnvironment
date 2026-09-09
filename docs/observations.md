@@ -14,7 +14,7 @@ _Observations (concentration measurements and parameters) associated with this s
 
 
 
-URI: [cenvo:observations](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/observations)
+URI: [cenvo:observations](https://w3id.org/chemical-exposome/terms/observations)
 <!-- no inheritance hierarchy -->
 
 
@@ -76,7 +76,7 @@ URI: [cenvo:observations](https://w3id.org/chemical-exposome/schema/chemicals-ou
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -98,7 +98,7 @@ URI: [cenvo:observations](https://w3id.org/chemical-exposome/schema/chemicals-ou
 name: observations
 description: Observations (concentration measurements and parameters) associated with
   this sample.
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 rank: 1000
 owner: Sample
 domain_of:

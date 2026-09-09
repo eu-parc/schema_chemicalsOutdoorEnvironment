@@ -14,7 +14,7 @@ _Contact's institution_
 
 
 
-URI: [cenvo:institution](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/institution)
+URI: [cenvo:institution](https://w3id.org/chemical-exposome/terms/institution)
 <!-- no inheritance hierarchy -->
 
 
@@ -71,7 +71,7 @@ URI: [cenvo:institution](https://w3id.org/chemical-exposome/schema/chemicals-out
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -92,7 +92,7 @@ URI: [cenvo:institution](https://w3id.org/chemical-exposome/schema/chemicals-out
 ```yaml
 name: institution
 description: Contact's institution
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 rank: 1000
 owner: Contact
 domain_of:

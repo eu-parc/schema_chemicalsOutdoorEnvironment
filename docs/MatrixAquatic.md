@@ -15,7 +15,7 @@ _Matrix values valid for aquatic samples (SampleAquatic). All terms are narrower
 
 <div data-search-exclude markdown="1">
 
-URI: [cenvo:MatrixAquatic](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/MatrixAquatic)
+URI: [cenvo:MatrixAquatic](https://w3id.org/chemical-exposome/terms/MatrixAquatic)
 
 ## Permissible Values
 | Value | Meaning | Description |
@@ -49,7 +49,7 @@ URI: [cenvo:MatrixAquatic](https://w3id.org/chemical-exposome/schema/chemicals-o
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -63,7 +63,7 @@ URI: [cenvo:MatrixAquatic](https://w3id.org/chemical-exposome/schema/chemicals-o
 name: MatrixAquatic
 description: Matrix values valid for aquatic samples (SampleAquatic). All terms are
   narrower than AquaticMatrix in the PARC environmental matrix vocabulary.
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 see_also:
 - https://w3id.org/peh/terms/AquaticMatrix
 rank: 1000

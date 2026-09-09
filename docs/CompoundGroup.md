@@ -15,7 +15,7 @@ _Chemical group classification as used in the PARC WP9 compound list. Groups are
 
 <div data-search-exclude markdown="1">
 
-URI: [cenvo:CompoundGroup](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/CompoundGroup)
+URI: [cenvo:CompoundGroup](https://w3id.org/chemical-exposome/terms/CompoundGroup)
 
 ## Permissible Values
 | Value | Meaning | Description |
@@ -66,7 +66,7 @@ URI: [cenvo:CompoundGroup](https://w3id.org/chemical-exposome/schema/chemicals-o
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -80,7 +80,7 @@ URI: [cenvo:CompoundGroup](https://w3id.org/chemical-exposome/schema/chemicals-o
 name: CompoundGroup
 description: Chemical group classification as used in the PARC WP9 compound list.
   Groups are based on chemical structure and/or regulatory relevance.
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 rank: 1000
 permissible_values:
   PFAS:

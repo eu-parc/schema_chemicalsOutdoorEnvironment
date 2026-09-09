@@ -14,7 +14,7 @@ _Link(s) to policy, convention, or legislation underpinning the monitoring activ
 
 
 
-URI: [cenvo:legislation_policy](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/legislation_policy)
+URI: [cenvo:legislation_policy](https://w3id.org/chemical-exposome/terms/legislation_policy)
 <!-- no inheritance hierarchy -->
 
 
@@ -78,7 +78,7 @@ URI: [cenvo:legislation_policy](https://w3id.org/chemical-exposome/schema/chemic
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -102,7 +102,7 @@ description: 'Link(s) to policy, convention, or legislation underpinning the mon
   activity. Mandatory for monitoring programmes; optional for projects if relevant. '
 in_subset:
 - mandatory_if
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 rank: 1000
 owner: MonitoringActivity
 domain_of:

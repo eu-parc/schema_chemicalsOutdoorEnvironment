@@ -15,7 +15,7 @@ _Geographical water feature type_
 
 <div data-search-exclude markdown="1">
 
-URI: [cenvo:WaterGeographicalFeature](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/WaterGeographicalFeature)
+URI: [cenvo:WaterGeographicalFeature](https://w3id.org/chemical-exposome/terms/WaterGeographicalFeature)
 
 ## Permissible Values
 | Value | Meaning | Description |
@@ -58,7 +58,7 @@ URI: [cenvo:WaterGeographicalFeature](https://w3id.org/chemical-exposome/schema/
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -71,7 +71,7 @@ URI: [cenvo:WaterGeographicalFeature](https://w3id.org/chemical-exposome/schema/
 ```yaml
 name: WaterGeographicalFeature
 description: Geographical water feature type
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 rank: 1000
 permissible_values:
   not_relevant:

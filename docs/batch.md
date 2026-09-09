@@ -14,7 +14,7 @@ _Internal laboratory designation of the group of samples analyzed together_
 
 
 
-URI: [cenvo:batch](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/batch)
+URI: [cenvo:batch](https://w3id.org/chemical-exposome/terms/batch)
 <!-- no inheritance hierarchy -->
 
 
@@ -71,7 +71,7 @@ URI: [cenvo:batch](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/b
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -92,7 +92,7 @@ URI: [cenvo:batch](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/b
 ```yaml
 name: batch
 description: Internal laboratory designation of the group of samples analyzed together
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 rank: 1000
 owner: MeasurementConcentration
 domain_of:

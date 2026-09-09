@@ -14,7 +14,7 @@ _Type of water body at the site. Only relevant for water and sediment sampling._
 
 
 
-URI: [cenvo:water_type](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/water_type)
+URI: [cenvo:water_type](https://w3id.org/chemical-exposome/terms/water_type)
 <!-- no inheritance hierarchy -->
 
 
@@ -71,7 +71,7 @@ URI: [cenvo:water_type](https://w3id.org/chemical-exposome/schema/chemicals-outd
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -93,7 +93,7 @@ URI: [cenvo:water_type](https://w3id.org/chemical-exposome/schema/chemicals-outd
 name: water_type
 description: Type of water body at the site. Only relevant for water and sediment
   sampling.
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 rank: 1000
 owner: Site
 domain_of:

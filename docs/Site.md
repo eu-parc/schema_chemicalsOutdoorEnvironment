@@ -14,7 +14,7 @@ _A monitoring site or location where samples are collected. Coordinates (latitud
 
 
 
-URI: [cenvo:Site](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/Site)
+URI: [cenvo:Site](https://w3id.org/chemical-exposome/terms/Site)
 
 
 
@@ -279,7 +279,7 @@ URI: [cenvo:Site](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/Si
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -311,7 +311,7 @@ description: A monitoring site or location where samples are collected. Coordina
   fields (NUTS3, land use, river basin, sea, soil type) can be automatically retrieved
   from GIS layers. When coordinates are not provided, expert-described location fields
   (country, geographic region, NUTS3) are required instead.
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 slots:
 - acronym
 - country
@@ -336,7 +336,7 @@ attributes:
       privacy, security or confidentiality reasons. If true, expert location fields
       (country, geographic_region, nuts3) are required instead.  Optional - if not
       provided, it is assumed coordinates are not withheld for privacy reasons.
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     ifabsent: 'false'
     domain_of:
@@ -350,7 +350,7 @@ attributes:
       reason that prevents disclosure of the exact site location.
     in_subset:
     - mandatory_if
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     domain_of:
     - Site
@@ -359,7 +359,7 @@ attributes:
   samples:
     name: samples
     description: Samples collected at this monitoring site.
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     domain_of:
     - Site
@@ -374,7 +374,7 @@ attributes:
       Mandatory unless coordinate_privacy_exception is true.'
     in_subset:
     - mandatory_if
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     domain_of:
     - Site
@@ -389,7 +389,7 @@ attributes:
       (EPSG:4326). Mandatory unless coordinate_privacy_exception is true.'
     in_subset:
     - mandatory_if
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     domain_of:
     - Site
@@ -402,7 +402,7 @@ attributes:
     description: Coordinate reference system used. Default is EPSG:4326 (WGS 84).
     in_subset:
     - mandatory_if
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     domain_of:
     - Site
@@ -413,7 +413,7 @@ attributes:
     description: UN M49 geographic region
     in_subset:
     - mandatory_if
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     domain_of:
     - Site
@@ -424,7 +424,7 @@ attributes:
     description: Regional group of United Nations member states
     in_subset:
     - mandatory_if
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     domain_of:
     - Site
@@ -438,7 +438,7 @@ attributes:
       countries), use an alternative administrative classification.'
     in_subset:
     - mandatory_if
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     see_also:
     - http://data.europa.eu/nuts/
     rank: 1000
@@ -450,7 +450,7 @@ attributes:
   year_established:
     name: year_established
     description: Year of establishment of the monitoring station (YYYY)
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     domain_of:
     - Site
@@ -460,7 +460,7 @@ attributes:
     name: site_description
     description: Description of the site where samples were collected. Provide all
       important information that cannot be captured in other fields.
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     domain_of:
     - Site
@@ -469,7 +469,7 @@ attributes:
   managing_instance:
     name: managing_instance
     description: The institution that manages the sampling site
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     domain_of:
     - Site
@@ -479,7 +479,7 @@ attributes:
     name: water_type
     description: Type of water body at the site. Only relevant for water and sediment
       sampling.
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     domain_of:
     - Site
@@ -489,7 +489,7 @@ attributes:
     name: water_geographical_feature
     description: Geographical water feature type at the site. Only relevant for water
       and sediment sampling.
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     domain_of:
     - Site
@@ -499,7 +499,7 @@ attributes:
     name: water_treatment
     description: Water treatment status at the site. Only relevant for water and sediment
       sampling.
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     domain_of:
     - Site
@@ -509,7 +509,7 @@ attributes:
     name: altitude
     description: Altitude in meters above sea level (MSL). Use positive values for
       above and negative for below sea level.
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     domain_of:
     - Site
@@ -518,7 +518,7 @@ attributes:
   land_use:
     name: land_use
     description: Land use classification according to CORINE Land Cover nomenclature.
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     see_also:
     - https://www.w3.org/2015/03/corine
     rank: 1000
@@ -530,7 +530,7 @@ attributes:
     name: river_basin
     description: River basin associated with the site, based on the EEA river basin
       districts dataset. Only relevant for water and sediment sampling.
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     see_also:
     - https://www.eea.europa.eu/en/datahub/datahubitem-view/dc1b1cdf-5fa0-4535-8c89-10cc051e00db
     rank: 1000
@@ -542,7 +542,7 @@ attributes:
     name: sea
     description: Sea or ocean associated with the site, based on the Marine Regions
       Gazetteer. Only relevant for water and sediment sampling.
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     see_also:
     - https://www.marineregions.org
     rank: 1000
@@ -554,7 +554,7 @@ attributes:
     name: soil_type
     description: World Reference Base for Soil Resources (WRB) 2006/2007 Reference
       Soil Group at the site. Only relevant for soil sampling.
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     see_also:
     - https://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue
     rank: 1000
@@ -619,7 +619,7 @@ description: A monitoring site or location where samples are collected. Coordina
   fields (NUTS3, land use, river basin, sea, soil type) can be automatically retrieved
   from GIS layers. When coordinates are not provided, expert-described location fields
   (country, geographic region, NUTS3) are required instead.
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 slot_usage:
   country:
     name: country
@@ -638,7 +638,7 @@ attributes:
       privacy, security or confidentiality reasons. If true, expert location fields
       (country, geographic_region, nuts3) are required instead.  Optional - if not
       provided, it is assumed coordinates are not withheld for privacy reasons.
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     ifabsent: 'false'
     owner: Site
@@ -653,7 +653,7 @@ attributes:
       reason that prevents disclosure of the exact site location.
     in_subset:
     - mandatory_if
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     owner: Site
     domain_of:
@@ -663,7 +663,7 @@ attributes:
   samples:
     name: samples
     description: Samples collected at this monitoring site.
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     owner: Site
     domain_of:
@@ -680,7 +680,7 @@ attributes:
       Mandatory unless coordinate_privacy_exception is true.'
     in_subset:
     - mandatory_if
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     owner: Site
     domain_of:
@@ -696,7 +696,7 @@ attributes:
       (EPSG:4326). Mandatory unless coordinate_privacy_exception is true.'
     in_subset:
     - mandatory_if
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     owner: Site
     domain_of:
@@ -710,7 +710,7 @@ attributes:
     description: Coordinate reference system used. Default is EPSG:4326 (WGS 84).
     in_subset:
     - mandatory_if
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     owner: Site
     domain_of:
@@ -722,7 +722,7 @@ attributes:
     description: UN M49 geographic region
     in_subset:
     - mandatory_if
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     owner: Site
     domain_of:
@@ -734,7 +734,7 @@ attributes:
     description: Regional group of United Nations member states
     in_subset:
     - mandatory_if
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     owner: Site
     domain_of:
@@ -749,7 +749,7 @@ attributes:
       countries), use an alternative administrative classification.'
     in_subset:
     - mandatory_if
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     see_also:
     - http://data.europa.eu/nuts/
     rank: 1000
@@ -762,7 +762,7 @@ attributes:
   year_established:
     name: year_established
     description: Year of establishment of the monitoring station (YYYY)
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     owner: Site
     domain_of:
@@ -773,7 +773,7 @@ attributes:
     name: site_description
     description: Description of the site where samples were collected. Provide all
       important information that cannot be captured in other fields.
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     owner: Site
     domain_of:
@@ -783,7 +783,7 @@ attributes:
   managing_instance:
     name: managing_instance
     description: The institution that manages the sampling site
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     owner: Site
     domain_of:
@@ -794,7 +794,7 @@ attributes:
     name: water_type
     description: Type of water body at the site. Only relevant for water and sediment
       sampling.
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     owner: Site
     domain_of:
@@ -805,7 +805,7 @@ attributes:
     name: water_geographical_feature
     description: Geographical water feature type at the site. Only relevant for water
       and sediment sampling.
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     owner: Site
     domain_of:
@@ -816,7 +816,7 @@ attributes:
     name: water_treatment
     description: Water treatment status at the site. Only relevant for water and sediment
       sampling.
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     owner: Site
     domain_of:
@@ -827,7 +827,7 @@ attributes:
     name: altitude
     description: Altitude in meters above sea level (MSL). Use positive values for
       above and negative for below sea level.
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     owner: Site
     domain_of:
@@ -837,7 +837,7 @@ attributes:
   land_use:
     name: land_use
     description: Land use classification according to CORINE Land Cover nomenclature.
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     see_also:
     - https://www.w3.org/2015/03/corine
     rank: 1000
@@ -850,7 +850,7 @@ attributes:
     name: river_basin
     description: River basin associated with the site, based on the EEA river basin
       districts dataset. Only relevant for water and sediment sampling.
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     see_also:
     - https://www.eea.europa.eu/en/datahub/datahubitem-view/dc1b1cdf-5fa0-4535-8c89-10cc051e00db
     rank: 1000
@@ -863,7 +863,7 @@ attributes:
     name: sea
     description: Sea or ocean associated with the site, based on the Marine Regions
       Gazetteer. Only relevant for water and sediment sampling.
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     see_also:
     - https://www.marineregions.org
     rank: 1000
@@ -876,7 +876,7 @@ attributes:
     name: soil_type
     description: World Reference Base for Soil Resources (WRB) 2006/2007 Reference
       Soil Group at the site. Only relevant for soil sampling.
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     see_also:
     - https://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue
     rank: 1000
@@ -890,7 +890,7 @@ attributes:
     description: Short name or acronym.
     in_subset:
     - mandatory_if
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     owner: Site
     domain_of:
@@ -905,7 +905,7 @@ attributes:
       (unknown) and XZ (international waters).
     in_subset:
     - mandatory_if
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     owner: Site
     domain_of:
@@ -920,7 +920,7 @@ attributes:
       References the site_id of a Site record.
     in_subset:
     - mandatory
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     identifier: true
     owner: Site
@@ -936,7 +936,7 @@ attributes:
       names in different languages are accepted.
     in_subset:
     - mandatory
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     owner: Site
     domain_of:
@@ -947,7 +947,7 @@ attributes:
   link:
     name: link
     description: URL with information about the institution
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     owner: Site
     domain_of:

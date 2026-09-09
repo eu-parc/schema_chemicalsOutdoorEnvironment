@@ -14,7 +14,7 @@ _Latitude in signed decimal degrees (format 0.000000, range -90 to 90). South la
 
 
 
-URI: [cenvo:latitude](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/latitude)
+URI: [cenvo:latitude](https://w3id.org/chemical-exposome/terms/latitude)
 <!-- no inheritance hierarchy -->
 
 
@@ -85,7 +85,7 @@ URI: [cenvo:latitude](https://w3id.org/chemical-exposome/schema/chemicals-outdoo
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -110,7 +110,7 @@ description: 'Latitude in signed decimal degrees (format 0.000000, range -90 to 
   Mandatory unless coordinate_privacy_exception is true.'
 in_subset:
 - mandatory_if
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 rank: 1000
 owner: Site
 domain_of:

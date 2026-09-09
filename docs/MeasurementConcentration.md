@@ -14,7 +14,7 @@ _A measured concentration of a chemical compound in a sample. At least one of co
 
 
 
-URI: [cenvo:MeasurementConcentration](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/MeasurementConcentration)
+URI: [cenvo:MeasurementConcentration](https://w3id.org/chemical-exposome/terms/MeasurementConcentration)
 
 
 
@@ -166,7 +166,7 @@ URI: [cenvo:MeasurementConcentration](https://w3id.org/chemical-exposome/schema/
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -194,7 +194,7 @@ URI: [cenvo:MeasurementConcentration](https://w3id.org/chemical-exposome/schema/
 name: MeasurementConcentration
 description: A measured concentration of a chemical compound in a sample. At least
   one of concentration, LOQ, or LOD must be provided.
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 is_a: Observation
 attributes:
   laboratory:
@@ -202,7 +202,7 @@ attributes:
     description: Name of the laboratory performing the analysis
     in_subset:
     - mandatory
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     domain_of:
     - MeasurementConcentration
@@ -212,7 +212,7 @@ attributes:
     name: batch
     description: Internal laboratory designation of the group of samples analyzed
       together
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     domain_of:
     - MeasurementConcentration
@@ -221,7 +221,7 @@ attributes:
   analysis_date:
     name: analysis_date
     description: The date on which the concentration was determined
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     domain_of:
     - MeasurementConcentration
@@ -235,7 +235,7 @@ attributes:
       A single measurement record should typically correspond to one compound.
     in_subset:
     - mandatory
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     domain_of:
     - MeasurementConcentration
@@ -247,7 +247,7 @@ attributes:
       (e.g., extraction, cleanup, fractionation).
     in_subset:
     - mandatory
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     domain_of:
     - MeasurementConcentration
@@ -257,7 +257,7 @@ attributes:
     name: sample_preparation_method_link
     description: GUPRI (e.g. DOI) linking to a public SOP, article, or other document
       describing the method.
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     domain_of:
     - MeasurementConcentration
@@ -268,7 +268,7 @@ attributes:
     description: Analytical method used to determine the analyte
     in_subset:
     - mandatory
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     domain_of:
     - MeasurementConcentration
@@ -277,7 +277,7 @@ attributes:
   analytical_method_link:
     name: analytical_method_link
     description: GUPRI linking to a public SOP or document describing the method
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     domain_of:
     - MeasurementConcentration
@@ -289,7 +289,7 @@ attributes:
       quality control, calibration, recovery, standardization, recalculations).
     in_subset:
     - mandatory
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     domain_of:
     - MeasurementConcentration
@@ -298,7 +298,7 @@ attributes:
   data_handling_procedure_link:
     name: data_handling_procedure_link
     description: GUPRI linking to a document describing the data handling procedure
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     domain_of:
     - MeasurementConcentration
@@ -307,7 +307,7 @@ attributes:
   loq:
     name: loq
     description: Limit of quantification
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     domain_of:
     - MeasurementConcentration
@@ -316,7 +316,7 @@ attributes:
   lod:
     name: lod
     description: Limit of detection
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     domain_of:
     - MeasurementConcentration
@@ -355,7 +355,7 @@ rules:
 name: MeasurementConcentration
 description: A measured concentration of a chemical compound in a sample. At least
   one of concentration, LOQ, or LOD must be provided.
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 is_a: Observation
 attributes:
   laboratory:
@@ -363,7 +363,7 @@ attributes:
     description: Name of the laboratory performing the analysis
     in_subset:
     - mandatory
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     owner: MeasurementConcentration
     domain_of:
@@ -374,7 +374,7 @@ attributes:
     name: batch
     description: Internal laboratory designation of the group of samples analyzed
       together
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     owner: MeasurementConcentration
     domain_of:
@@ -384,7 +384,7 @@ attributes:
   analysis_date:
     name: analysis_date
     description: The date on which the concentration was determined
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     owner: MeasurementConcentration
     domain_of:
@@ -399,7 +399,7 @@ attributes:
       A single measurement record should typically correspond to one compound.
     in_subset:
     - mandatory
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     owner: MeasurementConcentration
     domain_of:
@@ -412,7 +412,7 @@ attributes:
       (e.g., extraction, cleanup, fractionation).
     in_subset:
     - mandatory
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     owner: MeasurementConcentration
     domain_of:
@@ -423,7 +423,7 @@ attributes:
     name: sample_preparation_method_link
     description: GUPRI (e.g. DOI) linking to a public SOP, article, or other document
       describing the method.
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     owner: MeasurementConcentration
     domain_of:
@@ -435,7 +435,7 @@ attributes:
     description: Analytical method used to determine the analyte
     in_subset:
     - mandatory
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     owner: MeasurementConcentration
     domain_of:
@@ -445,7 +445,7 @@ attributes:
   analytical_method_link:
     name: analytical_method_link
     description: GUPRI linking to a public SOP or document describing the method
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     owner: MeasurementConcentration
     domain_of:
@@ -458,7 +458,7 @@ attributes:
       quality control, calibration, recovery, standardization, recalculations).
     in_subset:
     - mandatory
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     owner: MeasurementConcentration
     domain_of:
@@ -468,7 +468,7 @@ attributes:
   data_handling_procedure_link:
     name: data_handling_procedure_link
     description: GUPRI linking to a document describing the data handling procedure
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     owner: MeasurementConcentration
     domain_of:
@@ -478,7 +478,7 @@ attributes:
   loq:
     name: loq
     description: Limit of quantification
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     owner: MeasurementConcentration
     domain_of:
@@ -488,7 +488,7 @@ attributes:
   lod:
     name: lod
     description: Limit of detection
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     owner: MeasurementConcentration
     domain_of:
@@ -500,7 +500,7 @@ attributes:
     description: Unique identifier for the sample
     in_subset:
     - mandatory
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     owner: MeasurementConcentration
     domain_of:
@@ -513,7 +513,7 @@ attributes:
     description: Unit of measurement
     in_subset:
     - mandatory
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     owner: MeasurementConcentration
     domain_of:
@@ -524,7 +524,7 @@ attributes:
     name: uncertainty
     description: 'Measurement uncertainty of the concentration/paramter value, expressed
       as a percentage (%) at 95% confidence level.  '
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     owner: MeasurementConcentration
     domain_of:
@@ -536,7 +536,7 @@ attributes:
     description: Measured value of the chemical concentration or other parameter
     in_subset:
     - mandatory
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     owner: MeasurementConcentration
     domain_of:
@@ -550,7 +550,7 @@ attributes:
       context to the main measurement.'
     in_subset:
     - mandatory
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     designates_type: true
     owner: MeasurementConcentration

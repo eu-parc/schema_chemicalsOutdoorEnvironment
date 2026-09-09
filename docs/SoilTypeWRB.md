@@ -15,7 +15,7 @@ _World Reference Base for Soil Resources (WRB) 2006/2007 Reference Soil Groups (
 
 <div data-search-exclude markdown="1">
 
-URI: [cenvo:SoilTypeWRB](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/SoilTypeWRB)
+URI: [cenvo:SoilTypeWRB](https://w3id.org/chemical-exposome/terms/SoilTypeWRB)
 
 ## Permissible Values
 | Value | Meaning | Description |
@@ -85,7 +85,7 @@ URI: [cenvo:SoilTypeWRB](https://w3id.org/chemical-exposome/schema/chemicals-out
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -101,7 +101,7 @@ description: World Reference Base for Soil Resources (WRB) 2006/2007 Reference S
   Groups (RSGs). The WRB is the international standard for soil classification endorsed
   by the International Union of Soil Sciences (IUSS). The 2006/2007 edition is the
   version legally binding under INSPIRE.
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 see_also:
 - https://www.fao.org/soils-portal/data-hub/soil-classification/world-reference-base/en/
 - https://www.isric.org/explore/wrb

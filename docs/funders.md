@@ -14,7 +14,7 @@ _Funding entity/entities supporting the monitoring activity._
 
 
 
-URI: [cenvo:funders](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/funders)
+URI: [cenvo:funders](https://w3id.org/chemical-exposome/terms/funders)
 <!-- no inheritance hierarchy -->
 
 
@@ -72,7 +72,7 @@ URI: [cenvo:funders](https://w3id.org/chemical-exposome/schema/chemicals-outdoor
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -93,7 +93,7 @@ URI: [cenvo:funders](https://w3id.org/chemical-exposome/schema/chemicals-outdoor
 ```yaml
 name: funders
 description: Funding entity/entities supporting the monitoring activity.
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 rank: 1000
 owner: MonitoringActivity
 domain_of:

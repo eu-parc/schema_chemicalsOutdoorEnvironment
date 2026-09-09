@@ -14,7 +14,7 @@ _The environmental compartment where the organism was sampled from._
 
 
 
-URI: [cenvo:compartment](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/compartment)
+URI: [cenvo:compartment](https://w3id.org/chemical-exposome/terms/compartment)
 <!-- no inheritance hierarchy -->
 
 
@@ -72,7 +72,7 @@ URI: [cenvo:compartment](https://w3id.org/chemical-exposome/schema/chemicals-out
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -93,7 +93,7 @@ URI: [cenvo:compartment](https://w3id.org/chemical-exposome/schema/chemicals-out
 ```yaml
 name: compartment
 description: The environmental compartment where the organism was sampled from.
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 rank: 1000
 owner: Biota
 domain_of:

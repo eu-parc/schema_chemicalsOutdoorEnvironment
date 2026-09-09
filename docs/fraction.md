@@ -14,7 +14,7 @@ _If the collected sample is divided into multiple fractions for separate analysi
 
 
 
-URI: [cenvo:fraction](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/fraction)
+URI: [cenvo:fraction](https://w3id.org/chemical-exposome/terms/fraction)
 <!-- no inheritance hierarchy -->
 
 
@@ -71,7 +71,7 @@ URI: [cenvo:fraction](https://w3id.org/chemical-exposome/schema/chemicals-outdoo
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -93,7 +93,7 @@ URI: [cenvo:fraction](https://w3id.org/chemical-exposome/schema/chemicals-outdoo
 name: fraction
 description: If the collected sample is divided into multiple fractions for separate
   analysis, this field identifies each subsample.
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 rank: 1000
 owner: Aquatic
 domain_of:

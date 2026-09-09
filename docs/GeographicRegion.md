@@ -15,7 +15,7 @@ _UN M49 geographic region. Source: https://unstats.un.org/unsd/methodology/m49/_
 
 <div data-search-exclude markdown="1">
 
-URI: [cenvo:GeographicRegion](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/GeographicRegion)
+URI: [cenvo:GeographicRegion](https://w3id.org/chemical-exposome/terms/GeographicRegion)
 
 ## Permissible Values
 | Value | Meaning | Description |
@@ -57,7 +57,7 @@ URI: [cenvo:GeographicRegion](https://w3id.org/chemical-exposome/schema/chemical
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -70,7 +70,7 @@ URI: [cenvo:GeographicRegion](https://w3id.org/chemical-exposome/schema/chemical
 ```yaml
 name: GeographicRegion
 description: 'UN M49 geographic region. Source: https://unstats.un.org/unsd/methodology/m49/'
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 see_also:
 - https://unstats.un.org/unsd/methodology/m49/
 rank: 1000

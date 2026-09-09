@@ -14,7 +14,7 @@ _A brief summary with the most important details summarising the project (object
 
 
 
-URI: [cenvo:activity_description](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/activity_description)
+URI: [cenvo:activity_description](https://w3id.org/chemical-exposome/terms/activity_description)
 <!-- no inheritance hierarchy -->
 
 
@@ -78,7 +78,7 @@ URI: [cenvo:activity_description](https://w3id.org/chemical-exposome/schema/chem
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -102,7 +102,7 @@ description: A brief summary with the most important details summarising the pro
   (objectives, scope, target group, key aspects, design, methods).
 in_subset:
 - mandatory
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 rank: 1000
 owner: MonitoringActivity
 domain_of:

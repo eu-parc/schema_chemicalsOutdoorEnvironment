@@ -14,7 +14,7 @@ _Sampling end time according to ISO 8601._
 
 
 
-URI: [cenvo:sampling_time_end](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/sampling_time_end)
+URI: [cenvo:sampling_time_end](https://w3id.org/chemical-exposome/terms/sampling_time_end)
 <!-- no inheritance hierarchy -->
 
 
@@ -68,7 +68,7 @@ URI: [cenvo:sampling_time_end](https://w3id.org/chemical-exposome/schema/chemica
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -89,7 +89,7 @@ URI: [cenvo:sampling_time_end](https://w3id.org/chemical-exposome/schema/chemica
 ```yaml
 name: sampling_time_end
 description: Sampling end time according to ISO 8601.
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 rank: 1000
 domain_of:
 - Sample

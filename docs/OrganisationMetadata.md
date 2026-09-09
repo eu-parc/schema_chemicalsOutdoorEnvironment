@@ -14,7 +14,7 @@ _Shared metadata for organisations — institutions and funders._
 
 
 
-URI: [cenvo:OrganisationMetadata](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/OrganisationMetadata)
+URI: [cenvo:OrganisationMetadata](https://w3id.org/chemical-exposome/terms/OrganisationMetadata)
 
 
 
@@ -92,7 +92,7 @@ URI: [cenvo:OrganisationMetadata](https://w3id.org/chemical-exposome/schema/chem
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -119,7 +119,7 @@ URI: [cenvo:OrganisationMetadata](https://w3id.org/chemical-exposome/schema/chem
 ```yaml
 name: OrganisationMetadata
 description: Shared metadata for organisations — institutions and funders.
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 mixin: true
 slots:
 - name_en
@@ -136,7 +136,7 @@ slots:
 ```yaml
 name: OrganisationMetadata
 description: Shared metadata for organisations — institutions and funders.
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 mixin: true
 attributes:
   name_en:
@@ -144,7 +144,7 @@ attributes:
     description: Name or designation in English
     in_subset:
     - mandatory_if
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     owner: OrganisationMetadata
     domain_of:
@@ -159,7 +159,7 @@ attributes:
       Use the local official name.
     in_subset:
     - mandatory
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     owner: OrganisationMetadata
     domain_of:
@@ -170,7 +170,7 @@ attributes:
   ror:
     name: ror
     description: ROR identifier of the institution (format ror.org/xxxxxxxx)
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     owner: OrganisationMetadata
     domain_of:
@@ -179,7 +179,7 @@ attributes:
   link:
     name: link
     description: URL with information about the institution
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     owner: OrganisationMetadata
     domain_of:

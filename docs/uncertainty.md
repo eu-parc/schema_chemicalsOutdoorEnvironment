@@ -14,7 +14,7 @@ _Measurement uncertainty of the concentration/paramter value, expressed as a per
 
 
 
-URI: [cenvo:uncertainty](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/uncertainty)
+URI: [cenvo:uncertainty](https://w3id.org/chemical-exposome/terms/uncertainty)
 <!-- no inheritance hierarchy -->
 
 
@@ -73,7 +73,7 @@ URI: [cenvo:uncertainty](https://w3id.org/chemical-exposome/schema/chemicals-out
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -95,7 +95,7 @@ URI: [cenvo:uncertainty](https://w3id.org/chemical-exposome/schema/chemicals-out
 name: uncertainty
 description: 'Measurement uncertainty of the concentration/paramter value, expressed
   as a percentage (%) at 95% confidence level.  '
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 rank: 1000
 domain_of:
 - Observation

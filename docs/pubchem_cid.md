@@ -14,7 +14,7 @@ _PubChem Compound ID (CID). To be populated by mapping from InChIKey to PubChem.
 
 
 
-URI: [cenvo:pubchem_cid](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/pubchem_cid)
+URI: [cenvo:pubchem_cid](https://w3id.org/chemical-exposome/terms/pubchem_cid)
 <!-- no inheritance hierarchy -->
 
 
@@ -71,7 +71,7 @@ URI: [cenvo:pubchem_cid](https://w3id.org/chemical-exposome/schema/chemicals-out
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -93,7 +93,7 @@ URI: [cenvo:pubchem_cid](https://w3id.org/chemical-exposome/schema/chemicals-out
 name: pubchem_cid
 description: PubChem Compound ID (CID). To be populated by mapping from InChIKey to
   PubChem.
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 rank: 1000
 owner: ChemicalCompound
 domain_of:

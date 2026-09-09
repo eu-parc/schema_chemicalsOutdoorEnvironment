@@ -14,7 +14,7 @@ _Institution(s) responsible for implementing the monitoring activity._
 
 
 
-URI: [cenvo:institutions](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/institutions)
+URI: [cenvo:institutions](https://w3id.org/chemical-exposome/terms/institutions)
 <!-- no inheritance hierarchy -->
 
 
@@ -80,7 +80,7 @@ URI: [cenvo:institutions](https://w3id.org/chemical-exposome/schema/chemicals-ou
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -103,7 +103,7 @@ name: institutions
 description: Institution(s) responsible for implementing the monitoring activity.
 in_subset:
 - mandatory
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 rank: 1000
 owner: MonitoringActivity
 domain_of:

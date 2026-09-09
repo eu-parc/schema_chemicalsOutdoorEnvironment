@@ -14,7 +14,7 @@ _Chemical compound measured in the sample. Reference to the PARC WP9 compound li
 
 
 
-URI: [cenvo:compound](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/compound)
+URI: [cenvo:compound](https://w3id.org/chemical-exposome/terms/compound)
 <!-- no inheritance hierarchy -->
 
 
@@ -78,7 +78,7 @@ URI: [cenvo:compound](https://w3id.org/chemical-exposome/schema/chemicals-outdoo
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -104,7 +104,7 @@ description: Chemical compound measured in the sample. Reference to the PARC WP9
   record should typically correspond to one compound.
 in_subset:
 - mandatory
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 rank: 1000
 owner: MeasurementConcentration
 domain_of:

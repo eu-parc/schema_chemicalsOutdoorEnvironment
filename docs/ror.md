@@ -14,7 +14,7 @@ _ROR identifier of the institution (format ror.org/xxxxxxxx)_
 
 
 
-URI: [cenvo:ror](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/ror)
+URI: [cenvo:ror](https://w3id.org/chemical-exposome/terms/ror)
 <!-- no inheritance hierarchy -->
 
 
@@ -66,7 +66,7 @@ URI: [cenvo:ror](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/ror
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -87,7 +87,7 @@ URI: [cenvo:ror](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/ror
 ```yaml
 name: ror
 description: ROR identifier of the institution (format ror.org/xxxxxxxx)
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 rank: 1000
 domain_of:
 - OrganisationMetadata

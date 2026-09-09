@@ -14,7 +14,7 @@ _World Reference Base for Soil Resources (WRB) 2006/2007 Reference Soil Group at
 
 
 
-URI: [cenvo:soil_type](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/soil_type)
+URI: [cenvo:soil_type](https://w3id.org/chemical-exposome/terms/soil_type)
 <!-- no inheritance hierarchy -->
 
 
@@ -75,7 +75,7 @@ URI: [cenvo:soil_type](https://w3id.org/chemical-exposome/schema/chemicals-outdo
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -97,7 +97,7 @@ URI: [cenvo:soil_type](https://w3id.org/chemical-exposome/schema/chemicals-outdo
 name: soil_type
 description: World Reference Base for Soil Resources (WRB) 2006/2007 Reference Soil
   Group at the site. Only relevant for soil sampling.
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 see_also:
 - https://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue
 rank: 1000

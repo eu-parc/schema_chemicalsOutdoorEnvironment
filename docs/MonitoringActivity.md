@@ -14,7 +14,7 @@ _A research project or monitoring programme collecting environmental data on che
 
 
 
-URI: [cenvo:MonitoringActivity](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/MonitoringActivity)
+URI: [cenvo:MonitoringActivity](https://w3id.org/chemical-exposome/terms/MonitoringActivity)
 
 
 
@@ -231,7 +231,7 @@ URI: [cenvo:MonitoringActivity](https://w3id.org/chemical-exposome/schema/chemic
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -259,7 +259,7 @@ URI: [cenvo:MonitoringActivity](https://w3id.org/chemical-exposome/schema/chemic
 name: MonitoringActivity
 description: A research project or monitoring programme collecting environmental data
   on chemicals in the outdoor environment (air, water, sediment, soil, biota)
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 slots:
 - name_en
 - name_original
@@ -274,7 +274,7 @@ attributes:
     description: Type of monitoring activity
     in_subset:
     - mandatory
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     domain_of:
     - MonitoringActivity
@@ -286,7 +286,7 @@ attributes:
       (objectives, scope, target group, key aspects, design, methods).
     in_subset:
     - mandatory
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     domain_of:
     - MonitoringActivity
@@ -296,7 +296,7 @@ attributes:
     name: activity_identifier
     description: Project/monitoring programme identifier provided as URL (GUPRI).
       At least one identifier required.
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     domain_of:
     - MonitoringActivity
@@ -308,7 +308,7 @@ attributes:
       Mandatory for monitoring programmes; optional for projects if relevant.
     in_subset:
     - mandatory_if
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     domain_of:
     - MonitoringActivity
@@ -319,7 +319,7 @@ attributes:
       activity. Mandatory for monitoring programmes; optional for projects if relevant. '
     in_subset:
     - mandatory_if
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     domain_of:
     - MonitoringActivity
@@ -329,7 +329,7 @@ attributes:
     name: implementation_level
     description: The geographic scale of the monitoring coverage (international, national,
       regional, or local).
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     domain_of:
     - MonitoringActivity
@@ -337,7 +337,7 @@ attributes:
   language:
     name: language
     description: Language(s) used, as 2-letter codes according to ISO 639-1.
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     domain_of:
     - MonitoringActivity
@@ -348,7 +348,7 @@ attributes:
     description: The beginning (or previewed starting) date of the monitoring programme/project.
     in_subset:
     - mandatory
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     domain_of:
     - MonitoringActivity
     - Campaign
@@ -358,7 +358,7 @@ attributes:
   end_date:
     name: end_date
     description: End date of the project/monitoring programme.
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     domain_of:
     - MonitoringActivity
     - Campaign
@@ -372,7 +372,7 @@ attributes:
       time intervals. For this time period,  is used the term "Campaign". A Campaign
       is defined by its start and end, and it is recommended  to name it within the
       project using a consistent style.
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     domain_of:
     - MonitoringActivity
@@ -385,7 +385,7 @@ attributes:
     description: Institution(s) responsible for implementing the monitoring activity.
     in_subset:
     - mandatory
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     domain_of:
     - MonitoringActivity
@@ -399,7 +399,7 @@ attributes:
     description: Contact person(s) for the monitoring activity.
     in_subset:
     - mandatory
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     domain_of:
     - MonitoringActivity
@@ -411,7 +411,7 @@ attributes:
   funders:
     name: funders
     description: Funding entity/entities supporting the monitoring activity.
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     domain_of:
     - MonitoringActivity
@@ -424,7 +424,7 @@ attributes:
     description: Information on procedure to obtain access to the dataset.
     in_subset:
     - mandatory
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     domain_of:
     - MonitoringActivity
@@ -436,7 +436,7 @@ attributes:
       the data.
     in_subset:
     - mandatory
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     domain_of:
     - MonitoringActivity
@@ -447,7 +447,7 @@ attributes:
     description: License or terms for data reuse.
     in_subset:
     - mandatory
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     domain_of:
     - MonitoringActivity
@@ -456,7 +456,7 @@ attributes:
   disclaimer:
     name: disclaimer
     description: Text for disclaimer when using/re-using the data.
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     domain_of:
     - MonitoringActivity
@@ -464,7 +464,7 @@ attributes:
   version:
     name: version
     description: Version of the dataset.
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     domain_of:
     - MonitoringActivity
@@ -473,7 +473,7 @@ attributes:
   publication_year:
     name: publication_year
     description: Year when the dataset was or will be made publicly available.
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     domain_of:
     - MonitoringActivity
@@ -482,7 +482,7 @@ attributes:
   provenance:
     name: provenance
     description: A statement about the lineage of the dataset.
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     domain_of:
     - MonitoringActivity
@@ -491,7 +491,7 @@ attributes:
   sites:
     name: sites
     description: Monitoring site(s) associated with this project or monitoring programme.
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     domain_of:
     - MonitoringActivity
@@ -540,7 +540,7 @@ rules:
 name: MonitoringActivity
 description: A research project or monitoring programme collecting environmental data
   on chemicals in the outdoor environment (air, water, sediment, soil, biota)
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 slot_usage:
   acronym:
     name: acronym
@@ -551,7 +551,7 @@ attributes:
     description: Type of monitoring activity
     in_subset:
     - mandatory
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     owner: MonitoringActivity
     domain_of:
@@ -564,7 +564,7 @@ attributes:
       (objectives, scope, target group, key aspects, design, methods).
     in_subset:
     - mandatory
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     owner: MonitoringActivity
     domain_of:
@@ -575,7 +575,7 @@ attributes:
     name: activity_identifier
     description: Project/monitoring programme identifier provided as URL (GUPRI).
       At least one identifier required.
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     owner: MonitoringActivity
     domain_of:
@@ -588,7 +588,7 @@ attributes:
       Mandatory for monitoring programmes; optional for projects if relevant.
     in_subset:
     - mandatory_if
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     owner: MonitoringActivity
     domain_of:
@@ -600,7 +600,7 @@ attributes:
       activity. Mandatory for monitoring programmes; optional for projects if relevant. '
     in_subset:
     - mandatory_if
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     owner: MonitoringActivity
     domain_of:
@@ -611,7 +611,7 @@ attributes:
     name: implementation_level
     description: The geographic scale of the monitoring coverage (international, national,
       regional, or local).
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     owner: MonitoringActivity
     domain_of:
@@ -620,7 +620,7 @@ attributes:
   language:
     name: language
     description: Language(s) used, as 2-letter codes according to ISO 639-1.
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     owner: MonitoringActivity
     domain_of:
@@ -632,7 +632,7 @@ attributes:
     description: The beginning (or previewed starting) date of the monitoring programme/project.
     in_subset:
     - mandatory
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     owner: MonitoringActivity
     domain_of:
     - MonitoringActivity
@@ -643,7 +643,7 @@ attributes:
   end_date:
     name: end_date
     description: End date of the project/monitoring programme.
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     owner: MonitoringActivity
     domain_of:
     - MonitoringActivity
@@ -658,7 +658,7 @@ attributes:
       time intervals. For this time period,  is used the term "Campaign". A Campaign
       is defined by its start and end, and it is recommended  to name it within the
       project using a consistent style.
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     owner: MonitoringActivity
     domain_of:
@@ -673,7 +673,7 @@ attributes:
     description: Institution(s) responsible for implementing the monitoring activity.
     in_subset:
     - mandatory
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     owner: MonitoringActivity
     domain_of:
@@ -689,7 +689,7 @@ attributes:
     description: Contact person(s) for the monitoring activity.
     in_subset:
     - mandatory
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     owner: MonitoringActivity
     domain_of:
@@ -703,7 +703,7 @@ attributes:
   funders:
     name: funders
     description: Funding entity/entities supporting the monitoring activity.
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     owner: MonitoringActivity
     domain_of:
@@ -718,7 +718,7 @@ attributes:
     description: Information on procedure to obtain access to the dataset.
     in_subset:
     - mandatory
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     owner: MonitoringActivity
     domain_of:
@@ -731,7 +731,7 @@ attributes:
       the data.
     in_subset:
     - mandatory
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     owner: MonitoringActivity
     domain_of:
@@ -743,7 +743,7 @@ attributes:
     description: License or terms for data reuse.
     in_subset:
     - mandatory
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     owner: MonitoringActivity
     domain_of:
@@ -753,7 +753,7 @@ attributes:
   disclaimer:
     name: disclaimer
     description: Text for disclaimer when using/re-using the data.
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     owner: MonitoringActivity
     domain_of:
@@ -762,7 +762,7 @@ attributes:
   version:
     name: version
     description: Version of the dataset.
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     owner: MonitoringActivity
     domain_of:
@@ -772,7 +772,7 @@ attributes:
   publication_year:
     name: publication_year
     description: Year when the dataset was or will be made publicly available.
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     owner: MonitoringActivity
     domain_of:
@@ -782,7 +782,7 @@ attributes:
   provenance:
     name: provenance
     description: A statement about the lineage of the dataset.
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     owner: MonitoringActivity
     domain_of:
@@ -792,7 +792,7 @@ attributes:
   sites:
     name: sites
     description: Monitoring site(s) associated with this project or monitoring programme.
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     owner: MonitoringActivity
     domain_of:
@@ -807,7 +807,7 @@ attributes:
     description: Name or designation in English
     in_subset:
     - mandatory_if
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     owner: MonitoringActivity
     domain_of:
@@ -822,7 +822,7 @@ attributes:
       Use the local official name.
     in_subset:
     - mandatory
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     owner: MonitoringActivity
     domain_of:
@@ -835,7 +835,7 @@ attributes:
     description: Short name or acronym.
     in_subset:
     - mandatory_if
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     identifier: true
     owner: MonitoringActivity

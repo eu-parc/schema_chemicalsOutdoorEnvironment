@@ -14,7 +14,7 @@ _Measured value of the chemical concentration or other parameter_
 
 
 
-URI: [cenvo:value](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/value)
+URI: [cenvo:value](https://w3id.org/chemical-exposome/terms/value)
 <!-- no inheritance hierarchy -->
 
 
@@ -72,7 +72,7 @@ URI: [cenvo:value](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/v
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -95,7 +95,7 @@ name: value
 description: Measured value of the chemical concentration or other parameter
 in_subset:
 - mandatory
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 rank: 1000
 domain_of:
 - Observation

@@ -14,7 +14,7 @@ _Water treatment status at the site. Only relevant for water and sediment sampli
 
 
 
-URI: [cenvo:water_treatment](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/water_treatment)
+URI: [cenvo:water_treatment](https://w3id.org/chemical-exposome/terms/water_treatment)
 <!-- no inheritance hierarchy -->
 
 
@@ -71,7 +71,7 @@ URI: [cenvo:water_treatment](https://w3id.org/chemical-exposome/schema/chemicals
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -93,7 +93,7 @@ URI: [cenvo:water_treatment](https://w3id.org/chemical-exposome/schema/chemicals
 name: water_treatment
 description: Water treatment status at the site. Only relevant for water and sediment
   sampling.
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 rank: 1000
 owner: Site
 domain_of:

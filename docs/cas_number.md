@@ -14,7 +14,7 @@ _CAS Registry Number — unique numerical identifier assigned by the Chemical Ab
 
 
 
-URI: [cenvo:cas_number](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/cas_number)
+URI: [cenvo:cas_number](https://w3id.org/chemical-exposome/terms/cas_number)
 <!-- no inheritance hierarchy -->
 
 
@@ -78,7 +78,7 @@ URI: [cenvo:cas_number](https://w3id.org/chemical-exposome/schema/chemicals-outd
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -100,7 +100,7 @@ URI: [cenvo:cas_number](https://w3id.org/chemical-exposome/schema/chemicals-outd
 name: cas_number
 description: 'CAS Registry Number — unique numerical identifier assigned by the Chemical
   Abstracts Service. Format: NNNNNN-NN-N'
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 rank: 1000
 owner: ChemicalCompound
 domain_of:

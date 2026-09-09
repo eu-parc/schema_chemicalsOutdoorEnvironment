@@ -14,7 +14,7 @@ _ChEBI identifier for the compound. To be populated by mapping from InChIKey to 
 
 
 
-URI: [cenvo:chebi_id](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/chebi_id)
+URI: [cenvo:chebi_id](https://w3id.org/chemical-exposome/terms/chebi_id)
 <!-- no inheritance hierarchy -->
 
 
@@ -71,7 +71,7 @@ URI: [cenvo:chebi_id](https://w3id.org/chemical-exposome/schema/chemicals-outdoo
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -93,7 +93,7 @@ URI: [cenvo:chebi_id](https://w3id.org/chemical-exposome/schema/chemicals-outdoo
 name: chebi_id
 description: 'ChEBI identifier for the compound. To be populated by mapping from InChIKey
   to ChEBI. Format: CHEBI:NNNNN'
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 rank: 1000
 owner: ChemicalCompound
 domain_of:

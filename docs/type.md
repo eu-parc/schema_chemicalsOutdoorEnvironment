@@ -14,7 +14,7 @@ _Type of monitoring activity_
 
 
 
-URI: [cenvo:type](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/type)
+URI: [cenvo:type](https://w3id.org/chemical-exposome/terms/type)
 <!-- no inheritance hierarchy -->
 
 
@@ -78,7 +78,7 @@ URI: [cenvo:type](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/ty
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -101,7 +101,7 @@ name: type
 description: Type of monitoring activity
 in_subset:
 - mandatory
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 rank: 1000
 owner: MonitoringActivity
 domain_of:

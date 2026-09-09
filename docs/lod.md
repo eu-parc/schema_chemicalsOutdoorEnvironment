@@ -14,7 +14,7 @@ _Limit of detection_
 
 
 
-URI: [cenvo:lod](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/lod)
+URI: [cenvo:lod](https://w3id.org/chemical-exposome/terms/lod)
 <!-- no inheritance hierarchy -->
 
 
@@ -71,7 +71,7 @@ URI: [cenvo:lod](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/lod
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -92,7 +92,7 @@ URI: [cenvo:lod](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/lod
 ```yaml
 name: lod
 description: Limit of detection
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 rank: 1000
 owner: MeasurementConcentration
 domain_of:

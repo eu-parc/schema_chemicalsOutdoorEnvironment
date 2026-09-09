@@ -14,7 +14,7 @@ _License or terms for data reuse._
 
 
 
-URI: [cenvo:license](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/license)
+URI: [cenvo:license](https://w3id.org/chemical-exposome/terms/license)
 <!-- no inheritance hierarchy -->
 
 
@@ -78,7 +78,7 @@ URI: [cenvo:license](https://w3id.org/chemical-exposome/schema/chemicals-outdoor
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -101,7 +101,7 @@ name: license
 description: License or terms for data reuse.
 in_subset:
 - mandatory
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 rank: 1000
 owner: MonitoringActivity
 domain_of:

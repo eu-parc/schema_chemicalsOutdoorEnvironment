@@ -14,7 +14,7 @@ _UN M49 geographic region_
 
 
 
-URI: [cenvo:geographic_region](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/geographic_region)
+URI: [cenvo:geographic_region](https://w3id.org/chemical-exposome/terms/geographic_region)
 <!-- no inheritance hierarchy -->
 
 
@@ -77,7 +77,7 @@ URI: [cenvo:geographic_region](https://w3id.org/chemical-exposome/schema/chemica
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -100,7 +100,7 @@ name: geographic_region
 description: UN M49 geographic region
 in_subset:
 - mandatory_if
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 rank: 1000
 owner: Site
 domain_of:

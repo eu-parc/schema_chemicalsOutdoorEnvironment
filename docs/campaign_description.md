@@ -14,7 +14,7 @@ _Description of the campaign_
 
 
 
-URI: [cenvo:campaign_description](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/campaign_description)
+URI: [cenvo:campaign_description](https://w3id.org/chemical-exposome/terms/campaign_description)
 <!-- no inheritance hierarchy -->
 
 
@@ -71,7 +71,7 @@ URI: [cenvo:campaign_description](https://w3id.org/chemical-exposome/schema/chem
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -92,7 +92,7 @@ URI: [cenvo:campaign_description](https://w3id.org/chemical-exposome/schema/chem
 ```yaml
 name: campaign_description
 description: Description of the campaign
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 rank: 1000
 owner: Campaign
 domain_of:

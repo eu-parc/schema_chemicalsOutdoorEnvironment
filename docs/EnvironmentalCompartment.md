@@ -15,7 +15,7 @@ _Environmental compartment where a biota organism was sampled from. Excludes Bio
 
 <div data-search-exclude markdown="1">
 
-URI: [cenvo:EnvironmentalCompartment](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/EnvironmentalCompartment)
+URI: [cenvo:EnvironmentalCompartment](https://w3id.org/chemical-exposome/terms/EnvironmentalCompartment)
 
 ## Permissible Values
 | Value | Meaning | Description |
@@ -51,7 +51,7 @@ URI: [cenvo:EnvironmentalCompartment](https://w3id.org/chemical-exposome/schema/
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -65,7 +65,7 @@ URI: [cenvo:EnvironmentalCompartment](https://w3id.org/chemical-exposome/schema/
 name: EnvironmentalCompartment
 description: Environmental compartment where a biota organism was sampled from. Excludes
   Biota since an organism cannot have Biota as its habitat.
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 rank: 1000
 permissible_values:
   Atmospheric:

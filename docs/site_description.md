@@ -14,7 +14,7 @@ _Description of the site where samples were collected. Provide all important inf
 
 
 
-URI: [cenvo:site_description](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/site_description)
+URI: [cenvo:site_description](https://w3id.org/chemical-exposome/terms/site_description)
 <!-- no inheritance hierarchy -->
 
 
@@ -71,7 +71,7 @@ URI: [cenvo:site_description](https://w3id.org/chemical-exposome/schema/chemical
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -93,7 +93,7 @@ URI: [cenvo:site_description](https://w3id.org/chemical-exposome/schema/chemical
 name: site_description
 description: Description of the site where samples were collected. Provide all important
   information that cannot be captured in other fields.
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 rank: 1000
 owner: Site
 domain_of:

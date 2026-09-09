@@ -15,7 +15,7 @@ _TBC - might be integrated with the matrix vocabulary_
 
 <div data-search-exclude markdown="1">
 
-URI: [cenvo:AquaticMatrixFraction](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/AquaticMatrixFraction)
+URI: [cenvo:AquaticMatrixFraction](https://w3id.org/chemical-exposome/terms/AquaticMatrixFraction)
 
 ## Permissible Values
 | Value | Meaning | Description |
@@ -57,7 +57,7 @@ URI: [cenvo:AquaticMatrixFraction](https://w3id.org/chemical-exposome/schema/che
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -70,7 +70,7 @@ URI: [cenvo:AquaticMatrixFraction](https://w3id.org/chemical-exposome/schema/che
 ```yaml
 name: AquaticMatrixFraction
 description: TBC - might be integrated with the matrix vocabulary
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 rank: 1000
 permissible_values:
   PLACEHOLDER:

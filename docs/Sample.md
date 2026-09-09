@@ -16,7 +16,7 @@ _Abstract base class for all sample types_
 * __NOTE__: this is an abstract class and should not be instantiated directly
 
 
-URI: [cenvo:Sample](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/Sample)
+URI: [cenvo:Sample](https://w3id.org/chemical-exposome/terms/Sample)
 
 
 
@@ -130,7 +130,7 @@ URI: [cenvo:Sample](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -157,7 +157,7 @@ URI: [cenvo:Sample](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/
 ```yaml
 name: Sample
 description: Abstract base class for all sample types
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 abstract: true
 slots:
 - site_name
@@ -179,7 +179,7 @@ attributes:
       for plants and animals'
     in_subset:
     - mandatory
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     designates_type: true
     domain_of:
@@ -190,7 +190,7 @@ attributes:
     name: observations
     description: Observations (concentration measurements and parameters) associated
       with this sample.
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     domain_of:
     - Sample
@@ -208,7 +208,7 @@ attributes:
 ```yaml
 name: Sample
 description: Abstract base class for all sample types
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 abstract: true
 slot_usage:
   sample_id:
@@ -222,7 +222,7 @@ attributes:
       for plants and animals'
     in_subset:
     - mandatory
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     designates_type: true
     owner: Sample
@@ -234,7 +234,7 @@ attributes:
     name: observations
     description: Observations (concentration measurements and parameters) associated
       with this sample.
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     owner: Sample
     domain_of:
@@ -251,7 +251,7 @@ attributes:
       names in different languages are accepted.
     in_subset:
     - mandatory
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     owner: Sample
     domain_of:
@@ -265,7 +265,7 @@ attributes:
       References the site_id of a Site record.
     in_subset:
     - mandatory
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     owner: Sample
     domain_of:
@@ -278,7 +278,7 @@ attributes:
     description: Unique identifier for the sample
     in_subset:
     - mandatory
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     identifier: true
     owner: Sample
@@ -292,7 +292,7 @@ attributes:
     description: Start date in format YYYY-MM-DD
     in_subset:
     - mandatory
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     owner: Sample
     domain_of:
@@ -304,7 +304,7 @@ attributes:
   end_date:
     name: end_date
     description: End date in format YYYY-MM-DD
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     owner: Sample
     domain_of:
@@ -316,7 +316,7 @@ attributes:
     name: sampling_time_start
     description: Sampling start time according to ISO 8601, 24-hour clock. Format
       T[hh][mm][ss].
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     owner: Sample
     domain_of:
@@ -325,7 +325,7 @@ attributes:
   sampling_time_end:
     name: sampling_time_end
     description: Sampling end time according to ISO 8601.
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     owner: Sample
     domain_of:

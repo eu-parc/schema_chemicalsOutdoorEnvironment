@@ -15,7 +15,7 @@ _Matrix values valid for biota samples (SampleBiota). Covers plant and animal ti
 
 <div data-search-exclude markdown="1">
 
-URI: [cenvo:MatrixBiota](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/MatrixBiota)
+URI: [cenvo:MatrixBiota](https://w3id.org/chemical-exposome/terms/MatrixBiota)
 
 ## Permissible Values
 | Value | Meaning | Description |
@@ -62,7 +62,7 @@ URI: [cenvo:MatrixBiota](https://w3id.org/chemical-exposome/schema/chemicals-out
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -77,7 +77,7 @@ name: MatrixBiota
 description: Matrix values valid for biota samples (SampleBiota). Covers plant and
   animal tissues only. HumanMatrix is out of scope for this schema. All terms are
   narrower than PlantMatrix or AnimalMatrix in the PARC environmental matrix vocabulary.
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 see_also:
 - https://w3id.org/peh/terms/BioticMatrix
 rank: 1000

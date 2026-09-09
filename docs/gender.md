@@ -15,7 +15,7 @@ _Biological sex of a sampled organism_
 
 <div data-search-exclude markdown="1">
 
-URI: [cenvo:Gender](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/Gender)
+URI: [cenvo:Gender](https://w3id.org/chemical-exposome/terms/Gender)
 
 ## Permissible Values
 | Value | Meaning | Description |
@@ -53,7 +53,7 @@ URI: [cenvo:Gender](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -66,7 +66,7 @@ URI: [cenvo:Gender](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/
 ```yaml
 name: Gender
 description: Biological sex of a sampled organism
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 rank: 1000
 permissible_values:
   male:

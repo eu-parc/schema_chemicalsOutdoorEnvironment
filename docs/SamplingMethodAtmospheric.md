@@ -15,7 +15,7 @@ _Sampling method used to collect atmospheric samples (air, deposition, dust). Pl
 
 <div data-search-exclude markdown="1">
 
-URI: [cenvo:SamplingMethodAtmospheric](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/SamplingMethodAtmospheric)
+URI: [cenvo:SamplingMethodAtmospheric](https://w3id.org/chemical-exposome/terms/SamplingMethodAtmospheric)
 
 ## Permissible Values
 | Value | Meaning | Description |
@@ -49,7 +49,7 @@ URI: [cenvo:SamplingMethodAtmospheric](https://w3id.org/chemical-exposome/schema
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -65,7 +65,7 @@ description: Sampling method used to collect atmospheric samples (air, depositio
   dust). Placeholder — do not use in production. The final controlled vocabulary is
   being developed separately within the PARC project and will be adopted after completion
   and publication.
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 rank: 1000
 permissible_values:
   PLACEHOLDER:

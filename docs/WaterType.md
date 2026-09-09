@@ -15,7 +15,7 @@ _Type of water body_
 
 <div data-search-exclude markdown="1">
 
-URI: [cenvo:WaterType](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/WaterType)
+URI: [cenvo:WaterType](https://w3id.org/chemical-exposome/terms/WaterType)
 
 ## Permissible Values
 | Value | Meaning | Description |
@@ -58,7 +58,7 @@ URI: [cenvo:WaterType](https://w3id.org/chemical-exposome/schema/chemicals-outdo
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -71,7 +71,7 @@ URI: [cenvo:WaterType](https://w3id.org/chemical-exposome/schema/chemicals-outdo
 ```yaml
 name: WaterType
 description: Type of water body
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 rank: 1000
 permissible_values:
   salt_marine:

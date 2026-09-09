@@ -14,7 +14,7 @@ _Unique institution id_
 
 
 
-URI: [cenvo:institution_id](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/institution_id)
+URI: [cenvo:institution_id](https://w3id.org/chemical-exposome/terms/institution_id)
 <!-- no inheritance hierarchy -->
 
 
@@ -73,7 +73,7 @@ URI: [cenvo:institution_id](https://w3id.org/chemical-exposome/schema/chemicals-
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -94,7 +94,7 @@ URI: [cenvo:institution_id](https://w3id.org/chemical-exposome/schema/chemicals-
 ```yaml
 name: institution_id
 description: Unique institution id
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 rank: 1000
 identifier: true
 owner: Institution

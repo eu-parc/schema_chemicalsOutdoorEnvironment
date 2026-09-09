@@ -15,7 +15,7 @@ _Matrix values valid for atmospheric samples (SampleAtmospheric). All terms are 
 
 <div data-search-exclude markdown="1">
 
-URI: [cenvo:MatrixAtmospheric](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/MatrixAtmospheric)
+URI: [cenvo:MatrixAtmospheric](https://w3id.org/chemical-exposome/terms/MatrixAtmospheric)
 
 ## Permissible Values
 | Value | Meaning | Description |
@@ -66,7 +66,7 @@ URI: [cenvo:MatrixAtmospheric](https://w3id.org/chemical-exposome/schema/chemica
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -80,7 +80,7 @@ URI: [cenvo:MatrixAtmospheric](https://w3id.org/chemical-exposome/schema/chemica
 name: MatrixAtmospheric
 description: Matrix values valid for atmospheric samples (SampleAtmospheric). All
   terms are narrower than AtmosphericMatrix in the PARC environmental matrix vocabulary.
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 see_also:
 - https://w3id.org/peh/terms/AtmosphericMatrix
 rank: 1000

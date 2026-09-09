@@ -14,7 +14,7 @@ _Sampling start time according to ISO 8601, 24-hour clock. Format T[hh][mm][ss].
 
 
 
-URI: [cenvo:sampling_time_start](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/sampling_time_start)
+URI: [cenvo:sampling_time_start](https://w3id.org/chemical-exposome/terms/sampling_time_start)
 <!-- no inheritance hierarchy -->
 
 
@@ -68,7 +68,7 @@ URI: [cenvo:sampling_time_start](https://w3id.org/chemical-exposome/schema/chemi
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -89,7 +89,7 @@ URI: [cenvo:sampling_time_start](https://w3id.org/chemical-exposome/schema/chemi
 ```yaml
 name: sampling_time_start
 description: Sampling start time according to ISO 8601, 24-hour clock. Format T[hh][mm][ss].
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 rank: 1000
 domain_of:
 - Sample

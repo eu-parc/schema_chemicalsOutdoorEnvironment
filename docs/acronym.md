@@ -14,7 +14,7 @@ _Short name or acronym._
 
 
 
-URI: [cenvo:acronym](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/acronym)
+URI: [cenvo:acronym](https://w3id.org/chemical-exposome/terms/acronym)
 <!-- no inheritance hierarchy -->
 
 
@@ -73,7 +73,7 @@ URI: [cenvo:acronym](https://w3id.org/chemical-exposome/schema/chemicals-outdoor
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -96,7 +96,7 @@ name: acronym
 description: Short name or acronym.
 in_subset:
 - mandatory_if
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 rank: 1000
 domain_of:
 - MonitoringActivity

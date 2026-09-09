@@ -14,7 +14,7 @@ _Justification for not providing coordinates. Required when coordinate_privacy_e
 
 
 
-URI: [cenvo:coordinate_privacy_exception_reason](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/coordinate_privacy_exception_reason)
+URI: [cenvo:coordinate_privacy_exception_reason](https://w3id.org/chemical-exposome/terms/coordinate_privacy_exception_reason)
 <!-- no inheritance hierarchy -->
 
 
@@ -77,7 +77,7 @@ URI: [cenvo:coordinate_privacy_exception_reason](https://w3id.org/chemical-expos
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -102,7 +102,7 @@ description: Justification for not providing coordinates. Required when coordina
   reason that prevents disclosure of the exact site location.
 in_subset:
 - mandatory_if
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 rank: 1000
 owner: Site
 domain_of:

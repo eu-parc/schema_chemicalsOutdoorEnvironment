@@ -14,7 +14,7 @@ _GUPRI linking to a document describing the data handling procedure_
 
 
 
-URI: [cenvo:data_handling_procedure_link](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/data_handling_procedure_link)
+URI: [cenvo:data_handling_procedure_link](https://w3id.org/chemical-exposome/terms/data_handling_procedure_link)
 <!-- no inheritance hierarchy -->
 
 
@@ -71,7 +71,7 @@ URI: [cenvo:data_handling_procedure_link](https://w3id.org/chemical-exposome/sch
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -92,7 +92,7 @@ URI: [cenvo:data_handling_procedure_link](https://w3id.org/chemical-exposome/sch
 ```yaml
 name: data_handling_procedure_link
 description: GUPRI linking to a document describing the data handling procedure
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 rank: 1000
 owner: MeasurementConcentration
 domain_of:

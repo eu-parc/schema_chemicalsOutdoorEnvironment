@@ -1,12 +1,12 @@
 ---
 search:
   boost: 1.0
----# Type: String 
+---# Type: Ncname 
 
 
 
 
-_A character string_
+_Prefix part of CURIE_
 
 
 
@@ -18,8 +18,9 @@ URI: [xsd:string](http://www.w3.org/2001/XMLSchema#string)
 
 | Property | Value |
 | --- | --- |
-| Base | `str` |
+| Base | `NCName` |
 | Type URI | [xsd:string](http://www.w3.org/2001/XMLSchema#string) |
+| Representation | `str` |
 
 
 
@@ -28,7 +29,7 @@ URI: [xsd:string](http://www.w3.org/2001/XMLSchema#string)
 
 ## Notes
 
-* In RDF serializations, a slot with range of string is treated as a literal or type xsd:string. If you are authoring schemas in LinkML YAML, the type is referenced with the lower case "string".
+* If you are authoring schemas in LinkML YAML, the type is referenced with the lower case "ncname".
 
 
 
@@ -51,8 +52,7 @@ URI: [xsd:string](http://www.w3.org/2001/XMLSchema#string)
 | Mapping Type | Mapped Value |
 | ---  | ---  |
 | self | xsd:string |
-| native | cenvo:string |
-| exact | schema:Text |
+| native | cenvo:ncname |
 
 
 

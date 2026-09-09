@@ -14,7 +14,7 @@ _Internal PARC WP9 identifier for the compound. Unique within the PARC compound 
 
 
 
-URI: [cenvo:wp9_id](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/wp9_id)
+URI: [cenvo:wp9_id](https://w3id.org/chemical-exposome/terms/wp9_id)
 <!-- no inheritance hierarchy -->
 
 
@@ -73,7 +73,7 @@ URI: [cenvo:wp9_id](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -95,7 +95,7 @@ URI: [cenvo:wp9_id](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/
 name: wp9_id
 description: Internal PARC WP9 identifier for the compound. Unique within the PARC
   compound list.
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 rank: 1000
 identifier: true
 owner: ChemicalCompound

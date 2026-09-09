@@ -14,7 +14,7 @@ _A chemical compound monitored in environmental samples. The compound list (1500
 
 
 
-URI: [cenvo:ChemicalCompound](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/ChemicalCompound)
+URI: [cenvo:ChemicalCompound](https://w3id.org/chemical-exposome/terms/ChemicalCompound)
 
 
 
@@ -110,7 +110,7 @@ URI: [cenvo:ChemicalCompound](https://w3id.org/chemical-exposome/schema/chemical
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -140,7 +140,7 @@ description: 'A chemical compound monitored in environmental samples. The compou
   list (1500+ substances) was developed in PARC WP9 in collaboration with other WPs.
   Each compound is identified by multiple persistent identifiers and assigned to a
   compound group. See: https://doi.org/10.5281/zenodo.17175075'
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 see_also:
 - https://doi.org/10.1186/s13321-025-01092-3
 attributes:
@@ -148,7 +148,7 @@ attributes:
     name: wp9_id
     description: Internal PARC WP9 identifier for the compound. Unique within the
       PARC compound list.
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     identifier: true
     domain_of:
@@ -161,7 +161,7 @@ attributes:
       (e.g. PFOS, triclosan).
     in_subset:
     - mandatory
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     domain_of:
     - ChemicalCompound
@@ -173,7 +173,7 @@ attributes:
       PARC WP9 compound list (e.g. PFAS, biocides, PCBs, PAHs). # TODO: Future alignment
       planned with ChemFOnt functional classes # and/or C3PO (ChEBI Chemical Class
       Program Ontology)'
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     domain_of:
     - ChemicalCompound
@@ -183,7 +183,7 @@ attributes:
     name: cas_number
     description: 'CAS Registry Number — unique numerical identifier assigned by the
       Chemical Abstracts Service. Format: NNNNNN-NN-N'
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     domain_of:
     - ChemicalCompound
@@ -194,7 +194,7 @@ attributes:
     name: ec_number
     description: 'EC Number (European Community Number) — identifier used in the ECHA
       substance inventory (EINECS, ELINCS, NLP). Format: NNN-NNN-N'
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     domain_of:
     - ChemicalCompound
@@ -205,7 +205,7 @@ attributes:
     name: inchi
     description: IUPAC International Chemical Identifier (InChI) — a standard textual
       representation of the molecular structure. Begins with 'InChI=1S/'.
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     domain_of:
     - ChemicalCompound
@@ -216,7 +216,7 @@ attributes:
     name: inchikey
     description: 'InChIKey — a fixed-length (27-character) hash of the InChI string.
       Used as a compact, web-searchable identifier. Format: XXXXXXXXXXXXXX-XXXXXXXXXX-X'
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     domain_of:
     - ChemicalCompound
@@ -227,7 +227,7 @@ attributes:
     name: chebi_id
     description: 'ChEBI identifier for the compound. To be populated by mapping from
       InChIKey to ChEBI. Format: CHEBI:NNNNN'
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     domain_of:
     - ChemicalCompound
@@ -237,7 +237,7 @@ attributes:
     name: pubchem_cid
     description: PubChem Compound ID (CID). To be populated by mapping from InChIKey
       to PubChem.
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     domain_of:
     - ChemicalCompound
@@ -246,7 +246,7 @@ attributes:
   norman_id:
     name: norman_id
     description: 'NORMAN substance identifier. Source: NORMAN EMPODAT / SusDat database.'
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     domain_of:
     - ChemicalCompound
@@ -265,7 +265,7 @@ description: 'A chemical compound monitored in environmental samples. The compou
   list (1500+ substances) was developed in PARC WP9 in collaboration with other WPs.
   Each compound is identified by multiple persistent identifiers and assigned to a
   compound group. See: https://doi.org/10.5281/zenodo.17175075'
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 see_also:
 - https://doi.org/10.1186/s13321-025-01092-3
 attributes:
@@ -273,7 +273,7 @@ attributes:
     name: wp9_id
     description: Internal PARC WP9 identifier for the compound. Unique within the
       PARC compound list.
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     identifier: true
     owner: ChemicalCompound
@@ -287,7 +287,7 @@ attributes:
       (e.g. PFOS, triclosan).
     in_subset:
     - mandatory
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     owner: ChemicalCompound
     domain_of:
@@ -300,7 +300,7 @@ attributes:
       PARC WP9 compound list (e.g. PFAS, biocides, PCBs, PAHs). # TODO: Future alignment
       planned with ChemFOnt functional classes # and/or C3PO (ChEBI Chemical Class
       Program Ontology)'
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     owner: ChemicalCompound
     domain_of:
@@ -311,7 +311,7 @@ attributes:
     name: cas_number
     description: 'CAS Registry Number — unique numerical identifier assigned by the
       Chemical Abstracts Service. Format: NNNNNN-NN-N'
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     owner: ChemicalCompound
     domain_of:
@@ -323,7 +323,7 @@ attributes:
     name: ec_number
     description: 'EC Number (European Community Number) — identifier used in the ECHA
       substance inventory (EINECS, ELINCS, NLP). Format: NNN-NNN-N'
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     owner: ChemicalCompound
     domain_of:
@@ -335,7 +335,7 @@ attributes:
     name: inchi
     description: IUPAC International Chemical Identifier (InChI) — a standard textual
       representation of the molecular structure. Begins with 'InChI=1S/'.
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     owner: ChemicalCompound
     domain_of:
@@ -347,7 +347,7 @@ attributes:
     name: inchikey
     description: 'InChIKey — a fixed-length (27-character) hash of the InChI string.
       Used as a compact, web-searchable identifier. Format: XXXXXXXXXXXXXX-XXXXXXXXXX-X'
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     owner: ChemicalCompound
     domain_of:
@@ -359,7 +359,7 @@ attributes:
     name: chebi_id
     description: 'ChEBI identifier for the compound. To be populated by mapping from
       InChIKey to ChEBI. Format: CHEBI:NNNNN'
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     owner: ChemicalCompound
     domain_of:
@@ -370,7 +370,7 @@ attributes:
     name: pubchem_cid
     description: PubChem Compound ID (CID). To be populated by mapping from InChIKey
       to PubChem.
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     owner: ChemicalCompound
     domain_of:
@@ -380,7 +380,7 @@ attributes:
   norman_id:
     name: norman_id
     description: 'NORMAN substance identifier. Source: NORMAN EMPODAT / SusDat database.'
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     owner: ChemicalCompound
     domain_of:

@@ -15,7 +15,7 @@ _Type of monitoring activity_
 
 <div data-search-exclude markdown="1">
 
-URI: [cenvo:MonitoringActivityType](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/MonitoringActivityType)
+URI: [cenvo:MonitoringActivityType](https://w3id.org/chemical-exposome/terms/MonitoringActivityType)
 
 ## Permissible Values
 | Value | Meaning | Description |
@@ -50,7 +50,7 @@ URI: [cenvo:MonitoringActivityType](https://w3id.org/chemical-exposome/schema/ch
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -63,7 +63,7 @@ URI: [cenvo:MonitoringActivityType](https://w3id.org/chemical-exposome/schema/ch
 ```yaml
 name: MonitoringActivityType
 description: Type of monitoring activity
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 rank: 1000
 permissible_values:
   scientific_project:

@@ -14,7 +14,7 @@ _Year when the dataset was or will be made publicly available._
 
 
 
-URI: [cenvo:publication_year](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/publication_year)
+URI: [cenvo:publication_year](https://w3id.org/chemical-exposome/terms/publication_year)
 <!-- no inheritance hierarchy -->
 
 
@@ -71,7 +71,7 @@ URI: [cenvo:publication_year](https://w3id.org/chemical-exposome/schema/chemical
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -92,7 +92,7 @@ URI: [cenvo:publication_year](https://w3id.org/chemical-exposome/schema/chemical
 ```yaml
 name: publication_year
 description: Year when the dataset was or will be made publicly available.
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 rank: 1000
 owner: MonitoringActivity
 domain_of:

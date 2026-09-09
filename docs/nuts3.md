@@ -14,7 +14,7 @@ _NUTS3 region code according to the Eurostat NUTS classification (Nomenclature o
 
 
 
-URI: [cenvo:nuts3](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/nuts3)
+URI: [cenvo:nuts3](https://w3id.org/chemical-exposome/terms/nuts3)
 <!-- no inheritance hierarchy -->
 
 
@@ -88,7 +88,7 @@ URI: [cenvo:nuts3](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/n
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -114,7 +114,7 @@ description: 'NUTS3 region code according to the Eurostat NUTS classification (N
   administrative classification.'
 in_subset:
 - mandatory_if
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 see_also:
 - http://data.europa.eu/nuts/
 rank: 1000

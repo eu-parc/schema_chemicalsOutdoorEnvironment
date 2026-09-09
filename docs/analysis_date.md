@@ -14,7 +14,7 @@ _The date on which the concentration was determined_
 
 
 
-URI: [cenvo:analysis_date](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/analysis_date)
+URI: [cenvo:analysis_date](https://w3id.org/chemical-exposome/terms/analysis_date)
 <!-- no inheritance hierarchy -->
 
 
@@ -71,7 +71,7 @@ URI: [cenvo:analysis_date](https://w3id.org/chemical-exposome/schema/chemicals-o
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -92,7 +92,7 @@ URI: [cenvo:analysis_date](https://w3id.org/chemical-exposome/schema/chemicals-o
 ```yaml
 name: analysis_date
 description: The date on which the concentration was determined
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 rank: 1000
 owner: MeasurementConcentration
 domain_of:

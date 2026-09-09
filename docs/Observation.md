@@ -16,7 +16,7 @@ _Abstract base class for all observations associated with a sample. Every observ
 * __NOTE__: this is an abstract class and should not be instantiated directly
 
 
-URI: [cenvo:Observation](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/Observation)
+URI: [cenvo:Observation](https://w3id.org/chemical-exposome/terms/Observation)
 
 
 
@@ -116,7 +116,7 @@ URI: [cenvo:Observation](https://w3id.org/chemical-exposome/schema/chemicals-out
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -145,7 +145,7 @@ name: Observation
 description: Abstract base class for all observations associated with a sample. Every
   observation must be either a MeasurementConcentration or a MeasurementParameter.
   Contains shared slots (unit, uncertainty, value) common to all observation types.
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 abstract: true
 slots:
 - sample_id
@@ -160,7 +160,7 @@ attributes:
       context to the main measurement.'
     in_subset:
     - mandatory
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     designates_type: true
     domain_of:
@@ -179,7 +179,7 @@ name: Observation
 description: Abstract base class for all observations associated with a sample. Every
   observation must be either a MeasurementConcentration or a MeasurementParameter.
   Contains shared slots (unit, uncertainty, value) common to all observation types.
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 abstract: true
 attributes:
   observation_type:
@@ -189,7 +189,7 @@ attributes:
       context to the main measurement.'
     in_subset:
     - mandatory
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     designates_type: true
     owner: Observation
@@ -202,7 +202,7 @@ attributes:
     description: Unique identifier for the sample
     in_subset:
     - mandatory
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     owner: Observation
     domain_of:
@@ -215,7 +215,7 @@ attributes:
     description: Unit of measurement
     in_subset:
     - mandatory
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     owner: Observation
     domain_of:
@@ -226,7 +226,7 @@ attributes:
     name: uncertainty
     description: 'Measurement uncertainty of the concentration/paramter value, expressed
       as a percentage (%) at 95% confidence level.  '
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     owner: Observation
     domain_of:
@@ -238,7 +238,7 @@ attributes:
     description: Measured value of the chemical concentration or other parameter
     in_subset:
     - mandatory
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     owner: Observation
     domain_of:

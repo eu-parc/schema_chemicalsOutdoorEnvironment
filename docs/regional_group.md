@@ -14,7 +14,7 @@ _Regional group of United Nations member states_
 
 
 
-URI: [cenvo:regional_group](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/regional_group)
+URI: [cenvo:regional_group](https://w3id.org/chemical-exposome/terms/regional_group)
 <!-- no inheritance hierarchy -->
 
 
@@ -77,7 +77,7 @@ URI: [cenvo:regional_group](https://w3id.org/chemical-exposome/schema/chemicals-
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -100,7 +100,7 @@ name: regional_group
 description: Regional group of United Nations member states
 in_subset:
 - mandatory_if
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 rank: 1000
 owner: Site
 domain_of:

@@ -14,7 +14,7 @@ _Unique contact ID_
 
 
 
-URI: [cenvo:contact_id](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/contact_id)
+URI: [cenvo:contact_id](https://w3id.org/chemical-exposome/terms/contact_id)
 <!-- no inheritance hierarchy -->
 
 
@@ -73,7 +73,7 @@ URI: [cenvo:contact_id](https://w3id.org/chemical-exposome/schema/chemicals-outd
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -94,7 +94,7 @@ URI: [cenvo:contact_id](https://w3id.org/chemical-exposome/schema/chemicals-outd
 ```yaml
 name: contact_id
 description: Unique contact ID
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 rank: 1000
 identifier: true
 owner: Contact

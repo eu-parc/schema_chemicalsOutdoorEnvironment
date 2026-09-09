@@ -9,7 +9,7 @@ search:
 
 
 
-URI: [cenvo:sampling_method](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/sampling_method)
+URI: [cenvo:sampling_method](https://w3id.org/chemical-exposome/terms/sampling_method)
 <!-- no inheritance hierarchy -->
 
 

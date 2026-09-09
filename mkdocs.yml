@@ -1,5 +1,5 @@
 site_name: Metadata Schema for Data Concerning Chemicals in the Outdoor Environment
-site_url: https://katarinari.github.io/datasteward_final_project/
+site_url: https://katarinari.github.io/chemicals_outdoor_environment
 theme:
   name: material
 docs_dir: docs

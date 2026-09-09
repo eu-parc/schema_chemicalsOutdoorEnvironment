@@ -14,7 +14,7 @@ _An additional parameter measured in the sample (e.g. pH, temperature, TOC). Dep
 
 
 
-URI: [cenvo:MeasurementParameter](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/MeasurementParameter)
+URI: [cenvo:MeasurementParameter](https://w3id.org/chemical-exposome/terms/MeasurementParameter)
 
 
 
@@ -112,7 +112,7 @@ URI: [cenvo:MeasurementParameter](https://w3id.org/chemical-exposome/schema/chem
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -140,7 +140,7 @@ URI: [cenvo:MeasurementParameter](https://w3id.org/chemical-exposome/schema/chem
 name: MeasurementParameter
 description: An additional parameter measured in the sample (e.g. pH, temperature,
   TOC). Depends on matrix type.  Gives context to the chemical concentration measurement.
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 is_a: Observation
 attributes:
   parameter:
@@ -149,7 +149,7 @@ attributes:
       for the list.
     in_subset:
     - mandatory
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     domain_of:
     - MeasurementParameter
@@ -166,7 +166,7 @@ attributes:
 name: MeasurementParameter
 description: An additional parameter measured in the sample (e.g. pH, temperature,
   TOC). Depends on matrix type.  Gives context to the chemical concentration measurement.
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 is_a: Observation
 attributes:
   parameter:
@@ -175,7 +175,7 @@ attributes:
       for the list.
     in_subset:
     - mandatory
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     owner: MeasurementParameter
     domain_of:
@@ -187,7 +187,7 @@ attributes:
     description: Unique identifier for the sample
     in_subset:
     - mandatory
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     owner: MeasurementParameter
     domain_of:
@@ -200,7 +200,7 @@ attributes:
     description: Unit of measurement
     in_subset:
     - mandatory
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     owner: MeasurementParameter
     domain_of:
@@ -211,7 +211,7 @@ attributes:
     name: uncertainty
     description: 'Measurement uncertainty of the concentration/paramter value, expressed
       as a percentage (%) at 95% confidence level.  '
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     owner: MeasurementParameter
     domain_of:
@@ -223,7 +223,7 @@ attributes:
     description: Measured value of the chemical concentration or other parameter
     in_subset:
     - mandatory
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     owner: MeasurementParameter
     domain_of:
@@ -237,7 +237,7 @@ attributes:
       context to the main measurement.'
     in_subset:
     - mandatory
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     designates_type: true
     owner: MeasurementParameter

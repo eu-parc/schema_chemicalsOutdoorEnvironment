@@ -14,7 +14,7 @@ _A statement about the lineage of the dataset._
 
 
 
-URI: [cenvo:provenance](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/provenance)
+URI: [cenvo:provenance](https://w3id.org/chemical-exposome/terms/provenance)
 <!-- no inheritance hierarchy -->
 
 
@@ -71,7 +71,7 @@ URI: [cenvo:provenance](https://w3id.org/chemical-exposome/schema/chemicals-outd
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -92,7 +92,7 @@ URI: [cenvo:provenance](https://w3id.org/chemical-exposome/schema/chemicals-outd
 ```yaml
 name: provenance
 description: A statement about the lineage of the dataset.
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 rank: 1000
 owner: MonitoringActivity
 domain_of:

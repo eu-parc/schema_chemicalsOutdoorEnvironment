@@ -14,7 +14,7 @@ _Start date in format YYYY-MM-DD_
 
 
 
-URI: [cenvo:start_date](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/start_date)
+URI: [cenvo:start_date](https://w3id.org/chemical-exposome/terms/start_date)
 <!-- no inheritance hierarchy -->
 
 
@@ -77,7 +77,7 @@ URI: [cenvo:start_date](https://w3id.org/chemical-exposome/schema/chemicals-outd
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -100,7 +100,7 @@ name: start_date
 description: Start date in format YYYY-MM-DD
 in_subset:
 - mandatory
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 rank: 1000
 domain_of:
 - MonitoringActivity

@@ -9,7 +9,7 @@ search:
 
 
 
-URI: [cenvo:matrix](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/matrix)
+URI: [cenvo:matrix](https://w3id.org/chemical-exposome/terms/matrix)
 <!-- no inheritance hierarchy -->
 
 

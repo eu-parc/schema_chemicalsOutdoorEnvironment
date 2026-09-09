@@ -14,7 +14,7 @@ _EC Number (European Community Number) — identifier used in the ECHA substance
 
 
 
-URI: [cenvo:ec_number](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/ec_number)
+URI: [cenvo:ec_number](https://w3id.org/chemical-exposome/terms/ec_number)
 <!-- no inheritance hierarchy -->
 
 
@@ -78,7 +78,7 @@ URI: [cenvo:ec_number](https://w3id.org/chemical-exposome/schema/chemicals-outdo
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -100,7 +100,7 @@ URI: [cenvo:ec_number](https://w3id.org/chemical-exposome/schema/chemicals-outdo
 name: ec_number
 description: 'EC Number (European Community Number) — identifier used in the ECHA
   substance inventory (EINECS, ELINCS, NLP). Format: NNN-NNN-N'
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 rank: 1000
 owner: ChemicalCompound
 domain_of:

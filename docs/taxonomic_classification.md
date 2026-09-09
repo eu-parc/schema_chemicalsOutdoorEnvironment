@@ -14,7 +14,7 @@ _A taxonomic entity identified in a biological sample, referenced against the GB
 
 
 
-URI: [cenvo:taxonomic_classification](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/taxonomic_classification)
+URI: [cenvo:taxonomic_classification](https://w3id.org/chemical-exposome/terms/taxonomic_classification)
 <!-- no inheritance hierarchy -->
 
 
@@ -71,7 +71,7 @@ URI: [cenvo:taxonomic_classification](https://w3id.org/chemical-exposome/schema/
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -93,7 +93,7 @@ URI: [cenvo:taxonomic_classification](https://w3id.org/chemical-exposome/schema/
 name: taxonomic_classification
 description: A taxonomic entity identified in a biological sample, referenced against
   the GBIF Backbone Taxonomy.
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 rank: 1000
 owner: Biota
 domain_of:

@@ -14,7 +14,7 @@ _Chemical group classification of the compound as defined in the PARC WP9 compou
 
 
 
-URI: [cenvo:compound_group](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/compound_group)
+URI: [cenvo:compound_group](https://w3id.org/chemical-exposome/terms/compound_group)
 <!-- no inheritance hierarchy -->
 
 
@@ -71,7 +71,7 @@ URI: [cenvo:compound_group](https://w3id.org/chemical-exposome/schema/chemicals-
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -94,7 +94,7 @@ name: compound_group
 description: 'Chemical group classification of the compound as defined in the PARC
   WP9 compound list (e.g. PFAS, biocides, PCBs, PAHs). # TODO: Future alignment planned
   with ChemFOnt functional classes # and/or C3PO (ChEBI Chemical Class Program Ontology)'
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 rank: 1000
 owner: ChemicalCompound
 domain_of:

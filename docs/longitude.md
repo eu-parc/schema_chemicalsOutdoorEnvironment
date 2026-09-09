@@ -14,7 +14,7 @@ _Longitude in signed decimal degrees (format 0.000000, range -180 to 180). West 
 
 
 
-URI: [cenvo:longitude](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/longitude)
+URI: [cenvo:longitude](https://w3id.org/chemical-exposome/terms/longitude)
 <!-- no inheritance hierarchy -->
 
 
@@ -85,7 +85,7 @@ URI: [cenvo:longitude](https://w3id.org/chemical-exposome/schema/chemicals-outdo
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -110,7 +110,7 @@ description: 'Longitude in signed decimal degrees (format 0.000000, range -180 t
   Mandatory unless coordinate_privacy_exception is true.'
 in_subset:
 - mandatory_if
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 rank: 1000
 owner: Site
 domain_of:

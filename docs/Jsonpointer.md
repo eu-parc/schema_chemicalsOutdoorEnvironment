@@ -1,12 +1,12 @@
 ---
 search:
   boost: 1.0
----# Type: String 
+---# Type: Jsonpointer 
 
 
 
 
-_A character string_
+_A string encoding a JSON Pointer. The value of the string MUST conform to JSON Point syntax and SHOULD dereference to a valid object within the current instance document when encoded in tree form._
 
 
 
@@ -20,6 +20,7 @@ URI: [xsd:string](http://www.w3.org/2001/XMLSchema#string)
 | --- | --- |
 | Base | `str` |
 | Type URI | [xsd:string](http://www.w3.org/2001/XMLSchema#string) |
+| Representation | `str` |
 
 
 
@@ -28,7 +29,7 @@ URI: [xsd:string](http://www.w3.org/2001/XMLSchema#string)
 
 ## Notes
 
-* In RDF serializations, a slot with range of string is treated as a literal or type xsd:string. If you are authoring schemas in LinkML YAML, the type is referenced with the lower case "string".
+* If you are authoring schemas in LinkML YAML, the type is referenced with the lower case "jsonpointer".
 
 
 
@@ -51,8 +52,7 @@ URI: [xsd:string](http://www.w3.org/2001/XMLSchema#string)
 | Mapping Type | Mapped Value |
 | ---  | ---  |
 | self | xsd:string |
-| native | cenvo:string |
-| exact | schema:Text |
+| native | cenvo:jsonpointer |
 
 
 

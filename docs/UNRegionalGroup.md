@@ -15,7 +15,7 @@ _Regional groups of United Nations member states_
 
 <div data-search-exclude markdown="1">
 
-URI: [cenvo:UNRegionalGroup](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/UNRegionalGroup)
+URI: [cenvo:UNRegionalGroup](https://w3id.org/chemical-exposome/terms/UNRegionalGroup)
 
 ## Permissible Values
 | Value | Meaning | Description |
@@ -53,7 +53,7 @@ URI: [cenvo:UNRegionalGroup](https://w3id.org/chemical-exposome/schema/chemicals
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -66,7 +66,7 @@ URI: [cenvo:UNRegionalGroup](https://w3id.org/chemical-exposome/schema/chemicals
 ```yaml
 name: UNRegionalGroup
 description: Regional groups of United Nations member states
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 rank: 1000
 permissible_values:
   african:

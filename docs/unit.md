@@ -15,7 +15,7 @@ _Units used for chemical concentration and other parameter measurements_
 
 <div data-search-exclude markdown="1">
 
-URI: [cenvo:Unit](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/Unit)
+URI: [cenvo:Unit](https://w3id.org/chemical-exposome/terms/Unit)
 
 ## Permissible Values
 | Value | Meaning | Description |
@@ -89,7 +89,7 @@ URI: [cenvo:Unit](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/Un
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -102,7 +102,7 @@ URI: [cenvo:Unit](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/Un
 ```yaml
 name: Unit
 description: Units used for chemical concentration and other parameter measurements
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 rank: 1000
 permissible_values:
   ug_m3:

@@ -14,7 +14,7 @@ _Unique identifier for the sample_
 
 
 
-URI: [cenvo:sample_id](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/sample_id)
+URI: [cenvo:sample_id](https://w3id.org/chemical-exposome/terms/sample_id)
 <!-- no inheritance hierarchy -->
 
 
@@ -78,7 +78,7 @@ URI: [cenvo:sample_id](https://w3id.org/chemical-exposome/schema/chemicals-outdo
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -101,7 +101,7 @@ name: sample_id
 description: Unique identifier for the sample
 in_subset:
 - mandatory
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 rank: 1000
 domain_of:
 - Sample

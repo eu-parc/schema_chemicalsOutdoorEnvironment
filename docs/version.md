@@ -14,7 +14,7 @@ _Version of the dataset._
 
 
 
-URI: [cenvo:version](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/version)
+URI: [cenvo:version](https://w3id.org/chemical-exposome/terms/version)
 <!-- no inheritance hierarchy -->
 
 
@@ -71,7 +71,7 @@ URI: [cenvo:version](https://w3id.org/chemical-exposome/schema/chemicals-outdoor
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -92,7 +92,7 @@ URI: [cenvo:version](https://w3id.org/chemical-exposome/schema/chemicals-outdoor
 ```yaml
 name: version
 description: Version of the dataset.
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 rank: 1000
 owner: MonitoringActivity
 domain_of:

@@ -14,7 +14,7 @@ _GUPRI (e.g. DOI) linking to a public SOP, article, or other document describing
 
 
 
-URI: [cenvo:sample_preparation_method_link](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/sample_preparation_method_link)
+URI: [cenvo:sample_preparation_method_link](https://w3id.org/chemical-exposome/terms/sample_preparation_method_link)
 <!-- no inheritance hierarchy -->
 
 
@@ -71,7 +71,7 @@ URI: [cenvo:sample_preparation_method_link](https://w3id.org/chemical-exposome/s
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -93,7 +93,7 @@ URI: [cenvo:sample_preparation_method_link](https://w3id.org/chemical-exposome/s
 name: sample_preparation_method_link
 description: GUPRI (e.g. DOI) linking to a public SOP, article, or other document
   describing the method.
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 rank: 1000
 owner: MeasurementConcentration
 domain_of:

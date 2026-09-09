@@ -15,7 +15,7 @@ _Role/function performed by the contact person. Source: ISO 19115:2003/19139 and
 
 <div data-search-exclude markdown="1">
 
-URI: [cenvo:Role](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/Role)
+URI: [cenvo:Role](https://w3id.org/chemical-exposome/terms/Role)
 
 ## Permissible Values
 | Value | Meaning | Description |
@@ -63,7 +63,7 @@ URI: [cenvo:Role](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/Ro
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -77,7 +77,7 @@ URI: [cenvo:Role](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/Ro
 name: Role
 description: 'Role/function performed by the contact person. Source: ISO 19115:2003/19139
   and EC Regulation No 1205/2008 (INSPIRE).'
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 see_also:
 - http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode
 rank: 1000

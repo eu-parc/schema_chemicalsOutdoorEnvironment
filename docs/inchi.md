@@ -14,7 +14,7 @@ _IUPAC International Chemical Identifier (InChI) — a standard textual represen
 
 
 
-URI: [cenvo:inchi](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/inchi)
+URI: [cenvo:inchi](https://w3id.org/chemical-exposome/terms/inchi)
 <!-- no inheritance hierarchy -->
 
 
@@ -79,7 +79,7 @@ URI: [cenvo:inchi](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/i
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -101,7 +101,7 @@ URI: [cenvo:inchi](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/i
 name: inchi
 description: IUPAC International Chemical Identifier (InChI) — a standard textual
   representation of the molecular structure. Begins with 'InChI=1S/'.
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 rank: 1000
 owner: ChemicalCompound
 domain_of:

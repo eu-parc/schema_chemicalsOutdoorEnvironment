@@ -14,7 +14,7 @@ _Coordinate reference system used. Default is EPSG:4326 (WGS 84)._
 
 
 
-URI: [cenvo:coordinate_system](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/coordinate_system)
+URI: [cenvo:coordinate_system](https://w3id.org/chemical-exposome/terms/coordinate_system)
 <!-- no inheritance hierarchy -->
 
 
@@ -77,7 +77,7 @@ URI: [cenvo:coordinate_system](https://w3id.org/chemical-exposome/schema/chemica
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -100,7 +100,7 @@ name: coordinate_system
 description: Coordinate reference system used. Default is EPSG:4326 (WGS 84).
 in_subset:
 - mandatory_if
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 rank: 1000
 owner: Site
 domain_of:

@@ -15,7 +15,7 @@ _Country codes according to ISO 3166-1 alpha-2 (two-letter uppercase codes). URI
 
 <div data-search-exclude markdown="1">
 
-URI: [cenvo:Country](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/Country)
+URI: [cenvo:Country](https://w3id.org/chemical-exposome/terms/Country)
 
 ## Permissible Values
 | Value | Meaning | Description |
@@ -300,7 +300,7 @@ URI: [cenvo:Country](https://w3id.org/chemical-exposome/schema/chemicals-outdoor
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -316,7 +316,7 @@ description: Country codes according to ISO 3166-1 alpha-2 (two-letter uppercase
   URIs from OMG Languages, Countries and Codes (LCC) ontology, which provides the
   authoritative linked data representation of ISO 3166-1 since neither ISO nor UN
   Statistics Division publish official RDF vocabularies.
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 see_also:
 - https://www.iso.org/iso-3166-country-codes.html
 - https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/

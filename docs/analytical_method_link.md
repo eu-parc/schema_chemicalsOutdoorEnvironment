@@ -14,7 +14,7 @@ _GUPRI linking to a public SOP or document describing the method_
 
 
 
-URI: [cenvo:analytical_method_link](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/analytical_method_link)
+URI: [cenvo:analytical_method_link](https://w3id.org/chemical-exposome/terms/analytical_method_link)
 <!-- no inheritance hierarchy -->
 
 
@@ -71,7 +71,7 @@ URI: [cenvo:analytical_method_link](https://w3id.org/chemical-exposome/schema/ch
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -92,7 +92,7 @@ URI: [cenvo:analytical_method_link](https://w3id.org/chemical-exposome/schema/ch
 ```yaml
 name: analytical_method_link
 description: GUPRI linking to a public SOP or document describing the method
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 rank: 1000
 owner: MeasurementConcentration
 domain_of:

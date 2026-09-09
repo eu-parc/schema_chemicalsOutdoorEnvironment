@@ -14,7 +14,7 @@ _Monitoring site(s) associated with this project or monitoring programme._
 
 
 
-URI: [cenvo:sites](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/sites)
+URI: [cenvo:sites](https://w3id.org/chemical-exposome/terms/sites)
 <!-- no inheritance hierarchy -->
 
 
@@ -73,7 +73,7 @@ URI: [cenvo:sites](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/s
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -94,7 +94,7 @@ URI: [cenvo:sites](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/s
 ```yaml
 name: sites
 description: Monitoring site(s) associated with this project or monitoring programme.
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 rank: 1000
 owner: MonitoringActivity
 domain_of:

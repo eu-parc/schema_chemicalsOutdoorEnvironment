@@ -14,7 +14,7 @@ _Project/monitoring programme identifier provided as URL (GUPRI). At least one i
 
 
 
-URI: [cenvo:activity_identifier](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/activity_identifier)
+URI: [cenvo:activity_identifier](https://w3id.org/chemical-exposome/terms/activity_identifier)
 <!-- no inheritance hierarchy -->
 
 
@@ -72,7 +72,7 @@ URI: [cenvo:activity_identifier](https://w3id.org/chemical-exposome/schema/chemi
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -94,7 +94,7 @@ URI: [cenvo:activity_identifier](https://w3id.org/chemical-exposome/schema/chemi
 name: activity_identifier
 description: Project/monitoring programme identifier provided as URL (GUPRI). At least
   one identifier required.
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 rank: 1000
 owner: MonitoringActivity
 domain_of:

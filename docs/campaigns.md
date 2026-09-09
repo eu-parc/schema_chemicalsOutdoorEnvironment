@@ -14,7 +14,7 @@ _If an Environmental Monitoring Programme/Project has a long-term perspective of
 
 
 
-URI: [cenvo:campaigns](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/campaigns)
+URI: [cenvo:campaigns](https://w3id.org/chemical-exposome/terms/campaigns)
 <!-- no inheritance hierarchy -->
 
 
@@ -72,7 +72,7 @@ URI: [cenvo:campaigns](https://w3id.org/chemical-exposome/schema/chemicals-outdo
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -97,7 +97,7 @@ description: If an Environmental Monitoring Programme/Project has a long-term pe
   For this time period,  is used the term "Campaign". A Campaign is defined by its
   start and end, and it is recommended  to name it within the project using a consistent
   style.
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 rank: 1000
 owner: MonitoringActivity
 domain_of:

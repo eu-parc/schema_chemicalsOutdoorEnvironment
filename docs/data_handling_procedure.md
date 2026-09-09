@@ -14,7 +14,7 @@ _Description of steps taken after chemical analysis (e.g., blank correction, qua
 
 
 
-URI: [cenvo:data_handling_procedure](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/data_handling_procedure)
+URI: [cenvo:data_handling_procedure](https://w3id.org/chemical-exposome/terms/data_handling_procedure)
 <!-- no inheritance hierarchy -->
 
 
@@ -78,7 +78,7 @@ URI: [cenvo:data_handling_procedure](https://w3id.org/chemical-exposome/schema/c
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -102,7 +102,7 @@ description: Description of steps taken after chemical analysis (e.g., blank cor
   quality control, calibration, recovery, standardization, recalculations).
 in_subset:
 - mandatory
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 rank: 1000
 owner: MeasurementConcentration
 domain_of:

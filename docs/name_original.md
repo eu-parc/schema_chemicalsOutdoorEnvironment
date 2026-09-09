@@ -14,7 +14,7 @@ _Name of the entity in the original language of the  institution/site/project. U
 
 
 
-URI: [cenvo:name_original](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/name_original)
+URI: [cenvo:name_original](https://w3id.org/chemical-exposome/terms/name_original)
 <!-- no inheritance hierarchy -->
 
 
@@ -74,7 +74,7 @@ URI: [cenvo:name_original](https://w3id.org/chemical-exposome/schema/chemicals-o
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -98,7 +98,7 @@ description: Name of the entity in the original language of the  institution/sit
   Use the local official name.
 in_subset:
 - mandatory
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 rank: 1000
 domain_of:
 - MonitoringActivity

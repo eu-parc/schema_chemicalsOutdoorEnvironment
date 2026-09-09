@@ -14,7 +14,7 @@ _Name or designation in English_
 
 
 
-URI: [cenvo:name_en](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/name_en)
+URI: [cenvo:name_en](https://w3id.org/chemical-exposome/terms/name_en)
 <!-- no inheritance hierarchy -->
 
 
@@ -75,7 +75,7 @@ URI: [cenvo:name_en](https://w3id.org/chemical-exposome/schema/chemicals-outdoor
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -98,7 +98,7 @@ name: name_en
 description: Name or designation in English
 in_subset:
 - mandatory_if
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 rank: 1000
 domain_of:
 - MonitoringActivity

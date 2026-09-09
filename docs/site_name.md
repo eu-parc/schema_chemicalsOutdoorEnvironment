@@ -14,7 +14,7 @@ _Name of the monitoring site. Provide in the local language as the primary name.
 
 
 
-URI: [cenvo:site_name](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/site_name)
+URI: [cenvo:site_name](https://w3id.org/chemical-exposome/terms/site_name)
 <!-- no inheritance hierarchy -->
 
 
@@ -76,7 +76,7 @@ URI: [cenvo:site_name](https://w3id.org/chemical-exposome/schema/chemicals-outdo
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -101,7 +101,7 @@ description: Name of the monitoring site. Provide in the local language as the p
   in different languages are accepted.
 in_subset:
 - mandatory
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 rank: 1000
 domain_of:
 - Site

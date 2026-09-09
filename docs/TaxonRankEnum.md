@@ -15,7 +15,7 @@ _Taxonomic rank of the identified taxon, aligned with GBIF Backbone Taxonomy ran
 
 <div data-search-exclude markdown="1">
 
-URI: [cenvo:TaxonRankEnum](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/TaxonRankEnum)
+URI: [cenvo:TaxonRankEnum](https://w3id.org/chemical-exposome/terms/TaxonRankEnum)
 
 ## Permissible Values
 | Value | Meaning | Description |
@@ -62,7 +62,7 @@ URI: [cenvo:TaxonRankEnum](https://w3id.org/chemical-exposome/schema/chemicals-o
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -76,7 +76,7 @@ URI: [cenvo:TaxonRankEnum](https://w3id.org/chemical-exposome/schema/chemicals-o
 name: TaxonRankEnum
 description: Taxonomic rank of the identified taxon, aligned with GBIF Backbone Taxonomy
   rank vocabulary.
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 see_also:
 - https://www.gbif.org/developer/species#rank
 rank: 1000

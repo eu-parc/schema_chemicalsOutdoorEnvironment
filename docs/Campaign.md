@@ -14,7 +14,7 @@ _A time-bounded data collection period within a project or monitoring programme.
 
 
 
-URI: [cenvo:Campaign](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/Campaign)
+URI: [cenvo:Campaign](https://w3id.org/chemical-exposome/terms/Campaign)
 
 
 
@@ -82,7 +82,7 @@ URI: [cenvo:Campaign](https://w3id.org/chemical-exposome/schema/chemicals-outdoo
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -110,7 +110,7 @@ URI: [cenvo:Campaign](https://w3id.org/chemical-exposome/schema/chemicals-outdoo
 name: Campaign
 description: A time-bounded data collection period within a project or monitoring
   programme. Mandatory if the campaign exists.
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 slots:
 - name_en
 - acronym
@@ -136,7 +136,7 @@ attributes:
   campaign_description:
     name: campaign_description
     description: Description of the campaign
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     domain_of:
     - Campaign
@@ -152,7 +152,7 @@ attributes:
 name: Campaign
 description: A time-bounded data collection period within a project or monitoring
   programme. Mandatory if the campaign exists.
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 slot_usage:
   name_en:
     name: name_en
@@ -173,7 +173,7 @@ attributes:
   campaign_description:
     name: campaign_description
     description: Description of the campaign
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     owner: Campaign
     domain_of:
@@ -184,7 +184,7 @@ attributes:
     description: Name or designation in English
     in_subset:
     - mandatory_if
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     owner: Campaign
     domain_of:
@@ -198,7 +198,7 @@ attributes:
     description: Short name or acronym.
     in_subset:
     - mandatory_if
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     owner: Campaign
     domain_of:
@@ -213,7 +213,7 @@ attributes:
     description: Start date in format YYYY-MM-DD
     in_subset:
     - mandatory
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     owner: Campaign
     domain_of:
@@ -227,7 +227,7 @@ attributes:
     description: End date in format YYYY-MM-DD
     in_subset:
     - mandatory_if
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     owner: Campaign
     domain_of:

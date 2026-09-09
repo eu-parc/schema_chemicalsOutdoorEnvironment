@@ -14,7 +14,7 @@ _Text for disclaimer when using/re-using the data._
 
 
 
-URI: [cenvo:disclaimer](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/disclaimer)
+URI: [cenvo:disclaimer](https://w3id.org/chemical-exposome/terms/disclaimer)
 <!-- no inheritance hierarchy -->
 
 
@@ -71,7 +71,7 @@ URI: [cenvo:disclaimer](https://w3id.org/chemical-exposome/schema/chemicals-outd
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -92,7 +92,7 @@ URI: [cenvo:disclaimer](https://w3id.org/chemical-exposome/schema/chemicals-outd
 ```yaml
 name: disclaimer
 description: Text for disclaimer when using/re-using the data.
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 rank: 1000
 owner: MonitoringActivity
 domain_of:

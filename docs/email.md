@@ -14,7 +14,7 @@ _Email address of the project contact point. Institutional email is recommended.
 
 
 
-URI: [cenvo:email](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/email)
+URI: [cenvo:email](https://w3id.org/chemical-exposome/terms/email)
 <!-- no inheritance hierarchy -->
 
 
@@ -71,7 +71,7 @@ URI: [cenvo:email](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/e
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -94,7 +94,7 @@ name: email
 description: Email address of the project contact point. Institutional email is recommended.
 in_subset:
 - mandatory
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 rank: 1000
 domain_of:
 - Contact

@@ -15,7 +15,7 @@ _Sampling method used to collect aquatic samples (water, sediment). Placeholder 
 
 <div data-search-exclude markdown="1">
 
-URI: [cenvo:SamplingMethodAquatic](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/SamplingMethodAquatic)
+URI: [cenvo:SamplingMethodAquatic](https://w3id.org/chemical-exposome/terms/SamplingMethodAquatic)
 
 ## Permissible Values
 | Value | Meaning | Description |
@@ -43,7 +43,7 @@ URI: [cenvo:SamplingMethodAquatic](https://w3id.org/chemical-exposome/schema/che
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -58,7 +58,7 @@ name: SamplingMethodAquatic
 description: Sampling method used to collect aquatic samples (water, sediment). Placeholder
   — do not use in production. The final controlled vocabulary is being developed separately
   within the PARC project and will be adopted after completion and publication.
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 rank: 1000
 permissible_values:
   PLACEHOLDER:

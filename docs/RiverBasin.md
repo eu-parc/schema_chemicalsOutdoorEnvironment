@@ -15,7 +15,7 @@ _Major European river basins. Based on the EEA river basin districts dataset. On
 
 <div data-search-exclude markdown="1">
 
-URI: [cenvo:RiverBasin](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/RiverBasin)
+URI: [cenvo:RiverBasin](https://w3id.org/chemical-exposome/terms/RiverBasin)
 
 ## Permissible Values
 | Value | Meaning | Description |
@@ -72,7 +72,7 @@ URI: [cenvo:RiverBasin](https://w3id.org/chemical-exposome/schema/chemicals-outd
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -87,7 +87,7 @@ name: RiverBasin
 description: Major European river basins. Based on the EEA river basin districts dataset.
   Only the most significant river basins have been included. Additional entries may
   be added to the code list if needed.
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 see_also:
 - https://www.eea.europa.eu/en/datahub/datahubitem-view/dc1b1cdf-5fa0-4535-8c89-10cc051e00db
 rank: 1000

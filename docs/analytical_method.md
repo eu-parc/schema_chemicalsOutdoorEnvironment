@@ -14,7 +14,7 @@ _Analytical method used to determine the analyte_
 
 
 
-URI: [cenvo:analytical_method](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/analytical_method)
+URI: [cenvo:analytical_method](https://w3id.org/chemical-exposome/terms/analytical_method)
 <!-- no inheritance hierarchy -->
 
 
@@ -78,7 +78,7 @@ URI: [cenvo:analytical_method](https://w3id.org/chemical-exposome/schema/chemica
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -101,7 +101,7 @@ name: analytical_method
 description: Analytical method used to determine the analyte
 in_subset:
 - mandatory
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 rank: 1000
 owner: MeasurementConcentration
 domain_of:

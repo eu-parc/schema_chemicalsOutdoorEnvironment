@@ -14,7 +14,7 @@ _Scientific name of the taxon (genus, species or higher rank) as accepted in the
 
 
 
-URI: [cenvo:taxon_name](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/taxon_name)
+URI: [cenvo:taxon_name](https://w3id.org/chemical-exposome/terms/taxon_name)
 <!-- no inheritance hierarchy -->
 
 
@@ -82,7 +82,7 @@ URI: [cenvo:taxon_name](https://w3id.org/chemical-exposome/schema/chemicals-outd
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -106,7 +106,7 @@ description: Scientific name of the taxon (genus, species or higher rank) as acc
   in the GBIF Backbone Taxonomy.
 in_subset:
 - mandatory
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 see_also:
 - https://www.gbif.org/species/search
 rank: 1000

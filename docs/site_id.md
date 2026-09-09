@@ -14,7 +14,7 @@ _Unique identifier of the monitoring site where the sample was collected. Refere
 
 
 
-URI: [cenvo:site_id](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/site_id)
+URI: [cenvo:site_id](https://w3id.org/chemical-exposome/terms/site_id)
 <!-- no inheritance hierarchy -->
 
 
@@ -76,7 +76,7 @@ URI: [cenvo:site_id](https://w3id.org/chemical-exposome/schema/chemicals-outdoor
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -100,7 +100,7 @@ description: Unique identifier of the monitoring site where the sample was colle
   References the site_id of a Site record.
 in_subset:
 - mandatory
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 rank: 1000
 domain_of:
 - Site

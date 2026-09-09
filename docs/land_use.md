@@ -14,7 +14,7 @@ _Land use classification according to CORINE Land Cover nomenclature._
 
 
 
-URI: [cenvo:land_use](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/land_use)
+URI: [cenvo:land_use](https://w3id.org/chemical-exposome/terms/land_use)
 <!-- no inheritance hierarchy -->
 
 
@@ -75,7 +75,7 @@ URI: [cenvo:land_use](https://w3id.org/chemical-exposome/schema/chemicals-outdoo
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -96,7 +96,7 @@ URI: [cenvo:land_use](https://w3id.org/chemical-exposome/schema/chemicals-outdoo
 ```yaml
 name: land_use
 description: Land use classification according to CORINE Land Cover nomenclature.
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 see_also:
 - https://www.w3.org/2015/03/corine
 rank: 1000

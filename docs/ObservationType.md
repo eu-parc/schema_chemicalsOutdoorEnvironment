@@ -15,7 +15,7 @@ _Type of measurement/observation: i) Chemical concentration in the environment o
 
 <div data-search-exclude markdown="1">
 
-URI: [cenvo:ObservationType](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/ObservationType)
+URI: [cenvo:ObservationType](https://w3id.org/chemical-exposome/terms/ObservationType)
 
 ## Permissible Values
 | Value | Meaning | Description |
@@ -50,7 +50,7 @@ URI: [cenvo:ObservationType](https://w3id.org/chemical-exposome/schema/chemicals
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -65,7 +65,7 @@ name: ObservationType
 description: 'Type of measurement/observation: i) Chemical concentration in the environment
   or biota - main observation and; ii) Other parameters - they give context to the  main
   measurement.'
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 rank: 1000
 permissible_values:
   MeasurementConcentration:

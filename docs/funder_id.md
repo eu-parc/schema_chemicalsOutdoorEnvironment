@@ -14,7 +14,7 @@ _Unique funder ID_
 
 
 
-URI: [cenvo:funder_id](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/funder_id)
+URI: [cenvo:funder_id](https://w3id.org/chemical-exposome/terms/funder_id)
 <!-- no inheritance hierarchy -->
 
 
@@ -73,7 +73,7 @@ URI: [cenvo:funder_id](https://w3id.org/chemical-exposome/schema/chemicals-outdo
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -94,7 +94,7 @@ URI: [cenvo:funder_id](https://w3id.org/chemical-exposome/schema/chemicals-outdo
 ```yaml
 name: funder_id
 description: Unique funder ID
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 rank: 1000
 identifier: true
 owner: Funder

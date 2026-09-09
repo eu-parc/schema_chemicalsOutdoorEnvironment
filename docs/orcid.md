@@ -14,7 +14,7 @@ _ORCID identifier of the contact person_
 
 
 
-URI: [cenvo:orcid](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/orcid)
+URI: [cenvo:orcid](https://w3id.org/chemical-exposome/terms/orcid)
 <!-- no inheritance hierarchy -->
 
 
@@ -64,7 +64,7 @@ URI: [cenvo:orcid](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/o
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -85,7 +85,7 @@ URI: [cenvo:orcid](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/o
 ```yaml
 name: orcid
 description: ORCID identifier of the contact person
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 rank: 1000
 domain_of:
 - Contact

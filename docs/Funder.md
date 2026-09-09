@@ -14,7 +14,7 @@ _Funder_
 
 
 
-URI: [cenvo:Funder](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/Funder)
+URI: [cenvo:Funder](https://w3id.org/chemical-exposome/terms/Funder)
 
 
 
@@ -88,7 +88,7 @@ URI: [cenvo:Funder](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -115,14 +115,14 @@ URI: [cenvo:Funder](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/
 ```yaml
 name: Funder
 description: Funder
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 mixins:
 - OrganisationMetadata
 attributes:
   funder_id:
     name: funder_id
     description: Unique funder ID
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     identifier: true
     domain_of:
@@ -139,14 +139,14 @@ attributes:
 ```yaml
 name: Funder
 description: Funder
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 mixins:
 - OrganisationMetadata
 attributes:
   funder_id:
     name: funder_id
     description: Unique funder ID
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     identifier: true
     owner: Funder
@@ -159,7 +159,7 @@ attributes:
     description: Name or designation in English
     in_subset:
     - mandatory_if
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     owner: Funder
     domain_of:
@@ -174,7 +174,7 @@ attributes:
       Use the local official name.
     in_subset:
     - mandatory
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     owner: Funder
     domain_of:
@@ -185,7 +185,7 @@ attributes:
   ror:
     name: ror
     description: ROR identifier of the institution (format ror.org/xxxxxxxx)
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     owner: Funder
     domain_of:
@@ -194,7 +194,7 @@ attributes:
   link:
     name: link
     description: URL with information about the institution
-    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+    from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
     rank: 1000
     owner: Funder
     domain_of:

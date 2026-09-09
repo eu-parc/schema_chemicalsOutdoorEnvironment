@@ -15,7 +15,7 @@ _Major seas and oceans. Based on the Marine Regions Gazetteer (marineregions.org
 
 <div data-search-exclude markdown="1">
 
-URI: [cenvo:Sea](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/Sea)
+URI: [cenvo:Sea](https://w3id.org/chemical-exposome/terms/Sea)
 
 ## Permissible Values
 | Value | Meaning | Description |
@@ -80,7 +80,7 @@ URI: [cenvo:Sea](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/Sea
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -95,7 +95,7 @@ name: Sea
 description: Major seas and oceans. Based on the Marine Regions Gazetteer (marineregions.org).
   Only the most significant items have been included. Additional entries may be added
   to the code list if needed.
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 see_also:
 - https://www.marineregions.org
 rank: 1000

@@ -14,7 +14,7 @@ _Limit of quantification_
 
 
 
-URI: [cenvo:loq](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/loq)
+URI: [cenvo:loq](https://w3id.org/chemical-exposome/terms/loq)
 <!-- no inheritance hierarchy -->
 
 
@@ -71,7 +71,7 @@ URI: [cenvo:loq](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/loq
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -92,7 +92,7 @@ URI: [cenvo:loq](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/loq
 ```yaml
 name: loq
 description: Limit of quantification
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 rank: 1000
 owner: MeasurementConcentration
 domain_of:

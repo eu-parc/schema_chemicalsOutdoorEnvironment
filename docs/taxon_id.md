@@ -14,7 +14,7 @@ _GBIF species key (integer). Resolves to https://www.gbif.org/species/{taxon_id}
 
 
 
-URI: [cenvo:taxon_id](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/taxon_id)
+URI: [cenvo:taxon_id](https://w3id.org/chemical-exposome/terms/taxon_id)
 <!-- no inheritance hierarchy -->
 
 
@@ -83,7 +83,7 @@ URI: [cenvo:taxon_id](https://w3id.org/chemical-exposome/schema/chemicals-outdoo
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -106,7 +106,7 @@ name: taxon_id
 description: GBIF species key (integer). Resolves to https://www.gbif.org/species/{taxon_id}
 in_subset:
 - mandatory
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 see_also:
 - https://www.gbif.org/species/search
 rank: 1000

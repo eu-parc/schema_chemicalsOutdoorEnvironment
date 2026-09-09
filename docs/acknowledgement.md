@@ -14,7 +14,7 @@ _Text for acknowledgement which should be reported when using/re-using the data.
 
 
 
-URI: [cenvo:acknowledgement](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/acknowledgement)
+URI: [cenvo:acknowledgement](https://w3id.org/chemical-exposome/terms/acknowledgement)
 <!-- no inheritance hierarchy -->
 
 
@@ -78,7 +78,7 @@ URI: [cenvo:acknowledgement](https://w3id.org/chemical-exposome/schema/chemicals
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -102,7 +102,7 @@ description: Text for acknowledgement which should be reported when using/re-usi
   the data.
 in_subset:
 - mandatory
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 rank: 1000
 owner: MonitoringActivity
 domain_of:

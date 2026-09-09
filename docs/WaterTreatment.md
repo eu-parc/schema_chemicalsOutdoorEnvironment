@@ -15,7 +15,7 @@ _Water treatment status_
 
 <div data-search-exclude markdown="1">
 
-URI: [cenvo:WaterTreatment](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/WaterTreatment)
+URI: [cenvo:WaterTreatment](https://w3id.org/chemical-exposome/terms/WaterTreatment)
 
 ## Permissible Values
 | Value | Meaning | Description |
@@ -50,7 +50,7 @@ URI: [cenvo:WaterTreatment](https://w3id.org/chemical-exposome/schema/chemicals-
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -63,7 +63,7 @@ URI: [cenvo:WaterTreatment](https://w3id.org/chemical-exposome/schema/chemicals-
 ```yaml
 name: WaterTreatment
 description: Water treatment status
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 rank: 1000
 permissible_values:
   pre_treatment:

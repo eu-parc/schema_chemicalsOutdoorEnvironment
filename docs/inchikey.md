@@ -14,7 +14,7 @@ _InChIKey — a fixed-length (27-character) hash of the InChI string. Used as a 
 
 
 
-URI: [cenvo:inchikey](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/inchikey)
+URI: [cenvo:inchikey](https://w3id.org/chemical-exposome/terms/inchikey)
 <!-- no inheritance hierarchy -->
 
 
@@ -78,7 +78,7 @@ URI: [cenvo:inchikey](https://w3id.org/chemical-exposome/schema/chemicals-outdoo
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -100,7 +100,7 @@ URI: [cenvo:inchikey](https://w3id.org/chemical-exposome/schema/chemicals-outdoo
 name: inchikey
 description: 'InChIKey — a fixed-length (27-character) hash of the InChI string. Used
   as a compact, web-searchable identifier. Format: XXXXXXXXXXXXXX-XXXXXXXXXX-X'
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 rank: 1000
 owner: ChemicalCompound
 domain_of:

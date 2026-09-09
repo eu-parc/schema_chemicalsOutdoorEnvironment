@@ -15,7 +15,7 @@ _Analytical method used to determine the analyte in the sample. NOTE: Placeholde
 
 <div data-search-exclude markdown="1">
 
-URI: [cenvo:AnalyticalMethod](https://w3id.org/chemical-exposome/schema/chemicals-outdoor/AnalyticalMethod)
+URI: [cenvo:AnalyticalMethod](https://w3id.org/chemical-exposome/terms/AnalyticalMethod)
 
 ## Permissible Values
 | Value | Meaning | Description |
@@ -49,7 +49,7 @@ URI: [cenvo:AnalyticalMethod](https://w3id.org/chemical-exposome/schema/chemical
 ### Schema Source
 
 
-* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+* from schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 
 
 
@@ -63,7 +63,7 @@ URI: [cenvo:AnalyticalMethod](https://w3id.org/chemical-exposome/schema/chemical
 name: AnalyticalMethod
 description: 'Analytical method used to determine the analyte in the sample. NOTE:
   Placeholder only — final vocabulary pending.'
-from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+from_schema: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 rank: 1000
 permissible_values:
   PLACEHOLDER:
