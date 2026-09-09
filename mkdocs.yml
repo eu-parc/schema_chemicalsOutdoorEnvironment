@@ -1,5 +1,5 @@
 site_name: Metadata Schema for Data Concerning Chemicals in the Outdoor Environment
-site_url: https://katarinari.github.io/chemicals_outdoor_environment
+site_url: https://eu-parc.github.io/schema_chemicalsOutdoorEnvironment/
 theme:
   name: material
 docs_dir: docs
