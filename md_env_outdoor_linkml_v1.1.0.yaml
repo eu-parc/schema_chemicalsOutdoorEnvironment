@@ -1,4 +1,4 @@
-id: https://w3id.org/chemical-exposome/schema/chemicals-outdoor
+id: https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env
 name: chemicals-outdoor-schema
 title: Metadata Schema for Data Concerning Chemicals in the Outdoor Environment
 description: >-
@@ -78,7 +78,7 @@ see_also:
 
 prefixes:
   linkml: https://w3id.org/linkml/
-  cenvo: https://w3id.org/chemical-exposome/schema/chemicals-outdoor/ # as Chemical Exposome ENVironmental monitoring Outdoor
+  cenvo: https://w3id.org/chemical-exposome/terms/ # as Chemical Exposome ENVironmental monitoring Outdoor
   xsd: http://www.w3.org/2001/XMLSchema#
 
 default_prefix: cenvo
