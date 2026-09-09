@@ -1,0 +1,40 @@
+TO DO
+- LinkML (and XSD) cannot enforce significant figures natively. 
+  There is no built-in constraint for this. It is possibleto document 
+  in the description, e.g. "Report to a maximum of 4 significant figures
+  (e.g. 0.04216)". Significant figures are a reporting convention, 
+  not really a data type constraint.
+- To decide whether we only want European countries and languages, or global. 
+  So far, only European have been included.
+- Handling not_relevant and not_reported values in the schema
+- To consider if including NUTS3 as enum, since it is a large list. 
+  For now, it has been included as slot. But this solution does not enable 
+  full validation.
+- AquaticMatrixFraction -  To consider whether this needs to be included 
+  as separate enum, or included in the matrix enum.
+- Chemical grouping - to be discussed in PARC + using PARC vocabulary
+- Placeholders to be solved
+- To fix the encoding issue to be able to use eg. greek mi, superscripts, etc.
+- Vocabularies developed separately in PARC - add/reference 
+- Generate validation schema (JSON schema), ontology (OWL), SHACL Shapes (rdf validation), 
+  python classes and code
+- decide on where to map or to use meaning (and adopt external URIs)
+- check the adopted URIs - where do they resolve?
+- To clarify with the domain experts how uncertainty should be expressed
+- Align contacts, funders and institution, managing instance name with 
+  DCAT-AP Agent?
+- Indicate explicitly "required false", even if this by default - 
+  to make it more clear and transparent.
+- Consider distinction between "sampled matrix (sample level)" and analysed matrix (measurement/observation level)
+- Parameter - to add a rule on which parameter to which site type/ matri type
+- To check primary and foreign keys. Identifier -> true on the global 
+  sample_id slot means LinkML treats it as a primary key when used 
+  in the Sample class. When the same slot is used in MeasurementBase, 
+  it acts as a plain string reference — there is no identifier -> true 
+  conflict because identifier ->true is a class-level concept, not a 
+  slot-level absolute.
+- Mapping to existing standards, ontologies, controlled vocabularies
+- Additional metadata to campaign? Or moving monitoring activity metadta to campaign?
+- Fill in the contributors!
+- Figure out more elegant solution for diagrams - putting both together somehow... 
+- LICENSE to GitHub repository 
