@@ -11,12 +11,13 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 
 ---
 
-## [1.1.0] - 2026-07-26
+## [1.1.0] - 2026-09-09
 
 ### Added
 
 #### Schema header and provenance
 - Full schema header with id, title, description, version, license (CC-BY 4.0)
+- Base IRIs for terms and schema updated from placeholders
 - ORCID-based `created_by` and `modified_by` fields
 - `contributors` list with CRediT contributor roles — both human-readable (`comments`) and machine-readable (`annotations`)
 - Funding acknowledgement annotation (PARC, Horizon Europe grant No 101057014)
