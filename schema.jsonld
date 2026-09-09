@@ -70,7 +70,7 @@
   "created_on": "2026-06-08T00:00:00+00:00",
   "last_updated_on": "2026-07-26T00:00:00+00:00",
   "modified_by": "https://orcid.org/0000-0003-0222-801x",
-  "id": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
+  "id": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
   "version": "1.1.0",
   "imports": [
     "linkml:types"
@@ -83,7 +83,7 @@
     },
     {
       "prefix_prefix": "cenvo",
-      "prefix_reference": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/"
+      "prefix_reference": "https://w3id.org/chemical-exposome/terms/"
     },
     {
       "prefix_prefix": "xsd",
@@ -95,25 +95,25 @@
   "subsets": [
     {
       "name": "mandatory",
-      "definition_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/Mandatory",
+      "definition_uri": "https://w3id.org/chemical-exposome/terms/Mandatory",
       "description": "Fields that are required for all record types.",
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
       "@type": "SubsetDefinition"
     },
     {
       "name": "mandatory_if",
-      "definition_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/MandatoryIf",
+      "definition_uri": "https://w3id.org/chemical-exposome/terms/MandatoryIf",
       "description": "Fields that are required conditionally - see class rules for details",
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
       "@type": "SubsetDefinition"
     }
   ],
   "types": [
     {
       "name": "EmailAddress",
-      "definition_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/EmailAddress",
+      "definition_uri": "https://w3id.org/chemical-exposome/terms/EmailAddress",
       "description": "A valid email address",
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
       "base": "str",
       "uri": "http://www.w3.org/2001/XMLSchema#string",
       "pattern": "^[\\w.+-]+@[\\w-]+\\.[\\w.]+$",
@@ -121,18 +121,18 @@
     },
     {
       "name": "IRI",
-      "definition_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/IRI",
+      "definition_uri": "https://w3id.org/chemical-exposome/terms/IRI",
       "description": "An Internationalized Resource Identifier (IRI). All URIs are valid IRIs, so both URI and IRI values are accepted.",
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
       "base": "str",
       "uri": "http://www.w3.org/2001/XMLSchema#anyURI",
       "@type": "TypeDefinition"
     },
     {
       "name": "OrcidIdentifier",
-      "definition_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/OrcidIdentifier",
+      "definition_uri": "https://w3id.org/chemical-exposome/terms/OrcidIdentifier",
       "description": "An ORCID identifier in the format 0000-0000-0000-0000",
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
       "base": "str",
       "uri": "http://www.w3.org/2001/XMLSchema#string",
       "pattern": "^\\d{4}-\\d{4}-\\d{4}-\\d{3}[\\dX]$",
@@ -140,9 +140,9 @@
     },
     {
       "name": "RorIdentifier",
-      "definition_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/RorIdentifier",
+      "definition_uri": "https://w3id.org/chemical-exposome/terms/RorIdentifier",
       "description": "A ROR identifier in the format ror.org/xxxxxxxxx",
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
       "base": "str",
       "uri": "http://www.w3.org/2001/XMLSchema#string",
       "pattern": "^ror\\.org/[a-z0-9]{9}$",
@@ -150,18 +150,18 @@
     },
     {
       "name": "DecimalDegree",
-      "definition_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/DecimalDegree",
+      "definition_uri": "https://w3id.org/chemical-exposome/terms/DecimalDegree",
       "description": "A decimal degree coordinate value",
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
       "base": "double",
       "uri": "http://www.w3.org/2001/XMLSchema#decimal",
       "@type": "TypeDefinition"
     },
     {
       "name": "YearValue",
-      "definition_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/YearValue",
+      "definition_uri": "https://w3id.org/chemical-exposome/terms/YearValue",
       "description": "A year value in YYYY format",
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
       "base": "int",
       "uri": "http://www.w3.org/2001/XMLSchema#gYear",
       "@type": "TypeDefinition"
@@ -478,9 +478,9 @@
   "enums": [
     {
       "name": "MonitoringActivityType",
-      "definition_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/MonitoringActivityType",
+      "definition_uri": "https://w3id.org/chemical-exposome/terms/MonitoringActivityType",
       "description": "Type of monitoring activity",
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
       "permissible_values": [
         {
           "text": "scientific_project",
@@ -494,9 +494,9 @@
     },
     {
       "name": "ImplementationLevel",
-      "definition_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/ImplementationLevel",
+      "definition_uri": "https://w3id.org/chemical-exposome/terms/ImplementationLevel",
       "description": "The geographic scale of the monitoring coverage  (e.g. international, national, regional, or local).",
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
       "permissible_values": [
         {
           "text": "international",
@@ -518,9 +518,9 @@
     },
     {
       "name": "Language",
-      "definition_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/Language",
+      "definition_uri": "https://w3id.org/chemical-exposome/terms/Language",
       "description": "Language codes according to ISO 639-1 (two-letter lowercase codes).",
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
       "see_also": [
         "http://id.loc.gov/vocabulary/iso639-1"
       ],
@@ -1439,9 +1439,9 @@
     },
     {
       "name": "Country",
-      "definition_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/Country",
+      "definition_uri": "https://w3id.org/chemical-exposome/terms/Country",
       "description": "Country codes according to ISO 3166-1 alpha-2 (two-letter uppercase codes). URIs from OMG Languages, Countries and Codes (LCC) ontology, which provides the authoritative linked data representation of ISO 3166-1 since neither ISO nor UN Statistics Division publish official RDF vocabularies.",
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
       "see_also": [
         "https://www.iso.org/iso-3166-country-codes.html",
         "https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/",
@@ -2680,9 +2680,9 @@
     },
     {
       "name": "Role",
-      "definition_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/Role",
+      "definition_uri": "https://w3id.org/chemical-exposome/terms/Role",
       "description": "Role/function performed by the contact person. Source: ISO 19115:2003/19139 and EC Regulation No 1205/2008 (INSPIRE).",
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
       "see_also": [
         "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode"
       ],
@@ -2746,9 +2746,9 @@
     },
     {
       "name": "CoordinateSystem",
-      "definition_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/CoordinateSystem",
+      "definition_uri": "https://w3id.org/chemical-exposome/terms/CoordinateSystem",
       "description": "Coordinate reference system used for geographic coordinates",
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
       "permissible_values": [
         {
           "text": "WGS84",
@@ -2759,9 +2759,9 @@
     },
     {
       "name": "WaterType",
-      "definition_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/WaterType",
+      "definition_uri": "https://w3id.org/chemical-exposome/terms/WaterType",
       "description": "Type of water body",
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
       "permissible_values": [
         {
           "text": "salt_marine",
@@ -2807,9 +2807,9 @@
     },
     {
       "name": "WaterTreatment",
-      "definition_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/WaterTreatment",
+      "definition_uri": "https://w3id.org/chemical-exposome/terms/WaterTreatment",
       "description": "Water treatment status",
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
       "permissible_values": [
         {
           "text": "pre_treatment"
@@ -2821,9 +2821,9 @@
     },
     {
       "name": "WaterGeographicalFeature",
-      "definition_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/WaterGeographicalFeature",
+      "definition_uri": "https://w3id.org/chemical-exposome/terms/WaterGeographicalFeature",
       "description": "Geographical water feature type",
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
       "permissible_values": [
         {
           "text": "not_relevant",
@@ -2869,9 +2869,9 @@
     },
     {
       "name": "GeographicRegion",
-      "definition_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/GeographicRegion",
+      "definition_uri": "https://w3id.org/chemical-exposome/terms/GeographicRegion",
       "description": "UN M49 geographic region. Source: https://unstats.un.org/unsd/methodology/m49/",
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
       "see_also": [
         "https://unstats.un.org/unsd/methodology/m49/"
       ],
@@ -2900,9 +2900,9 @@
     },
     {
       "name": "UNRegionalGroup",
-      "definition_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/UNRegionalGroup",
+      "definition_uri": "https://w3id.org/chemical-exposome/terms/UNRegionalGroup",
       "description": "Regional groups of United Nations member states",
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
       "permissible_values": [
         {
           "text": "african",
@@ -2928,9 +2928,9 @@
     },
     {
       "name": "LandUse",
-      "definition_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/LandUse",
+      "definition_uri": "https://w3id.org/chemical-exposome/terms/LandUse",
       "description": "CORINE Land Cover (CLC) land use classification. Coordination of Information on the Environment Land Cover inventory, coordinated by the European Environment Agency (EEA).",
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
       "see_also": [
         "https://www.w3.org/2015/03/corine",
         "https://land.copernicus.eu/pan-european/corine-land-cover"
@@ -3162,9 +3162,9 @@
     },
     {
       "name": "RiverBasin",
-      "definition_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/RiverBasin",
+      "definition_uri": "https://w3id.org/chemical-exposome/terms/RiverBasin",
       "description": "Major European river basins. Based on the EEA river basin districts dataset. Only the most significant river basins have been included. Additional entries may be added to the code list if needed.",
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
       "see_also": [
         "https://www.eea.europa.eu/en/datahub/datahubitem-view/dc1b1cdf-5fa0-4535-8c89-10cc051e00db"
       ],
@@ -3253,9 +3253,9 @@
     },
     {
       "name": "Sea",
-      "definition_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/Sea",
+      "definition_uri": "https://w3id.org/chemical-exposome/terms/Sea",
       "description": "Major seas and oceans. Based on the Marine Regions Gazetteer (marineregions.org). Only the most significant items have been included. Additional entries may be added to the code list if needed.",
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
       "see_also": [
         "https://www.marineregions.org"
       ],
@@ -3376,9 +3376,9 @@
     },
     {
       "name": "SoilTypeWRB",
-      "definition_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/SoilTypeWRB",
+      "definition_uri": "https://w3id.org/chemical-exposome/terms/SoilTypeWRB",
       "description": "World Reference Base for Soil Resources (WRB) 2006/2007 Reference Soil Groups (RSGs). The WRB is the international standard for soil classification endorsed by the International Union of Soil Sciences (IUSS). The 2006/2007 edition is the version legally binding under INSPIRE.",
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
       "see_also": [
         "https://www.fao.org/soils-portal/data-hub/soil-classification/world-reference-base/en/",
         "https://www.isric.org/explore/wrb"
@@ -3548,9 +3548,9 @@
     },
     {
       "name": "MatrixAtmospheric",
-      "definition_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/MatrixAtmospheric",
+      "definition_uri": "https://w3id.org/chemical-exposome/terms/MatrixAtmospheric",
       "description": "Matrix values valid for atmospheric samples (SampleAtmospheric). All terms are narrower than AtmosphericMatrix in the PARC environmental matrix vocabulary.",
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
       "see_also": [
         "https://w3id.org/peh/terms/AtmosphericMatrix"
       ],
@@ -3629,9 +3629,9 @@
     },
     {
       "name": "MatrixAquatic",
-      "definition_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/MatrixAquatic",
+      "definition_uri": "https://w3id.org/chemical-exposome/terms/MatrixAquatic",
       "description": "Matrix values valid for aquatic samples (SampleAquatic). All terms are narrower than AquaticMatrix in the PARC environmental matrix vocabulary.",
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
       "see_also": [
         "https://w3id.org/peh/terms/AquaticMatrix"
       ],
@@ -3655,9 +3655,9 @@
     },
     {
       "name": "MatrixTerrestrial",
-      "definition_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/MatrixTerrestrial",
+      "definition_uri": "https://w3id.org/chemical-exposome/terms/MatrixTerrestrial",
       "description": "Matrix values valid for terrestrial samples (SampleTerrestrial). All terms are narrower than TerrestrialMatrix in the PARC environmental matrix vocabulary.",
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
       "see_also": [
         "https://w3id.org/peh/terms/TerrestrialMatrix"
       ],
@@ -3711,9 +3711,9 @@
     },
     {
       "name": "MatrixBiota",
-      "definition_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/MatrixBiota",
+      "definition_uri": "https://w3id.org/chemical-exposome/terms/MatrixBiota",
       "description": "Matrix values valid for biota samples (SampleBiota). Covers plant and animal tissues only. HumanMatrix is out of scope for this schema. All terms are narrower than PlantMatrix or AnimalMatrix in the PARC environmental matrix vocabulary.",
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
       "see_also": [
         "https://w3id.org/peh/terms/BioticMatrix"
       ],
@@ -3802,9 +3802,9 @@
     },
     {
       "name": "SamplingMethodAtmospheric",
-      "definition_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/SamplingMethodAtmospheric",
+      "definition_uri": "https://w3id.org/chemical-exposome/terms/SamplingMethodAtmospheric",
       "description": "Sampling method used to collect atmospheric samples (air, deposition, dust). Placeholder \u2014 do not use in production. The final controlled vocabulary is being developed separately within the PARC project and will be adopted after completion and publication.",
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
       "permissible_values": [
         {
           "text": "PLACEHOLDER",
@@ -3814,9 +3814,9 @@
     },
     {
       "name": "SamplingMethodAquatic",
-      "definition_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/SamplingMethodAquatic",
+      "definition_uri": "https://w3id.org/chemical-exposome/terms/SamplingMethodAquatic",
       "description": "Sampling method used to collect aquatic samples (water, sediment). Placeholder \u2014 do not use in production. The final controlled vocabulary is being developed separately within the PARC project and will be adopted after completion and publication.",
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
       "permissible_values": [
         {
           "text": "PLACEHOLDER",
@@ -3826,9 +3826,9 @@
     },
     {
       "name": "AquaticMatrixFraction",
-      "definition_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/AquaticMatrixFraction",
+      "definition_uri": "https://w3id.org/chemical-exposome/terms/AquaticMatrixFraction",
       "description": "TBC - might be integrated with the matrix vocabulary",
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
       "permissible_values": [
         {
           "text": "PLACEHOLDER",
@@ -3870,9 +3870,9 @@
     },
     {
       "name": "TaxonRankEnum",
-      "definition_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/TaxonRankEnum",
+      "definition_uri": "https://w3id.org/chemical-exposome/terms/TaxonRankEnum",
       "description": "Taxonomic rank of the identified taxon, aligned with GBIF Backbone Taxonomy rank vocabulary.",
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
       "see_also": [
         "https://www.gbif.org/developer/species#rank"
       ],
@@ -3931,9 +3931,9 @@
     },
     {
       "name": "EnvironmentalCompartment",
-      "definition_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/EnvironmentalCompartment",
+      "definition_uri": "https://w3id.org/chemical-exposome/terms/EnvironmentalCompartment",
       "description": "Environmental compartment where a biota organism was sampled from. Excludes Biota since an organism cannot have Biota as its habitat.",
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
       "permissible_values": [
         {
           "text": "Atmospheric",
@@ -3951,9 +3951,9 @@
     },
     {
       "name": "Gender",
-      "definition_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/Gender",
+      "definition_uri": "https://w3id.org/chemical-exposome/terms/Gender",
       "description": "Biological sex of a sampled organism",
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
       "permissible_values": [
         {
           "text": "male",
@@ -3979,9 +3979,9 @@
     },
     {
       "name": "AnalyticalMethod",
-      "definition_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/AnalyticalMethod",
+      "definition_uri": "https://w3id.org/chemical-exposome/terms/AnalyticalMethod",
       "description": "Analytical method used to determine the analyte in the sample. NOTE: Placeholder only \u2014 final vocabulary pending.",
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
       "permissible_values": [
         {
           "text": "PLACEHOLDER",
@@ -3991,9 +3991,9 @@
     },
     {
       "name": "Unit",
-      "definition_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/Unit",
+      "definition_uri": "https://w3id.org/chemical-exposome/terms/Unit",
       "description": "Units used for chemical concentration and other parameter measurements",
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
       "permissible_values": [
         {
           "text": "ug_m3",
@@ -4163,9 +4163,9 @@
     },
     {
       "name": "CompoundGroup",
-      "definition_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/CompoundGroup",
+      "definition_uri": "https://w3id.org/chemical-exposome/terms/CompoundGroup",
       "description": "Chemical group classification as used in the PARC WP9 compound list. Groups are based on chemical structure and/or regulatory relevance.",
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
       "permissible_values": [
         {
           "text": "PFAS",
@@ -4243,9 +4243,9 @@
     },
     {
       "name": "Parameter",
-      "definition_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/Parameter",
+      "definition_uri": "https://w3id.org/chemical-exposome/terms/Parameter",
       "description": "Parameters measured alongside chemical concentrations in environmental samples or at site. Covers air, water, sediment, soil and biota matrices. The applicable environment is indicated in each parameter description.",
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
       "permissible_values": [
         {
           "text": "volume",
@@ -4659,9 +4659,9 @@
     },
     {
       "name": "Domain",
-      "definition_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/Domain",
+      "definition_uri": "https://w3id.org/chemical-exposome/terms/Domain",
       "description": "Environmental domain - sample type according to sampled matrix/ environmental compartment. ",
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
       "permissible_values": [
         {
           "text": "Atmospheric",
@@ -4683,9 +4683,9 @@
     },
     {
       "name": "ObservationType",
-      "definition_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/ObservationType",
+      "definition_uri": "https://w3id.org/chemical-exposome/terms/ObservationType",
       "description": "Type of measurement/observation: i) Chemical concentration in the environment or biota - main observation and; ii) Other parameters - they give context to the  main measurement.",
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
       "permissible_values": [
         {
           "text": "MeasurementConcentration",
@@ -4701,13 +4701,13 @@
   "slots": [
     {
       "name": "acronym",
-      "definition_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/acronym",
+      "definition_uri": "https://w3id.org/chemical-exposome/terms/acronym",
       "description": "Short name or acronym.",
       "in_subset": [
         "mandatory_if"
       ],
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
-      "slot_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/acronym",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
+      "slot_uri": "https://w3id.org/chemical-exposome/terms/acronym",
       "owner": "Site",
       "domain_of": [
         "MonitoringActivity",
@@ -4720,13 +4720,13 @@
     },
     {
       "name": "name_en",
-      "definition_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/name_en",
+      "definition_uri": "https://w3id.org/chemical-exposome/terms/name_en",
       "description": "Name or designation in English",
       "in_subset": [
         "mandatory_if"
       ],
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
-      "slot_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/name_en",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
+      "slot_uri": "https://w3id.org/chemical-exposome/terms/name_en",
       "owner": "OrganisationMetadata",
       "domain_of": [
         "MonitoringActivity",
@@ -4739,13 +4739,13 @@
     },
     {
       "name": "name_original",
-      "definition_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/name_original",
+      "definition_uri": "https://w3id.org/chemical-exposome/terms/name_original",
       "description": "Name of the entity in the original language of the  institution/site/project. Use the local official name.",
       "in_subset": [
         "mandatory"
       ],
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
-      "slot_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/name_original",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
+      "slot_uri": "https://w3id.org/chemical-exposome/terms/name_original",
       "owner": "OrganisationMetadata",
       "domain_of": [
         "MonitoringActivity",
@@ -4757,13 +4757,13 @@
     },
     {
       "name": "sample_id",
-      "definition_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/sample_id",
+      "definition_uri": "https://w3id.org/chemical-exposome/terms/sample_id",
       "description": "Unique identifier for the sample",
       "in_subset": [
         "mandatory"
       ],
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
-      "slot_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/sample_id",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
+      "slot_uri": "https://w3id.org/chemical-exposome/terms/sample_id",
       "owner": "Observation",
       "domain_of": [
         "Sample",
@@ -4775,13 +4775,13 @@
     },
     {
       "name": "site_id",
-      "definition_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/site_id",
+      "definition_uri": "https://w3id.org/chemical-exposome/terms/site_id",
       "description": "Unique identifier of the monitoring site where the sample was collected. References the site_id of a Site record.",
       "in_subset": [
         "mandatory"
       ],
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
-      "slot_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/site_id",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
+      "slot_uri": "https://w3id.org/chemical-exposome/terms/site_id",
       "owner": "Sample",
       "domain_of": [
         "Site",
@@ -4793,13 +4793,13 @@
     },
     {
       "name": "site_name",
-      "definition_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/site_name",
+      "definition_uri": "https://w3id.org/chemical-exposome/terms/site_name",
       "description": "Name of the monitoring site. Provide in the local language as the primary name. An English name may be added if available and commonly used. Multiple names in different languages are accepted.",
       "in_subset": [
         "mandatory"
       ],
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
-      "slot_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/site_name",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
+      "slot_uri": "https://w3id.org/chemical-exposome/terms/site_name",
       "owner": "Sample",
       "domain_of": [
         "Site",
@@ -4811,13 +4811,13 @@
     },
     {
       "name": "start_date",
-      "definition_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/start_date",
+      "definition_uri": "https://w3id.org/chemical-exposome/terms/start_date",
       "description": "Start date in format YYYY-MM-DD",
       "in_subset": [
         "mandatory"
       ],
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
-      "slot_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/start_date",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
+      "slot_uri": "https://w3id.org/chemical-exposome/terms/start_date",
       "owner": "Sample",
       "domain_of": [
         "Campaign",
@@ -4829,10 +4829,10 @@
     },
     {
       "name": "end_date",
-      "definition_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/end_date",
+      "definition_uri": "https://w3id.org/chemical-exposome/terms/end_date",
       "description": "End date in format YYYY-MM-DD",
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
-      "slot_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/end_date",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
+      "slot_uri": "https://w3id.org/chemical-exposome/terms/end_date",
       "owner": "Sample",
       "domain_of": [
         "Campaign",
@@ -4843,10 +4843,10 @@
     },
     {
       "name": "sampling_time_start",
-      "definition_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/sampling_time_start",
+      "definition_uri": "https://w3id.org/chemical-exposome/terms/sampling_time_start",
       "description": "Sampling start time according to ISO 8601, 24-hour clock. Format T[hh][mm][ss].",
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
-      "slot_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/sampling_time_start",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
+      "slot_uri": "https://w3id.org/chemical-exposome/terms/sampling_time_start",
       "owner": "Sample",
       "domain_of": [
         "Sample"
@@ -4856,10 +4856,10 @@
     },
     {
       "name": "sampling_time_end",
-      "definition_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/sampling_time_end",
+      "definition_uri": "https://w3id.org/chemical-exposome/terms/sampling_time_end",
       "description": "Sampling end time according to ISO 8601.",
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
-      "slot_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/sampling_time_end",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
+      "slot_uri": "https://w3id.org/chemical-exposome/terms/sampling_time_end",
       "owner": "Sample",
       "domain_of": [
         "Sample"
@@ -4869,13 +4869,13 @@
     },
     {
       "name": "email",
-      "definition_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/email",
+      "definition_uri": "https://w3id.org/chemical-exposome/terms/email",
       "description": "Email address of the project contact point. Institutional email is recommended.",
       "in_subset": [
         "mandatory"
       ],
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
-      "slot_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/email",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
+      "slot_uri": "https://w3id.org/chemical-exposome/terms/email",
       "owner": "Contact",
       "domain_of": [
         "Contact"
@@ -4886,10 +4886,10 @@
     },
     {
       "name": "orcid",
-      "definition_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/orcid",
+      "definition_uri": "https://w3id.org/chemical-exposome/terms/orcid",
       "description": "ORCID identifier of the contact person",
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
-      "slot_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/orcid",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
+      "slot_uri": "https://w3id.org/chemical-exposome/terms/orcid",
       "owner": "Contact",
       "domain_of": [
         "Contact"
@@ -4899,10 +4899,10 @@
     },
     {
       "name": "ror",
-      "definition_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/ror",
+      "definition_uri": "https://w3id.org/chemical-exposome/terms/ror",
       "description": "ROR identifier of the institution (format ror.org/xxxxxxxx)",
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
-      "slot_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/ror",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
+      "slot_uri": "https://w3id.org/chemical-exposome/terms/ror",
       "owner": "OrganisationMetadata",
       "domain_of": [
         "OrganisationMetadata"
@@ -4912,10 +4912,10 @@
     },
     {
       "name": "link",
-      "definition_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/link",
+      "definition_uri": "https://w3id.org/chemical-exposome/terms/link",
       "description": "URL with information about the institution",
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
-      "slot_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/link",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
+      "slot_uri": "https://w3id.org/chemical-exposome/terms/link",
       "owner": "Site",
       "domain_of": [
         "OrganisationMetadata",
@@ -4926,13 +4926,13 @@
     },
     {
       "name": "country",
-      "definition_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/country",
+      "definition_uri": "https://w3id.org/chemical-exposome/terms/country",
       "description": "Country where the site, institution or project is located, according to ISO 3166-1 alpha-2 (two-letter uppercase code).",
       "in_subset": [
         "mandatory"
       ],
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
-      "slot_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/country",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
+      "slot_uri": "https://w3id.org/chemical-exposome/terms/country",
       "owner": "Site",
       "domain_of": [
         "Institution",
@@ -4944,13 +4944,13 @@
     },
     {
       "name": "unit",
-      "definition_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/unit",
+      "definition_uri": "https://w3id.org/chemical-exposome/terms/unit",
       "description": "Unit of measurement",
       "in_subset": [
         "mandatory"
       ],
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
-      "slot_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/unit",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
+      "slot_uri": "https://w3id.org/chemical-exposome/terms/unit",
       "owner": "Observation",
       "domain_of": [
         "Observation"
@@ -4961,10 +4961,10 @@
     },
     {
       "name": "uncertainty",
-      "definition_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/uncertainty",
+      "definition_uri": "https://w3id.org/chemical-exposome/terms/uncertainty",
       "description": "Measurement uncertainty of the concentration/paramter value, expressed as a percentage (%) at 95% confidence level.  ",
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
-      "slot_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/uncertainty",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
+      "slot_uri": "https://w3id.org/chemical-exposome/terms/uncertainty",
       "owner": "Observation",
       "domain_of": [
         "Observation"
@@ -4975,13 +4975,13 @@
     },
     {
       "name": "value",
-      "definition_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/value",
+      "definition_uri": "https://w3id.org/chemical-exposome/terms/value",
       "description": "Measured value of the chemical concentration or other parameter",
       "in_subset": [
         "mandatory"
       ],
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
-      "slot_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/value",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
+      "slot_uri": "https://w3id.org/chemical-exposome/terms/value",
       "owner": "Observation",
       "domain_of": [
         "Observation"
@@ -4995,8 +4995,8 @@
       "in_subset": [
         "mandatory"
       ],
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
-      "slot_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/type",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
+      "slot_uri": "https://w3id.org/chemical-exposome/terms/type",
       "alias": "type",
       "owner": "MonitoringActivity",
       "domain_of": [
@@ -5012,8 +5012,8 @@
       "in_subset": [
         "mandatory"
       ],
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
-      "slot_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/activity_description",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
+      "slot_uri": "https://w3id.org/chemical-exposome/terms/activity_description",
       "alias": "activity_description",
       "owner": "MonitoringActivity",
       "domain_of": [
@@ -5026,8 +5026,8 @@
     {
       "name": "monitoringActivity__activity_identifier",
       "description": "Project/monitoring programme identifier provided as URL (GUPRI). At least one identifier required.",
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
-      "slot_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/activity_identifier",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
+      "slot_uri": "https://w3id.org/chemical-exposome/terms/activity_identifier",
       "alias": "activity_identifier",
       "owner": "MonitoringActivity",
       "domain_of": [
@@ -5043,8 +5043,8 @@
       "in_subset": [
         "mandatory_if"
       ],
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
-      "slot_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/monitoring_reasons",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
+      "slot_uri": "https://w3id.org/chemical-exposome/terms/monitoring_reasons",
       "alias": "monitoring_reasons",
       "owner": "MonitoringActivity",
       "domain_of": [
@@ -5059,8 +5059,8 @@
       "in_subset": [
         "mandatory_if"
       ],
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
-      "slot_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/legislation_policy",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
+      "slot_uri": "https://w3id.org/chemical-exposome/terms/legislation_policy",
       "alias": "legislation_policy",
       "owner": "MonitoringActivity",
       "domain_of": [
@@ -5073,8 +5073,8 @@
     {
       "name": "monitoringActivity__implementation_level",
       "description": "The geographic scale of the monitoring coverage (international, national, regional, or local).",
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
-      "slot_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/implementation_level",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
+      "slot_uri": "https://w3id.org/chemical-exposome/terms/implementation_level",
       "alias": "implementation_level",
       "owner": "MonitoringActivity",
       "domain_of": [
@@ -5086,8 +5086,8 @@
     {
       "name": "monitoringActivity__language",
       "description": "Language(s) used, as 2-letter codes according to ISO 639-1.",
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
-      "slot_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/language",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
+      "slot_uri": "https://w3id.org/chemical-exposome/terms/language",
       "alias": "language",
       "owner": "MonitoringActivity",
       "domain_of": [
@@ -5103,8 +5103,8 @@
       "in_subset": [
         "mandatory"
       ],
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
-      "slot_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/start_date",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
+      "slot_uri": "https://w3id.org/chemical-exposome/terms/start_date",
       "alias": "start_date",
       "owner": "MonitoringActivity",
       "domain_of": [
@@ -5117,8 +5117,8 @@
     {
       "name": "monitoringActivity__end_date",
       "description": "End date of the project/monitoring programme.",
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
-      "slot_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/end_date",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
+      "slot_uri": "https://w3id.org/chemical-exposome/terms/end_date",
       "alias": "end_date",
       "owner": "MonitoringActivity",
       "domain_of": [
@@ -5130,8 +5130,8 @@
     {
       "name": "monitoringActivity__campaigns",
       "description": "If an Environmental Monitoring Programme/Project has a long-term perspective of at least  a few years, it may be necessary to input data at suitable time intervals. For this time period,  is used the term \"Campaign\". A Campaign is defined by its start and end, and it is recommended  to name it within the project using a consistent style.",
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
-      "slot_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/campaigns",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
+      "slot_uri": "https://w3id.org/chemical-exposome/terms/campaigns",
       "alias": "campaigns",
       "owner": "MonitoringActivity",
       "domain_of": [
@@ -5149,8 +5149,8 @@
       "in_subset": [
         "mandatory"
       ],
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
-      "slot_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/institutions",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
+      "slot_uri": "https://w3id.org/chemical-exposome/terms/institutions",
       "alias": "institutions",
       "owner": "MonitoringActivity",
       "domain_of": [
@@ -5170,8 +5170,8 @@
       "in_subset": [
         "mandatory"
       ],
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
-      "slot_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/contacts",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
+      "slot_uri": "https://w3id.org/chemical-exposome/terms/contacts",
       "alias": "contacts",
       "owner": "MonitoringActivity",
       "domain_of": [
@@ -5188,8 +5188,8 @@
     {
       "name": "monitoringActivity__funders",
       "description": "Funding entity/entities supporting the monitoring activity.",
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
-      "slot_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/funders",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
+      "slot_uri": "https://w3id.org/chemical-exposome/terms/funders",
       "alias": "funders",
       "owner": "MonitoringActivity",
       "domain_of": [
@@ -5207,8 +5207,8 @@
       "in_subset": [
         "mandatory"
       ],
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
-      "slot_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/access_procedures",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
+      "slot_uri": "https://w3id.org/chemical-exposome/terms/access_procedures",
       "alias": "access_procedures",
       "owner": "MonitoringActivity",
       "domain_of": [
@@ -5224,8 +5224,8 @@
       "in_subset": [
         "mandatory"
       ],
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
-      "slot_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/acknowledgement",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
+      "slot_uri": "https://w3id.org/chemical-exposome/terms/acknowledgement",
       "alias": "acknowledgement",
       "owner": "MonitoringActivity",
       "domain_of": [
@@ -5241,8 +5241,8 @@
       "in_subset": [
         "mandatory"
       ],
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
-      "slot_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/license",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
+      "slot_uri": "https://w3id.org/chemical-exposome/terms/license",
       "alias": "license",
       "owner": "MonitoringActivity",
       "domain_of": [
@@ -5255,8 +5255,8 @@
     {
       "name": "monitoringActivity__disclaimer",
       "description": "Text for disclaimer when using/re-using the data.",
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
-      "slot_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/disclaimer",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
+      "slot_uri": "https://w3id.org/chemical-exposome/terms/disclaimer",
       "alias": "disclaimer",
       "owner": "MonitoringActivity",
       "domain_of": [
@@ -5268,8 +5268,8 @@
     {
       "name": "monitoringActivity__version",
       "description": "Version of the dataset.",
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
-      "slot_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/version",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
+      "slot_uri": "https://w3id.org/chemical-exposome/terms/version",
       "alias": "version",
       "owner": "MonitoringActivity",
       "domain_of": [
@@ -5281,8 +5281,8 @@
     {
       "name": "monitoringActivity__publication_year",
       "description": "Year when the dataset was or will be made publicly available.",
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
-      "slot_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/publication_year",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
+      "slot_uri": "https://w3id.org/chemical-exposome/terms/publication_year",
       "alias": "publication_year",
       "owner": "MonitoringActivity",
       "domain_of": [
@@ -5294,8 +5294,8 @@
     {
       "name": "monitoringActivity__provenance",
       "description": "A statement about the lineage of the dataset.",
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
-      "slot_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/provenance",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
+      "slot_uri": "https://w3id.org/chemical-exposome/terms/provenance",
       "alias": "provenance",
       "owner": "MonitoringActivity",
       "domain_of": [
@@ -5307,8 +5307,8 @@
     {
       "name": "monitoringActivity__sites",
       "description": "Monitoring site(s) associated with this project or monitoring programme.",
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
-      "slot_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/sites",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
+      "slot_uri": "https://w3id.org/chemical-exposome/terms/sites",
       "alias": "sites",
       "owner": "MonitoringActivity",
       "domain_of": [
@@ -5324,8 +5324,8 @@
     {
       "name": "campaign__campaign_description",
       "description": "Description of the campaign",
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
-      "slot_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/campaign_description",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
+      "slot_uri": "https://w3id.org/chemical-exposome/terms/campaign_description",
       "alias": "campaign_description",
       "owner": "Campaign",
       "domain_of": [
@@ -5337,8 +5337,8 @@
     {
       "name": "institution__institution_id",
       "description": "Unique institution id",
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
-      "slot_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/institution_id",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
+      "slot_uri": "https://w3id.org/chemical-exposome/terms/institution_id",
       "identifier": true,
       "alias": "institution_id",
       "owner": "Institution",
@@ -5352,8 +5352,8 @@
     {
       "name": "funder__funder_id",
       "description": "Unique funder ID",
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
-      "slot_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/funder_id",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
+      "slot_uri": "https://w3id.org/chemical-exposome/terms/funder_id",
       "identifier": true,
       "alias": "funder_id",
       "owner": "Funder",
@@ -5367,8 +5367,8 @@
     {
       "name": "contact__contact_id",
       "description": "Unique contact ID",
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
-      "slot_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/contact_id",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
+      "slot_uri": "https://w3id.org/chemical-exposome/terms/contact_id",
       "identifier": true,
       "alias": "contact_id",
       "owner": "Contact",
@@ -5382,8 +5382,8 @@
     {
       "name": "contact__role",
       "description": "Role/function performed by the contact person. Source: ISO 19115:2003/19139 and EC Regulation No 1205/2008 (INSPIRE).",
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
-      "slot_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/role",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
+      "slot_uri": "https://w3id.org/chemical-exposome/terms/role",
       "alias": "role",
       "owner": "Contact",
       "domain_of": [
@@ -5395,8 +5395,8 @@
     {
       "name": "contact__institution",
       "description": "Contact's institution",
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
-      "slot_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/institution",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
+      "slot_uri": "https://w3id.org/chemical-exposome/terms/institution",
       "alias": "institution",
       "owner": "Contact",
       "domain_of": [
@@ -5408,8 +5408,8 @@
     {
       "name": "site__coordinate_privacy_exception",
       "description": "Set to true (value = true) if coordinates cannot be provided for privacy, security or confidentiality reasons. If true, expert location fields (country, geographic_region, nuts3) are required instead.  Optional - if not provided, it is assumed coordinates are not withheld for privacy reasons.",
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
-      "slot_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/coordinate_privacy_exception",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
+      "slot_uri": "https://w3id.org/chemical-exposome/terms/coordinate_privacy_exception",
       "ifabsent": "false",
       "alias": "coordinate_privacy_exception",
       "owner": "Site",
@@ -5425,8 +5425,8 @@
       "in_subset": [
         "mandatory_if"
       ],
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
-      "slot_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/coordinate_privacy_exception_reason",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
+      "slot_uri": "https://w3id.org/chemical-exposome/terms/coordinate_privacy_exception_reason",
       "alias": "coordinate_privacy_exception_reason",
       "owner": "Site",
       "domain_of": [
@@ -5438,8 +5438,8 @@
     {
       "name": "site__samples",
       "description": "Samples collected at this monitoring site.",
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
-      "slot_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/samples",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
+      "slot_uri": "https://w3id.org/chemical-exposome/terms/samples",
       "alias": "samples",
       "owner": "Site",
       "domain_of": [
@@ -5457,8 +5457,8 @@
       "in_subset": [
         "mandatory_if"
       ],
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
-      "slot_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/latitude",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
+      "slot_uri": "https://w3id.org/chemical-exposome/terms/latitude",
       "alias": "latitude",
       "owner": "Site",
       "domain_of": [
@@ -5475,8 +5475,8 @@
       "in_subset": [
         "mandatory_if"
       ],
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
-      "slot_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/longitude",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
+      "slot_uri": "https://w3id.org/chemical-exposome/terms/longitude",
       "alias": "longitude",
       "owner": "Site",
       "domain_of": [
@@ -5493,8 +5493,8 @@
       "in_subset": [
         "mandatory_if"
       ],
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
-      "slot_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/coordinate_system",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
+      "slot_uri": "https://w3id.org/chemical-exposome/terms/coordinate_system",
       "alias": "coordinate_system",
       "owner": "Site",
       "domain_of": [
@@ -5509,8 +5509,8 @@
       "in_subset": [
         "mandatory_if"
       ],
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
-      "slot_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/geographic_region",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
+      "slot_uri": "https://w3id.org/chemical-exposome/terms/geographic_region",
       "alias": "geographic_region",
       "owner": "Site",
       "domain_of": [
@@ -5525,8 +5525,8 @@
       "in_subset": [
         "mandatory_if"
       ],
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
-      "slot_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/regional_group",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
+      "slot_uri": "https://w3id.org/chemical-exposome/terms/regional_group",
       "alias": "regional_group",
       "owner": "Site",
       "domain_of": [
@@ -5541,11 +5541,11 @@
       "in_subset": [
         "mandatory_if"
       ],
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
       "see_also": [
         "http://data.europa.eu/nuts/"
       ],
-      "slot_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/nuts3",
+      "slot_uri": "https://w3id.org/chemical-exposome/terms/nuts3",
       "alias": "nuts3",
       "owner": "Site",
       "domain_of": [
@@ -5558,8 +5558,8 @@
     {
       "name": "site__year_established",
       "description": "Year of establishment of the monitoring station (YYYY)",
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
-      "slot_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/year_established",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
+      "slot_uri": "https://w3id.org/chemical-exposome/terms/year_established",
       "alias": "year_established",
       "owner": "Site",
       "domain_of": [
@@ -5571,8 +5571,8 @@
     {
       "name": "site__site_description",
       "description": "Description of the site where samples were collected. Provide all important information that cannot be captured in other fields.",
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
-      "slot_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/site_description",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
+      "slot_uri": "https://w3id.org/chemical-exposome/terms/site_description",
       "alias": "site_description",
       "owner": "Site",
       "domain_of": [
@@ -5584,8 +5584,8 @@
     {
       "name": "site__managing_instance",
       "description": "The institution that manages the sampling site",
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
-      "slot_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/managing_instance",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
+      "slot_uri": "https://w3id.org/chemical-exposome/terms/managing_instance",
       "alias": "managing_instance",
       "owner": "Site",
       "domain_of": [
@@ -5597,8 +5597,8 @@
     {
       "name": "site__water_type",
       "description": "Type of water body at the site. Only relevant for water and sediment sampling.",
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
-      "slot_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/water_type",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
+      "slot_uri": "https://w3id.org/chemical-exposome/terms/water_type",
       "alias": "water_type",
       "owner": "Site",
       "domain_of": [
@@ -5610,8 +5610,8 @@
     {
       "name": "site__water_geographical_feature",
       "description": "Geographical water feature type at the site. Only relevant for water and sediment sampling.",
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
-      "slot_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/water_geographical_feature",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
+      "slot_uri": "https://w3id.org/chemical-exposome/terms/water_geographical_feature",
       "alias": "water_geographical_feature",
       "owner": "Site",
       "domain_of": [
@@ -5623,8 +5623,8 @@
     {
       "name": "site__water_treatment",
       "description": "Water treatment status at the site. Only relevant for water and sediment sampling.",
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
-      "slot_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/water_treatment",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
+      "slot_uri": "https://w3id.org/chemical-exposome/terms/water_treatment",
       "alias": "water_treatment",
       "owner": "Site",
       "domain_of": [
@@ -5636,8 +5636,8 @@
     {
       "name": "site__altitude",
       "description": "Altitude in meters above sea level (MSL). Use positive values for above and negative for below sea level.",
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
-      "slot_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/altitude",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
+      "slot_uri": "https://w3id.org/chemical-exposome/terms/altitude",
       "alias": "altitude",
       "owner": "Site",
       "domain_of": [
@@ -5649,11 +5649,11 @@
     {
       "name": "site__land_use",
       "description": "Land use classification according to CORINE Land Cover nomenclature.",
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
       "see_also": [
         "https://www.w3.org/2015/03/corine"
       ],
-      "slot_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/land_use",
+      "slot_uri": "https://w3id.org/chemical-exposome/terms/land_use",
       "alias": "land_use",
       "owner": "Site",
       "domain_of": [
@@ -5665,11 +5665,11 @@
     {
       "name": "site__river_basin",
       "description": "River basin associated with the site, based on the EEA river basin districts dataset. Only relevant for water and sediment sampling.",
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
       "see_also": [
         "https://www.eea.europa.eu/en/datahub/datahubitem-view/dc1b1cdf-5fa0-4535-8c89-10cc051e00db"
       ],
-      "slot_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/river_basin",
+      "slot_uri": "https://w3id.org/chemical-exposome/terms/river_basin",
       "alias": "river_basin",
       "owner": "Site",
       "domain_of": [
@@ -5681,11 +5681,11 @@
     {
       "name": "site__sea",
       "description": "Sea or ocean associated with the site, based on the Marine Regions Gazetteer. Only relevant for water and sediment sampling.",
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
       "see_also": [
         "https://www.marineregions.org"
       ],
-      "slot_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/sea",
+      "slot_uri": "https://w3id.org/chemical-exposome/terms/sea",
       "alias": "sea",
       "owner": "Site",
       "domain_of": [
@@ -5697,11 +5697,11 @@
     {
       "name": "site__soil_type",
       "description": "World Reference Base for Soil Resources (WRB) 2006/2007 Reference Soil Group at the site. Only relevant for soil sampling.",
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
       "see_also": [
         "https://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue"
       ],
-      "slot_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/soil_type",
+      "slot_uri": "https://w3id.org/chemical-exposome/terms/soil_type",
       "alias": "soil_type",
       "owner": "Site",
       "domain_of": [
@@ -5716,8 +5716,8 @@
       "in_subset": [
         "mandatory"
       ],
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
-      "slot_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/domain",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
+      "slot_uri": "https://w3id.org/chemical-exposome/terms/domain",
       "designates_type": true,
       "alias": "domain",
       "owner": "Sample",
@@ -5731,8 +5731,8 @@
     {
       "name": "sample__observations",
       "description": "Observations (concentration measurements and parameters) associated with this sample.",
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
-      "slot_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/observations",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
+      "slot_uri": "https://w3id.org/chemical-exposome/terms/observations",
       "alias": "observations",
       "owner": "Sample",
       "domain_of": [
@@ -5750,8 +5750,8 @@
       "in_subset": [
         "mandatory"
       ],
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
-      "slot_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/matrix",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
+      "slot_uri": "https://w3id.org/chemical-exposome/terms/matrix",
       "alias": "matrix",
       "owner": "Atmospheric",
       "domain_of": [
@@ -5767,8 +5767,8 @@
       "in_subset": [
         "mandatory"
       ],
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
-      "slot_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/sampling_method",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
+      "slot_uri": "https://w3id.org/chemical-exposome/terms/sampling_method",
       "alias": "sampling_method",
       "owner": "Atmospheric",
       "domain_of": [
@@ -5784,8 +5784,8 @@
       "in_subset": [
         "mandatory"
       ],
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
-      "slot_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/matrix",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
+      "slot_uri": "https://w3id.org/chemical-exposome/terms/matrix",
       "alias": "matrix",
       "owner": "Aquatic",
       "domain_of": [
@@ -5801,8 +5801,8 @@
       "in_subset": [
         "mandatory"
       ],
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
-      "slot_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/sampling_method",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
+      "slot_uri": "https://w3id.org/chemical-exposome/terms/sampling_method",
       "alias": "sampling_method",
       "owner": "Aquatic",
       "domain_of": [
@@ -5815,8 +5815,8 @@
     {
       "name": "aquatic__fraction",
       "description": "If the collected sample is divided into multiple fractions for separate analysis, this field identifies each subsample.",
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
-      "slot_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/fraction",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
+      "slot_uri": "https://w3id.org/chemical-exposome/terms/fraction",
       "alias": "fraction",
       "owner": "Aquatic",
       "domain_of": [
@@ -5831,8 +5831,8 @@
       "in_subset": [
         "mandatory"
       ],
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
-      "slot_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/matrix",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
+      "slot_uri": "https://w3id.org/chemical-exposome/terms/matrix",
       "alias": "matrix",
       "owner": "Terrestrial",
       "domain_of": [
@@ -5848,8 +5848,8 @@
       "in_subset": [
         "mandatory"
       ],
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
-      "slot_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/sampling_method",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
+      "slot_uri": "https://w3id.org/chemical-exposome/terms/sampling_method",
       "alias": "sampling_method",
       "owner": "Terrestrial",
       "domain_of": [
@@ -5865,8 +5865,8 @@
       "in_subset": [
         "mandatory"
       ],
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
-      "slot_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/matrix",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
+      "slot_uri": "https://w3id.org/chemical-exposome/terms/matrix",
       "alias": "matrix",
       "owner": "Biota",
       "domain_of": [
@@ -5879,8 +5879,8 @@
     {
       "name": "biota__sampling_method",
       "description": "Sampling method for biota samples (to be discussed)",
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
-      "slot_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/sampling_method",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
+      "slot_uri": "https://w3id.org/chemical-exposome/terms/sampling_method",
       "alias": "sampling_method",
       "owner": "Biota",
       "domain_of": [
@@ -5892,8 +5892,8 @@
     {
       "name": "biota__compartment",
       "description": "The environmental compartment where the organism was sampled from.",
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
-      "slot_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/compartment",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
+      "slot_uri": "https://w3id.org/chemical-exposome/terms/compartment",
       "alias": "compartment",
       "owner": "Biota",
       "domain_of": [
@@ -5906,8 +5906,8 @@
     {
       "name": "biota__gender",
       "description": "Collected organism gender",
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
-      "slot_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/gender",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
+      "slot_uri": "https://w3id.org/chemical-exposome/terms/gender",
       "alias": "gender",
       "owner": "Biota",
       "domain_of": [
@@ -5919,8 +5919,8 @@
     {
       "name": "biota__life_stage_age",
       "description": "Life stage or age of the organism",
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
-      "slot_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/life_stage_age",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
+      "slot_uri": "https://w3id.org/chemical-exposome/terms/life_stage_age",
       "alias": "life_stage_age",
       "owner": "Biota",
       "domain_of": [
@@ -5932,8 +5932,8 @@
     {
       "name": "biota__taxonomic_classification",
       "description": "A taxonomic entity identified in a biological sample, referenced against the GBIF Backbone Taxonomy.",
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
-      "slot_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/taxonomic_classification",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
+      "slot_uri": "https://w3id.org/chemical-exposome/terms/taxonomic_classification",
       "alias": "taxonomic_classification",
       "owner": "Biota",
       "domain_of": [
@@ -5948,11 +5948,11 @@
       "in_subset": [
         "mandatory"
       ],
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
       "see_also": [
         "https://www.gbif.org/species/search"
       ],
-      "slot_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/taxon_id",
+      "slot_uri": "https://w3id.org/chemical-exposome/terms/taxon_id",
       "identifier": true,
       "alias": "taxon_id",
       "owner": "Taxon",
@@ -5969,11 +5969,11 @@
       "in_subset": [
         "mandatory"
       ],
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
       "see_also": [
         "https://www.gbif.org/species/search"
       ],
-      "slot_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/taxon_name",
+      "slot_uri": "https://w3id.org/chemical-exposome/terms/taxon_name",
       "alias": "taxon_name",
       "owner": "Taxon",
       "domain_of": [
@@ -5986,11 +5986,11 @@
     {
       "name": "taxon__taxon_rank",
       "description": "Taxonomic rank of the identified taxon.",
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
       "see_also": [
         "https://www.gbif.org/developer/species#rank"
       ],
-      "slot_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/taxon_rank",
+      "slot_uri": "https://w3id.org/chemical-exposome/terms/taxon_rank",
       "alias": "taxon_rank",
       "owner": "Taxon",
       "domain_of": [
@@ -6005,8 +6005,8 @@
       "in_subset": [
         "mandatory"
       ],
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
-      "slot_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/observation_type",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
+      "slot_uri": "https://w3id.org/chemical-exposome/terms/observation_type",
       "designates_type": true,
       "alias": "observation_type",
       "owner": "Observation",
@@ -6023,8 +6023,8 @@
       "in_subset": [
         "mandatory"
       ],
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
-      "slot_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/laboratory",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
+      "slot_uri": "https://w3id.org/chemical-exposome/terms/laboratory",
       "alias": "laboratory",
       "owner": "MeasurementConcentration",
       "domain_of": [
@@ -6037,8 +6037,8 @@
     {
       "name": "measurementConcentration__batch",
       "description": "Internal laboratory designation of the group of samples analyzed together",
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
-      "slot_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/batch",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
+      "slot_uri": "https://w3id.org/chemical-exposome/terms/batch",
       "alias": "batch",
       "owner": "MeasurementConcentration",
       "domain_of": [
@@ -6050,8 +6050,8 @@
     {
       "name": "measurementConcentration__analysis_date",
       "description": "The date on which the concentration was determined",
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
-      "slot_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/analysis_date",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
+      "slot_uri": "https://w3id.org/chemical-exposome/terms/analysis_date",
       "alias": "analysis_date",
       "owner": "MeasurementConcentration",
       "domain_of": [
@@ -6066,8 +6066,8 @@
       "in_subset": [
         "mandatory"
       ],
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
-      "slot_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/compound",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
+      "slot_uri": "https://w3id.org/chemical-exposome/terms/compound",
       "alias": "compound",
       "owner": "MeasurementConcentration",
       "domain_of": [
@@ -6083,8 +6083,8 @@
       "in_subset": [
         "mandatory"
       ],
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
-      "slot_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/sample_preparation_method",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
+      "slot_uri": "https://w3id.org/chemical-exposome/terms/sample_preparation_method",
       "alias": "sample_preparation_method",
       "owner": "MeasurementConcentration",
       "domain_of": [
@@ -6097,8 +6097,8 @@
     {
       "name": "measurementConcentration__sample_preparation_method_link",
       "description": "GUPRI (e.g. DOI) linking to a public SOP, article, or other document describing the method.",
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
-      "slot_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/sample_preparation_method_link",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
+      "slot_uri": "https://w3id.org/chemical-exposome/terms/sample_preparation_method_link",
       "alias": "sample_preparation_method_link",
       "owner": "MeasurementConcentration",
       "domain_of": [
@@ -6113,8 +6113,8 @@
       "in_subset": [
         "mandatory"
       ],
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
-      "slot_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/analytical_method",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
+      "slot_uri": "https://w3id.org/chemical-exposome/terms/analytical_method",
       "alias": "analytical_method",
       "owner": "MeasurementConcentration",
       "domain_of": [
@@ -6127,8 +6127,8 @@
     {
       "name": "measurementConcentration__analytical_method_link",
       "description": "GUPRI linking to a public SOP or document describing the method",
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
-      "slot_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/analytical_method_link",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
+      "slot_uri": "https://w3id.org/chemical-exposome/terms/analytical_method_link",
       "alias": "analytical_method_link",
       "owner": "MeasurementConcentration",
       "domain_of": [
@@ -6143,8 +6143,8 @@
       "in_subset": [
         "mandatory"
       ],
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
-      "slot_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/data_handling_procedure",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
+      "slot_uri": "https://w3id.org/chemical-exposome/terms/data_handling_procedure",
       "alias": "data_handling_procedure",
       "owner": "MeasurementConcentration",
       "domain_of": [
@@ -6157,8 +6157,8 @@
     {
       "name": "measurementConcentration__data_handling_procedure_link",
       "description": "GUPRI linking to a document describing the data handling procedure",
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
-      "slot_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/data_handling_procedure_link",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
+      "slot_uri": "https://w3id.org/chemical-exposome/terms/data_handling_procedure_link",
       "alias": "data_handling_procedure_link",
       "owner": "MeasurementConcentration",
       "domain_of": [
@@ -6170,8 +6170,8 @@
     {
       "name": "measurementConcentration__loq",
       "description": "Limit of quantification",
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
-      "slot_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/loq",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
+      "slot_uri": "https://w3id.org/chemical-exposome/terms/loq",
       "alias": "loq",
       "owner": "MeasurementConcentration",
       "domain_of": [
@@ -6183,8 +6183,8 @@
     {
       "name": "measurementConcentration__lod",
       "description": "Limit of detection",
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
-      "slot_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/lod",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
+      "slot_uri": "https://w3id.org/chemical-exposome/terms/lod",
       "alias": "lod",
       "owner": "MeasurementConcentration",
       "domain_of": [
@@ -6199,8 +6199,8 @@
       "in_subset": [
         "mandatory"
       ],
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
-      "slot_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/parameter",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
+      "slot_uri": "https://w3id.org/chemical-exposome/terms/parameter",
       "alias": "parameter",
       "owner": "MeasurementParameter",
       "domain_of": [
@@ -6213,8 +6213,8 @@
     {
       "name": "chemicalCompound__wp9_id",
       "description": "Internal PARC WP9 identifier for the compound. Unique within the PARC compound list.",
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
-      "slot_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/wp9_id",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
+      "slot_uri": "https://w3id.org/chemical-exposome/terms/wp9_id",
       "identifier": true,
       "alias": "wp9_id",
       "owner": "ChemicalCompound",
@@ -6231,8 +6231,8 @@
       "in_subset": [
         "mandatory"
       ],
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
-      "slot_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/compound_name",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
+      "slot_uri": "https://w3id.org/chemical-exposome/terms/compound_name",
       "alias": "compound_name",
       "owner": "ChemicalCompound",
       "domain_of": [
@@ -6245,8 +6245,8 @@
     {
       "name": "chemicalCompound__compound_group",
       "description": "Chemical group classification of the compound as defined in the PARC WP9 compound list (e.g. PFAS, biocides, PCBs, PAHs). # TODO: Future alignment planned with ChemFOnt functional classes # and/or C3PO (ChEBI Chemical Class Program Ontology)",
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
-      "slot_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/compound_group",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
+      "slot_uri": "https://w3id.org/chemical-exposome/terms/compound_group",
       "alias": "compound_group",
       "owner": "ChemicalCompound",
       "domain_of": [
@@ -6258,8 +6258,8 @@
     {
       "name": "chemicalCompound__cas_number",
       "description": "CAS Registry Number \u2014 unique numerical identifier assigned by the Chemical Abstracts Service. Format: NNNNNN-NN-N",
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
-      "slot_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/cas_number",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
+      "slot_uri": "https://w3id.org/chemical-exposome/terms/cas_number",
       "alias": "cas_number",
       "owner": "ChemicalCompound",
       "domain_of": [
@@ -6272,8 +6272,8 @@
     {
       "name": "chemicalCompound__ec_number",
       "description": "EC Number (European Community Number) \u2014 identifier used in the ECHA substance inventory (EINECS, ELINCS, NLP). Format: NNN-NNN-N",
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
-      "slot_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/ec_number",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
+      "slot_uri": "https://w3id.org/chemical-exposome/terms/ec_number",
       "alias": "ec_number",
       "owner": "ChemicalCompound",
       "domain_of": [
@@ -6286,8 +6286,8 @@
     {
       "name": "chemicalCompound__inchi",
       "description": "IUPAC International Chemical Identifier (InChI) \u2014 a standard textual representation of the molecular structure. Begins with 'InChI=1S/'.",
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
-      "slot_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/inchi",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
+      "slot_uri": "https://w3id.org/chemical-exposome/terms/inchi",
       "alias": "inchi",
       "owner": "ChemicalCompound",
       "domain_of": [
@@ -6301,8 +6301,8 @@
     {
       "name": "chemicalCompound__inchikey",
       "description": "InChIKey \u2014 a fixed-length (27-character) hash of the InChI string. Used as a compact, web-searchable identifier. Format: XXXXXXXXXXXXXX-XXXXXXXXXX-X",
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
-      "slot_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/inchikey",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
+      "slot_uri": "https://w3id.org/chemical-exposome/terms/inchikey",
       "alias": "inchikey",
       "owner": "ChemicalCompound",
       "domain_of": [
@@ -6315,8 +6315,8 @@
     {
       "name": "chemicalCompound__chebi_id",
       "description": "ChEBI identifier for the compound. To be populated by mapping from InChIKey to ChEBI. Format: CHEBI:NNNNN",
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
-      "slot_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/chebi_id",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
+      "slot_uri": "https://w3id.org/chemical-exposome/terms/chebi_id",
       "alias": "chebi_id",
       "owner": "ChemicalCompound",
       "domain_of": [
@@ -6328,8 +6328,8 @@
     {
       "name": "chemicalCompound__pubchem_cid",
       "description": "PubChem Compound ID (CID). To be populated by mapping from InChIKey to PubChem.",
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
-      "slot_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/pubchem_cid",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
+      "slot_uri": "https://w3id.org/chemical-exposome/terms/pubchem_cid",
       "alias": "pubchem_cid",
       "owner": "ChemicalCompound",
       "domain_of": [
@@ -6341,8 +6341,8 @@
     {
       "name": "chemicalCompound__norman_id",
       "description": "NORMAN substance identifier. Source: NORMAN EMPODAT / SusDat database.",
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
-      "slot_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/norman_id",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
+      "slot_uri": "https://w3id.org/chemical-exposome/terms/norman_id",
       "alias": "norman_id",
       "owner": "ChemicalCompound",
       "domain_of": [
@@ -6353,15 +6353,15 @@
     },
     {
       "name": "MonitoringActivity_acronym",
-      "definition_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/acronym",
+      "definition_uri": "https://w3id.org/chemical-exposome/terms/acronym",
       "description": "Short name or acronym.",
       "in_subset": [
         "mandatory_if"
       ],
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
       "is_a": "acronym",
       "domain": "MonitoringActivity",
-      "slot_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/acronym",
+      "slot_uri": "https://w3id.org/chemical-exposome/terms/acronym",
       "identifier": true,
       "alias": "acronym",
       "owner": "MonitoringActivity",
@@ -6376,15 +6376,15 @@
     },
     {
       "name": "Campaign_name_en",
-      "definition_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/name_en",
+      "definition_uri": "https://w3id.org/chemical-exposome/terms/name_en",
       "description": "Name or designation in English",
       "in_subset": [
         "mandatory_if"
       ],
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
       "is_a": "name_en",
       "domain": "Campaign",
-      "slot_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/name_en",
+      "slot_uri": "https://w3id.org/chemical-exposome/terms/name_en",
       "alias": "name_en",
       "owner": "Campaign",
       "domain_of": [
@@ -6398,15 +6398,15 @@
     },
     {
       "name": "Campaign_acronym",
-      "definition_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/acronym",
+      "definition_uri": "https://w3id.org/chemical-exposome/terms/acronym",
       "description": "Short name or acronym.",
       "in_subset": [
         "mandatory_if"
       ],
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
       "is_a": "acronym",
       "domain": "Campaign",
-      "slot_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/acronym",
+      "slot_uri": "https://w3id.org/chemical-exposome/terms/acronym",
       "alias": "acronym",
       "owner": "Campaign",
       "domain_of": [
@@ -6420,15 +6420,15 @@
     },
     {
       "name": "Campaign_end_date",
-      "definition_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/end_date",
+      "definition_uri": "https://w3id.org/chemical-exposome/terms/end_date",
       "description": "End date in format YYYY-MM-DD",
       "in_subset": [
         "mandatory_if"
       ],
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
       "is_a": "end_date",
       "domain": "Campaign",
-      "slot_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/end_date",
+      "slot_uri": "https://w3id.org/chemical-exposome/terms/end_date",
       "alias": "end_date",
       "owner": "Campaign",
       "domain_of": [
@@ -6442,15 +6442,15 @@
     },
     {
       "name": "Site_country",
-      "definition_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/country",
+      "definition_uri": "https://w3id.org/chemical-exposome/terms/country",
       "description": "Country code(s) according to ISO 3166-1 alpha-2. Extended with XX (unknown) and XZ (international waters).",
       "in_subset": [
         "mandatory_if"
       ],
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
       "is_a": "country",
       "domain": "Site",
-      "slot_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/country",
+      "slot_uri": "https://w3id.org/chemical-exposome/terms/country",
       "alias": "country",
       "owner": "Site",
       "domain_of": [
@@ -6465,15 +6465,15 @@
     },
     {
       "name": "Site_site_id",
-      "definition_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/site_id",
+      "definition_uri": "https://w3id.org/chemical-exposome/terms/site_id",
       "description": "Unique identifier of the monitoring site where the sample was collected. References the site_id of a Site record.",
       "in_subset": [
         "mandatory"
       ],
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
       "is_a": "site_id",
       "domain": "Site",
-      "slot_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/site_id",
+      "slot_uri": "https://w3id.org/chemical-exposome/terms/site_id",
       "identifier": true,
       "alias": "site_id",
       "owner": "Site",
@@ -6488,15 +6488,15 @@
     },
     {
       "name": "Sample_sample_id",
-      "definition_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/sample_id",
+      "definition_uri": "https://w3id.org/chemical-exposome/terms/sample_id",
       "description": "Unique identifier for the sample",
       "in_subset": [
         "mandatory"
       ],
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
       "is_a": "sample_id",
       "domain": "Sample",
-      "slot_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/sample_id",
+      "slot_uri": "https://w3id.org/chemical-exposome/terms/sample_id",
       "identifier": true,
       "alias": "sample_id",
       "owner": "Sample",
@@ -6513,9 +6513,9 @@
   "classes": [
     {
       "name": "MonitoringActivity",
-      "definition_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/MonitoringActivity",
+      "definition_uri": "https://w3id.org/chemical-exposome/terms/MonitoringActivity",
       "description": "A research project or monitoring programme collecting environmental data on chemicals in the outdoor environment (air, water, sediment, soil, biota)",
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
       "slots": [
         "name_en",
         "name_original",
@@ -6725,7 +6725,7 @@
           "@type": "SlotDefinition"
         }
       ],
-      "class_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/MonitoringActivity",
+      "class_uri": "https://w3id.org/chemical-exposome/terms/MonitoringActivity",
       "tree_root": true,
       "rules": [
         {
@@ -6784,9 +6784,9 @@
     },
     {
       "name": "Campaign",
-      "definition_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/Campaign",
+      "definition_uri": "https://w3id.org/chemical-exposome/terms/Campaign",
       "description": "A time-bounded data collection period within a project or monitoring programme. Mandatory if the campaign exists.",
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
       "slots": [
         "Campaign_name_en",
         "Campaign_acronym",
@@ -6803,14 +6803,14 @@
           "@type": "SlotDefinition"
         }
       ],
-      "class_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/Campaign",
+      "class_uri": "https://w3id.org/chemical-exposome/terms/Campaign",
       "@type": "ClassDefinition"
     },
     {
       "name": "OrganisationMetadata",
-      "definition_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/OrganisationMetadata",
+      "definition_uri": "https://w3id.org/chemical-exposome/terms/OrganisationMetadata",
       "description": "Shared metadata for organisations \u2014 institutions and funders.",
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
       "mixin": true,
       "slots": [
         "name_en",
@@ -6819,14 +6819,14 @@
         "link"
       ],
       "slot_usage": {},
-      "class_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/OrganisationMetadata",
+      "class_uri": "https://w3id.org/chemical-exposome/terms/OrganisationMetadata",
       "@type": "ClassDefinition"
     },
     {
       "name": "Institution",
-      "definition_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/Institution",
+      "definition_uri": "https://w3id.org/chemical-exposome/terms/Institution",
       "description": "Institution",
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
       "mixins": [
         "OrganisationMetadata"
       ],
@@ -6850,14 +6850,14 @@
           "@type": "SlotDefinition"
         }
       ],
-      "class_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/Institution",
+      "class_uri": "https://w3id.org/chemical-exposome/terms/Institution",
       "@type": "ClassDefinition"
     },
     {
       "name": "Funder",
-      "definition_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/Funder",
+      "definition_uri": "https://w3id.org/chemical-exposome/terms/Funder",
       "description": "Funder",
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
       "mixins": [
         "OrganisationMetadata"
       ],
@@ -6879,14 +6879,14 @@
           "@type": "SlotDefinition"
         }
       ],
-      "class_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/Funder",
+      "class_uri": "https://w3id.org/chemical-exposome/terms/Funder",
       "@type": "ClassDefinition"
     },
     {
       "name": "Contact",
-      "definition_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/Contact",
+      "definition_uri": "https://w3id.org/chemical-exposome/terms/Contact",
       "description": "A contact person associated with the monitoring activity.",
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
       "slots": [
         "email",
         "orcid",
@@ -6917,14 +6917,14 @@
           "@type": "SlotDefinition"
         }
       ],
-      "class_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/Contact",
+      "class_uri": "https://w3id.org/chemical-exposome/terms/Contact",
       "@type": "ClassDefinition"
     },
     {
       "name": "Site",
-      "definition_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/Site",
+      "definition_uri": "https://w3id.org/chemical-exposome/terms/Site",
       "description": "A monitoring site or location where samples are collected. Coordinates (latitude and longitude) are mandatory unless they cannot be provided for privacy, security or confidentiality reasons. When coordinates are provided, GIS-derived fields (NUTS3, land use, river basin, sea, soil type) can be automatically retrieved from GIS layers. When coordinates are not provided, expert-described location fields (country, geographic region, NUTS3) are required instead.",
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
       "slots": [
         "acronym",
         "Site_country",
@@ -7119,7 +7119,7 @@
           "@type": "SlotDefinition"
         }
       ],
-      "class_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/Site",
+      "class_uri": "https://w3id.org/chemical-exposome/terms/Site",
       "rules": [
         {
           "preconditions": {
@@ -7201,9 +7201,9 @@
     },
     {
       "name": "Sample",
-      "definition_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/Sample",
+      "definition_uri": "https://w3id.org/chemical-exposome/terms/Sample",
       "description": "Abstract base class for all sample types",
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
       "abstract": true,
       "slots": [
         "site_name",
@@ -7238,14 +7238,14 @@
           "@type": "SlotDefinition"
         }
       ],
-      "class_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/Sample",
+      "class_uri": "https://w3id.org/chemical-exposome/terms/Sample",
       "@type": "ClassDefinition"
     },
     {
       "name": "Atmospheric",
-      "definition_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/Atmospheric",
+      "definition_uri": "https://w3id.org/chemical-exposome/terms/Atmospheric",
       "description": "Atmospheric sample",
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
       "is_a": "Sample",
       "slots": [
         "site_name",
@@ -7283,14 +7283,14 @@
           "@type": "SlotDefinition"
         }
       ],
-      "class_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/Atmospheric",
+      "class_uri": "https://w3id.org/chemical-exposome/terms/Atmospheric",
       "@type": "ClassDefinition"
     },
     {
       "name": "Aquatic",
-      "definition_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/Aquatic",
+      "definition_uri": "https://w3id.org/chemical-exposome/terms/Aquatic",
       "description": "Aquatic sample",
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
       "is_a": "Sample",
       "slots": [
         "site_name",
@@ -7335,14 +7335,14 @@
           "@type": "SlotDefinition"
         }
       ],
-      "class_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/Aquatic",
+      "class_uri": "https://w3id.org/chemical-exposome/terms/Aquatic",
       "@type": "ClassDefinition"
     },
     {
       "name": "Terrestrial",
-      "definition_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/Terrestrial",
+      "definition_uri": "https://w3id.org/chemical-exposome/terms/Terrestrial",
       "description": "A sample from the terrestrial domain (soil)",
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
       "is_a": "Sample",
       "slots": [
         "site_name",
@@ -7380,14 +7380,14 @@
           "@type": "SlotDefinition"
         }
       ],
-      "class_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/Terrestrial",
+      "class_uri": "https://w3id.org/chemical-exposome/terms/Terrestrial",
       "@type": "ClassDefinition"
     },
     {
       "name": "Biota",
-      "definition_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/Biota",
+      "definition_uri": "https://w3id.org/chemical-exposome/terms/Biota",
       "description": "Biota sample",
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
       "is_a": "Sample",
       "slots": [
         "site_name",
@@ -7450,14 +7450,14 @@
           "@type": "SlotDefinition"
         }
       ],
-      "class_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/Biota",
+      "class_uri": "https://w3id.org/chemical-exposome/terms/Biota",
       "@type": "ClassDefinition"
     },
     {
       "name": "Taxon",
-      "definition_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/Taxon",
+      "definition_uri": "https://w3id.org/chemical-exposome/terms/Taxon",
       "description": "A taxonomic entity identified in a biological sample, referenced against the GBIF Backbone Taxonomy.",
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
       "see_also": [
         "https://www.gbif.org/species/search"
       ],
@@ -7505,14 +7505,14 @@
           "@type": "SlotDefinition"
         }
       ],
-      "class_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/Taxon",
+      "class_uri": "https://w3id.org/chemical-exposome/terms/Taxon",
       "@type": "ClassDefinition"
     },
     {
       "name": "Observation",
-      "definition_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/Observation",
+      "definition_uri": "https://w3id.org/chemical-exposome/terms/Observation",
       "description": "Abstract base class for all observations associated with a sample. Every observation must be either a MeasurementConcentration or a MeasurementParameter. Contains shared slots (unit, uncertainty, value) common to all observation types.",
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
       "abstract": true,
       "slots": [
         "sample_id",
@@ -7535,14 +7535,14 @@
           "@type": "SlotDefinition"
         }
       ],
-      "class_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/Observation",
+      "class_uri": "https://w3id.org/chemical-exposome/terms/Observation",
       "@type": "ClassDefinition"
     },
     {
       "name": "MeasurementConcentration",
-      "definition_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/MeasurementConcentration",
+      "definition_uri": "https://w3id.org/chemical-exposome/terms/MeasurementConcentration",
       "description": "A measured concentration of a chemical compound in a sample. At least one of concentration, LOQ, or LOD must be provided.",
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
       "is_a": "Observation",
       "slots": [
         "sample_id",
@@ -7658,7 +7658,7 @@
           "@type": "SlotDefinition"
         }
       ],
-      "class_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/MeasurementConcentration",
+      "class_uri": "https://w3id.org/chemical-exposome/terms/MeasurementConcentration",
       "rules": [
         {
           "preconditions": {
@@ -7700,9 +7700,9 @@
     },
     {
       "name": "MeasurementParameter",
-      "definition_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/MeasurementParameter",
+      "definition_uri": "https://w3id.org/chemical-exposome/terms/MeasurementParameter",
       "description": "An additional parameter measured in the sample (e.g. pH, temperature, TOC). Depends on matrix type.  Gives context to the chemical concentration measurement.",
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
       "is_a": "Observation",
       "slots": [
         "sample_id",
@@ -7725,14 +7725,14 @@
           "@type": "SlotDefinition"
         }
       ],
-      "class_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/MeasurementParameter",
+      "class_uri": "https://w3id.org/chemical-exposome/terms/MeasurementParameter",
       "@type": "ClassDefinition"
     },
     {
       "name": "ChemicalCompound",
-      "definition_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/ChemicalCompound",
+      "definition_uri": "https://w3id.org/chemical-exposome/terms/ChemicalCompound",
       "description": "A chemical compound monitored in environmental samples. The compound list (1500+ substances) was developed in PARC WP9 in collaboration with other WPs. Each compound is identified by multiple persistent identifiers and assigned to a compound group. See: https://doi.org/10.5281/zenodo.17175075",
-      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor",
+      "from_schema": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor-env",
       "see_also": [
         "https://doi.org/10.1186/s13321-025-01092-3"
       ],
@@ -7822,27 +7822,27 @@
           "@type": "SlotDefinition"
         }
       ],
-      "class_uri": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/ChemicalCompound",
+      "class_uri": "https://w3id.org/chemical-exposome/terms/ChemicalCompound",
       "@type": "ClassDefinition"
     }
   ],
   "metamodel_version": "1.11.0",
   "source_file": "md_env_outdoor_linkml_v1.1.0.yaml",
-  "source_file_date": "2026-09-09T10:08:00",
-  "source_file_size": 151811,
-  "generation_date": "2026-09-09T11:37:09",
+  "source_file_date": "2026-09-09T11:49:26",
+  "source_file_size": 151796,
+  "generation_date": "2026-09-09T12:22:53",
   "@type": "SchemaDefinition",
   "@context": [
     "https://w3id.org/linkml/meta.context.jsonld",
     {
       "xsd": "http://www.w3.org/2001/XMLSchema#",
-      "cenvo": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/",
+      "cenvo": "https://w3id.org/chemical-exposome/terms/",
       "linkml": "https://w3id.org/linkml/",
       "skos": "http://www.w3.org/2004/02/skos/core#"
     },
     "https://w3id.org/linkml/types.context.jsonld",
     {
-      "@base": "https://w3id.org/chemical-exposome/schema/chemicals-outdoor/"
+      "@base": "https://w3id.org/chemical-exposome/terms/"
     }
   ]
 }
